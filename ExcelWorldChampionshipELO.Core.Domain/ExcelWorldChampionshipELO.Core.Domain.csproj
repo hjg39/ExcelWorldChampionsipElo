@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ExcelWorldChampionshipELO.Core.Common\ExcelWorldChampionshipELO.Core.Common.csproj" />
+  </ItemGroup>
+
 </Project>

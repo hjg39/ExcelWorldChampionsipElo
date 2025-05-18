@@ -1,4 +1,5 @@
-﻿using ExcelWorldChampionshipELO.Core.Domain;
+﻿using ExcelWorldChampionshipELO.Core.Common;
+using ExcelWorldChampionshipELO.Core.Domain;
 
 namespace ExcelWorldChampionshipELO.Core.Generation;
 
@@ -27,11 +28,21 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
             games[i] = GenerateGame();
         }
 
+        DateTime startingEloDate = games.Min(x => x.DateTime).AddDays(-1);
+
         Player[] players = new Player[_numberOfPlayers];
 
         for (int i = 0; i < _numberOfPlayers; i++)
         {
-            players[i] = GeneratePlayer(games);
+            players[i] = GeneratePlayer(games, startingEloDate);
+        }
+
+        foreach (Player player in players)
+        {
+            foreach (GameResult gameResult in player.GameScores.Values)
+            {
+                gameResult.Player = player;
+            }
         }
 
         return new()
@@ -42,10 +53,10 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
     }
 
 
-    private Player GeneratePlayer(Game[] games)
+    private Player GeneratePlayer(Game[] games, DateTime startingEloDate)
     {
-        Dictionary<Guid, GameResult> playerResults = new();
-
+        Dictionary<Guid, GameResult> playerResults = [];
+            
         double skillLevel = _random.NextDouble() * 0.5;
 
         foreach (Game game in games)
@@ -66,6 +77,7 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
             {
                 Score = (int)(percentageScore * game.MaxScore),
                 SecondaryScore = 0,
+                Game = game,
             };
         }
 
@@ -74,6 +86,7 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
             PlayerId = Guid.NewGuid(),
             Name = GetRandomString(),
             GameScores = playerResults,
+            EloScores = new() { { startingEloDate, Constants.DefaultElo } },
             SeededSkill = skillLevel,
         };
     }
@@ -84,6 +97,7 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
         GameId = Guid.NewGuid(),
         Name = GetRandomString(),
         MaxScore = _random.Next(3, 6) * 250,
+        DateTime = DateTime.UtcNow.AddDays(_random.Next(0, 366)).AddMinutes(_random.Next(0, 1440)),
     };
 
     private void ValidateInputs()

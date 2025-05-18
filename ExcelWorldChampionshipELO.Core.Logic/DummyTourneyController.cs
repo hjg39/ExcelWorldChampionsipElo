@@ -12,7 +12,8 @@ public sealed class DummyTourneyController
 
         DummyDataGenerator dummyDataGenerator = new(input);
         Tourney tourney = dummyDataGenerator.GenerateTournament();
-        
+        EloCalculator.CalculateElos(tourney, 32);        
+
         stopwatch.Stop();
         Console.WriteLine($"TimeTaken: {stopwatch.ElapsedMilliseconds}ms");
     }

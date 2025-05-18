@@ -6,5 +6,7 @@ public sealed class Game
 
     public required string Name { get; init; }
 
+    public required DateTime DateTime { get; init; } 
+
     public required double MaxScore { get; init; }
 }
