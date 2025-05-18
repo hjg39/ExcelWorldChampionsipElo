@@ -9,9 +9,11 @@ public static class EloCalculator
     {
         Game[] gamesInOrder = [.. tourney.Games.OrderBy(x => x.DateTime)];
 
+        int i = 0;
         foreach (Game game in gamesInOrder)
         {
             UpdateElos(game, tourney.Players, maxAdjustmentPerGame);
+            Console.WriteLine($"Game {i} completed, EloMax: {tourney.Players.Max(x => x.EloLatest)}, EloMin: {tourney.Players.Min(x => x.EloLatest)}");
         }
     }
 
@@ -72,7 +74,7 @@ public static class EloCalculator
                 totalExpectedScoreForPlayer += expectedWinChances[i, j];
             }
 
-            double updateAmount = maxAdjustmentPerGame * (totalActualScoreForPlayer - totalExpectedScoreForPlayer) / (numberOfGameResults - 1);
+            double updateAmount = 0 - maxAdjustmentPerGame * ((totalActualScoreForPlayer - totalExpectedScoreForPlayer) / (numberOfGameResults - 1));
 
             GameResult currentGameResult = gameResults[i];
             Player currentPlayer = currentGameResult.Player!;

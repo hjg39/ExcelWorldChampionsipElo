@@ -9,9 +9,9 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
 
     private readonly Random _random = input?.Seed is int seedInt ? new Random(seedInt) : new Random();
 
-    private readonly int _numberOfGames = input?.NumberOfGames ?? 20;
+    private readonly int _numberOfGames = input?.NumberOfGames ?? 500;
 
-    private readonly int _numberOfPlayers = input?.NumberOfPlayers ?? 10;
+    private readonly int _numberOfPlayers = input?.NumberOfPlayers ?? 100;
 
     private readonly int _nameLength = input?.NameLength ?? 5;
 
@@ -68,7 +68,7 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
 
             double percentageScore = 0;
 
-            while (percentageScore < skillLevel)
+            while (percentageScore < skillLevel || percentageScore > skillLevel * 2)
             {
                 percentageScore = _random.NextDouble();
             }
