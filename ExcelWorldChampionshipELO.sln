@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.Core.Common", "ExcelWorldChampionshipELO.Core.Common\ExcelWorldChampionshipELO.Core.Common.csproj", "{8375E570-AE72-4C7E-BA48-47D40138F94E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.Core.Visualisation", "ExcelWorldChampionshipELO.Core.Visualisation\ExcelWorldChampionshipELO.Core.Visualisation.csproj", "{CE923378-A387-453C-A53C-4FCD4A737B98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{8375E570-AE72-4C7E-BA48-47D40138F94E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8375E570-AE72-4C7E-BA48-47D40138F94E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8375E570-AE72-4C7E-BA48-47D40138F94E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE923378-A387-453C-A53C-4FCD4A737B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE923378-A387-453C-A53C-4FCD4A737B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE923378-A387-453C-A53C-4FCD4A737B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE923378-A387-453C-A53C-4FCD4A737B98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

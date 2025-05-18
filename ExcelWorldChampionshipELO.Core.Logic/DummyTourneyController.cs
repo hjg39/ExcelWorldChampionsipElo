@@ -1,5 +1,6 @@
 ﻿using ExcelWorldChampionshipELO.Core.Domain;
 using ExcelWorldChampionshipELO.Core.Generation;
+using ExcelWorldChampionshipELO.Core.Visualisation;
 using System.Diagnostics;
 
 namespace ExcelWorldChampionshipELO.Core.Logic;
@@ -12,7 +13,8 @@ public sealed class DummyTourneyController
 
         DummyDataGenerator dummyDataGenerator = new(input);
         Tourney tourney = dummyDataGenerator.GenerateTournament();
-        EloCalculator.CalculateElos(tourney, 32);        
+        EloCalculator.CalculateElos(tourney, 32);
+        EloPlotter.PlotTopElos(tourney);
 
         stopwatch.Stop();
         Console.WriteLine($"TimeTaken: {stopwatch.ElapsedMilliseconds}ms");

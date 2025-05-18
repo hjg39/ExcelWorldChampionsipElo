@@ -1,5 +1,4 @@
 ﻿using ExcelWorldChampionshipELO.Core.Domain;
-using System.Linq;
 
 namespace ExcelWorldChampionshipELO.Core.Logic;
 
@@ -9,11 +8,11 @@ public static class EloCalculator
     {
         Game[] gamesInOrder = [.. tourney.Games.OrderBy(x => x.DateTime)];
 
-        int i = 0;
+        int i = 1;
         foreach (Game game in gamesInOrder)
         {
             UpdateElos(game, tourney.Players, maxAdjustmentPerGame);
-            Console.WriteLine($"Game {i} completed, EloMax: {tourney.Players.Max(x => x.EloLatest)}, EloMin: {tourney.Players.Min(x => x.EloLatest)}");
+            Console.WriteLine($"Game {i++} completed, EloMax: {tourney.Players.Max(x => x.EloLatest)}, EloMin: {tourney.Players.Min(x => x.EloLatest)}");
         }
     }
 
@@ -74,7 +73,7 @@ public static class EloCalculator
                 totalExpectedScoreForPlayer += expectedWinChances[i, j];
             }
 
-            double updateAmount = 0 - maxAdjustmentPerGame * ((totalActualScoreForPlayer - totalExpectedScoreForPlayer) / (numberOfGameResults - 1));
+            double updateAmount = maxAdjustmentPerGame * ((totalActualScoreForPlayer - totalExpectedScoreForPlayer) / (numberOfGameResults - 1));
 
             GameResult currentGameResult = gameResults[i];
             Player currentPlayer = currentGameResult.Player!;
@@ -88,7 +87,7 @@ public static class EloCalculator
         double player1LatestElo = gameResult1.Player!.EloLatest;
         double player2LatestElo = gameResult2.Player!.EloLatest;
 
-        double deltaOver400 = (player1LatestElo - player2LatestElo) / 400;
+        double deltaOver400 = (player2LatestElo - player1LatestElo) / 400;
 
         double exponentiatedDeltaOver400 = Math.Pow(10d, deltaOver400);
 

@@ -11,7 +11,7 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
 
     private readonly int _numberOfGames = input?.NumberOfGames ?? 500;
 
-    private readonly int _numberOfPlayers = input?.NumberOfPlayers ?? 100;
+    private readonly int _numberOfPlayers = input?.NumberOfPlayers ?? 20;
 
     private readonly int _nameLength = input?.NameLength ?? 5;
 
@@ -47,6 +47,8 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
 
         return new()
         {
+            TourneyId = Guid.NewGuid(),
+            Name = "DummyTournament",
             Games = games,
             Players = players,
         };
