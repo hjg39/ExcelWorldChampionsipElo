@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.Presentation.Console", "ExcelWorldChampionshipELO\ExcelWorldChampionshipELO.Presentation.Console.csproj", "{4CC14E2B-1C24-48BE-BBB2-78D791423DBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelWorldChampionshipELO.Presentation.Console", "ExcelWorldChampionshipELO\ExcelWorldChampionshipELO.Presentation.Console.csproj", "{4CC14E2B-1C24-48BE-BBB2-78D791423DBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.Core.Logic", "ExcelWorldChampionshipELO.Core.Logic\ExcelWorldChampionshipELO.Core.Logic.csproj", "{96D4E56C-881E-4C3A-BB60-ADEF73FC6AE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelWorldChampionshipELO.Core.Logic", "ExcelWorldChampionshipELO.Core.Logic\ExcelWorldChampionshipELO.Core.Logic.csproj", "{96D4E56C-881E-4C3A-BB60-ADEF73FC6AE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.Core.Generation", "ExcelWorldChampionshipELO.Core.Generation\ExcelWorldChampionshipELO.Core.Generation.csproj", "{5887C48C-4752-474E-B900-E51BA69EA6E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelWorldChampionshipELO.Core.Generation", "ExcelWorldChampionshipELO.Core.Generation\ExcelWorldChampionshipELO.Core.Generation.csproj", "{5887C48C-4752-474E-B900-E51BA69EA6E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.Core.Domain", "ExcelWorldChampionshipELO.Core.Domain\ExcelWorldChampionshipELO.Core.Domain.csproj", "{BFD0C3C9-FF9B-4FC9-A988-BF4BF3FF0122}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelWorldChampionshipELO.Core.Domain", "ExcelWorldChampionshipELO.Core.Domain\ExcelWorldChampionshipELO.Core.Domain.csproj", "{BFD0C3C9-FF9B-4FC9-A988-BF4BF3FF0122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.Core.Common", "ExcelWorldChampionshipELO.Core.Common\ExcelWorldChampionshipELO.Core.Common.csproj", "{8375E570-AE72-4C7E-BA48-47D40138F94E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelWorldChampionshipELO.Core.Common", "ExcelWorldChampionshipELO.Core.Common\ExcelWorldChampionshipELO.Core.Common.csproj", "{8375E570-AE72-4C7E-BA48-47D40138F94E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.Core.Visualisation", "ExcelWorldChampionshipELO.Core.Visualisation\ExcelWorldChampionshipELO.Core.Visualisation.csproj", "{CE923378-A387-453C-A53C-4FCD4A737B98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelWorldChampionshipELO.Core.Visualisation", "ExcelWorldChampionshipELO.Core.Visualisation\ExcelWorldChampionshipELO.Core.Visualisation.csproj", "{CE923378-A387-453C-A53C-4FCD4A737B98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.Core.Parsing", "ExcelWorldChampionshipELO.Core.Parsing\ExcelWorldChampionshipELO.Core.Parsing.csproj", "{218A6C24-97A4-42CC-9AEE-9FAC020D7ED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CE923378-A387-453C-A53C-4FCD4A737B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE923378-A387-453C-A53C-4FCD4A737B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE923378-A387-453C-A53C-4FCD4A737B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218A6C24-97A4-42CC-9AEE-9FAC020D7ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218A6C24-97A4-42CC-9AEE-9FAC020D7ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218A6C24-97A4-42CC-9AEE-9FAC020D7ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218A6C24-97A4-42CC-9AEE-9FAC020D7ED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

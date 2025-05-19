@@ -88,6 +88,7 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
         {
             PlayerId = Guid.NewGuid(),
             Name = GetRandomString(),
+            Country = "UK",
             GameScores = playerResults,
             EloScores = new() { { startingEloDate, Constants.DefaultElo } },
             SeededSkill = skillLevel,

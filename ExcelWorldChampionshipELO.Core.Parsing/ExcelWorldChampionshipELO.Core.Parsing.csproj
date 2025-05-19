@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="33.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ExcelWorldChampionshipELO.Core.Domain\ExcelWorldChampionshipELO.Core.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
