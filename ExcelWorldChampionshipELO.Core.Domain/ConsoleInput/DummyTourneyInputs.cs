@@ -1,9 +1,9 @@
-﻿namespace ExcelWorldChampionshipELO.Core.Domain;
+﻿namespace ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
 
 public readonly struct DummyTourneyInputs
 {
     public int? Seed { get; init; }
-    
+
     public int? NumberOfGames { get; init; }
 
     public int? NumberOfPlayers { get; init; }

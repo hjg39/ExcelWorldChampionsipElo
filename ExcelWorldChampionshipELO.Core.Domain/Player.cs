@@ -8,6 +8,8 @@ public sealed class Player
 
     public required string Name { get; init; }
 
+    public required string Country { get; init; }
+
     public required Dictionary<Guid, GameResult> GameScores { get; init; }
 
     public required Dictionary<double, double> EloScores { get; init; }

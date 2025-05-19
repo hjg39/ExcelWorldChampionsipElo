@@ -6,7 +6,7 @@ public sealed record Game
 
     public required string Name { get; init; }
 
-    public required double Order { get; init; } 
+    public required double GameNumber { get; init; } 
 
     public required double MaxScore { get; init; }
 

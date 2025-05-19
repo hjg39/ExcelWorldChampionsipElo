@@ -1,4 +1,4 @@
-﻿using ExcelWorldChampionshipELO.Core.Domain;
+﻿using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
 using ExcelWorldChampionshipELO.Core.Logic;
 
 namespace ExcelWorldChampionshipELO

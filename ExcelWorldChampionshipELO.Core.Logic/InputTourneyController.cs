@@ -1,19 +1,18 @@
 ﻿using ExcelWorldChampionshipELO.Core.Domain;
 using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
-using ExcelWorldChampionshipELO.Core.Generation;
+using ExcelWorldChampionshipELO.Core.Parsing;
 using ExcelWorldChampionshipELO.Core.Visualisation;
 using System.Diagnostics;
 
 namespace ExcelWorldChampionshipELO.Core.Logic;
 
-public sealed class DummyTourneyController
+public sealed class InputTourneyController
 {
-    public static void RunTourney(DummyTourneyInputs? input = null)
+    public static void RunTourney(TourneyInputs input)
     {
         Stopwatch stopwatch = Stopwatch.StartNew();
 
-        DummyDataGenerator dummyDataGenerator = new(input);
-        Tourney tourney = dummyDataGenerator.GenerateTournament();
+        Tourney tourney = DocumentParser.GetTourney(input);
         EloCalculator.CalculateElos(tourney, 32);
         EloPlotter.PlotTopElos(tourney);
 

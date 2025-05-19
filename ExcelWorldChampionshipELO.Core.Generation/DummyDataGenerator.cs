@@ -1,5 +1,6 @@
 ﻿using ExcelWorldChampionshipELO.Core.Common;
 using ExcelWorldChampionshipELO.Core.Domain;
+using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
 
 namespace ExcelWorldChampionshipELO.Core.Generation;
 
@@ -28,7 +29,7 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
             games[i] = GenerateGame();
         }
 
-        double startingEloDate = games.Min(x => x.Order) - 1d;
+        double startingEloDate = games.Min(x => x.GameNumber) - 1d;
 
         Player[] players = new Player[_numberOfPlayers];
 
@@ -99,7 +100,7 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
         GameId = Guid.NewGuid(),
         Name = GetRandomString(),
         MaxScore = _random.Next(3, 6) * 250,
-        Order = 100d * _random.NextDouble(),
+        GameNumber = 100d * _random.NextDouble(),
         Author = null,
         Description = null,
     };
