@@ -1,7 +1,6 @@
 ﻿using ExcelWorldChampionshipELO.Core.Domain;
 using ScottPlot;
 using ScottPlot.Plottables;
-using ScottPlot.TickGenerators;
 
 namespace ExcelWorldChampionshipELO.Core.Visualisation;
 
@@ -14,7 +13,7 @@ public static class EloPlotter
         Player[] orderedPlayers = [.. tourney.Players.OrderByDescending(x => x.EloLatest)];
 
 
-        foreach (Player player in orderedPlayers)
+        foreach (Player player in orderedPlayers.Take(20))
         {
             Scatter scatter = eloPlot.Add.Scatter([.. player.EloScores.Keys], player.EloScores.Values.ToArray());
             scatter.LegendText = player.Name;
@@ -32,7 +31,7 @@ public static class EloPlotter
 
         eloPlot.Title($"{tourney.Name}-{tourney.TourneyId}");
 
-        eloPlot.SavePng(@$"C:\Users\harry\Downloads\{tourney.Name}-{tourney.TourneyId}.png", 1200, 1200);
+        eloPlot.SavePng(@$"C:\Users\harry\Downloads\{tourney.Name}-{tourney.TourneyId}.png", 1800, 1200);
     }
 
     public static string DateTimeFormatter(DateTime dateTime)

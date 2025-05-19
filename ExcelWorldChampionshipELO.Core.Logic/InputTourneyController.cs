@@ -13,7 +13,7 @@ public sealed class InputTourneyController
         Stopwatch stopwatch = Stopwatch.StartNew();
 
         Tourney tourney = DocumentParser.GetTourney(input);
-        EloCalculator.CalculateElos(tourney, 32);
+        EloCalculator.CalculateElos(tourney, 64);
         EloPlotter.PlotTopElos(tourney);
 
         stopwatch.Stop();

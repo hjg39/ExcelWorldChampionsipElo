@@ -78,8 +78,23 @@ public static class EloCalculator
             GameResult currentGameResult = gameResults[i];
             Player currentPlayer = currentGameResult.Player!;
 
-            currentPlayer.EloScores[currentGameResult.Game.GameNumber] = currentPlayer.EloLatest + updateAmount;
+            currentPlayer.EloScores[currentGameResult.Game.GameNumber] = currentPlayer.EloLatest + GetBoostFactor(currentPlayer.EloScores.Count) * (updateAmount);
         }
+    }
+
+    private static double GetBoostFactor(int gameNumber)
+    {
+        if (gameNumber < 8)
+        {
+            return 3d;
+        }
+
+        if (gameNumber < 16)
+        {
+            return 2d;
+        }
+
+        return 1d;
     }
 
     private static double ExpectedWinChance(GameResult gameResult1, GameResult gameResult2)
