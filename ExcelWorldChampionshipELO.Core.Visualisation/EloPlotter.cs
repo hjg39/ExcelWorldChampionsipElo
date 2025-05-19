@@ -13,7 +13,7 @@ public static class EloPlotter
         Player[] orderedPlayers = [.. tourney.Players.OrderByDescending(x => x.EloLatest)];
 
 
-        foreach (Player player in orderedPlayers.Take(20))
+        foreach (Player player in orderedPlayers.Take(40))
         {
             Scatter scatter = eloPlot.Add.Scatter([.. player.EloScores.Keys], player.EloScores.Values.ToArray());
             scatter.LegendText = player.Name;
@@ -28,6 +28,7 @@ public static class EloPlotter
         //    LabelFormatter = DateTimeFormatter,
         // };
 
+        eloPlot.Legend.Alignment = Alignment.UpperLeft;
 
         eloPlot.Title($"{tourney.Name}-{tourney.TourneyId}");
 
