@@ -19,7 +19,7 @@ namespace ExcelWorldChampionshipELO
         {
             try
             {
-                Console.WriteLine("Please enter command:");
+                Console.WriteLine("Please enter command, e.g. 'run-tourney':");
                 string? input = Console.ReadLine()?.ToLower();
 
                 switch (input)

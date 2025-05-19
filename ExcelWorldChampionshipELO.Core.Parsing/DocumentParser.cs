@@ -31,7 +31,7 @@ public static class DocumentParser
     {
         IGrouping<string, PlayerInput>[] playerInputsByPlayerName = playerInputs.GroupBy(x => x.PlayerName).ToArray();
 
-        int numberOfPlayers = playerInputs.Length;
+        int numberOfPlayers = playerInputsByPlayerName.Length;
 
         Player[] result = new Player[numberOfPlayers];
 
