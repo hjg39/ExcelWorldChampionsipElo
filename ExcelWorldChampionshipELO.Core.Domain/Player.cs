@@ -10,7 +10,7 @@ public sealed class Player
 
     public required Dictionary<Guid, GameResult> GameScores { get; init; }
 
-    public required Dictionary<DateTime, double> EloScores { get; init; }
+    public required Dictionary<double, double> EloScores { get; init; }
 
     public double SeededSkill { get; set; }
 

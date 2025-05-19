@@ -6,7 +6,7 @@ public static class EloCalculator
 {
     public static void CalculateElos(Tourney tourney, double maxAdjustmentPerGame)
     {
-        Game[] gamesInOrder = [.. tourney.Games.OrderBy(x => x.DateTime)];
+        Game[] gamesInOrder = [.. tourney.Games.OrderBy(x => x.Order)];
 
         int i = 1;
         foreach (Game game in gamesInOrder)
@@ -78,7 +78,7 @@ public static class EloCalculator
             GameResult currentGameResult = gameResults[i];
             Player currentPlayer = currentGameResult.Player!;
 
-            currentPlayer.EloScores[currentGameResult.Game.DateTime] = currentPlayer.EloLatest + updateAmount;
+            currentPlayer.EloScores[currentGameResult.Game.Order] = currentPlayer.EloLatest + updateAmount;
         }
     }
 

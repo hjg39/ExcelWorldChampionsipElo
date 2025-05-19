@@ -16,23 +16,23 @@ public static class EloPlotter
 
         foreach (Player player in orderedPlayers)
         {
-            Scatter scatter = eloPlot.Add.Scatter(player.EloScores.Keys.ToArray(), player.EloScores.Values.ToArray());
+            Scatter scatter = eloPlot.Add.Scatter([.. player.EloScores.Keys], player.EloScores.Values.ToArray());
             scatter.LegendText = player.Name;
         }
 
-        eloPlot.XLabel("Date");
+        // eloPlot.XLabel("Date");
         eloPlot.YLabel("Elo");
 
-        IXAxis xAxis = eloPlot.Axes.GetXAxes().First();
-        xAxis.TickGenerator = new DateTimeAutomatic()
-        {
-            LabelFormatter = DateTimeFormatter,
-        };
+        // IXAxis xAxis = eloPlot.Axes.GetXAxes().First();
+        // xAxis.TickGenerator = new DateTimeAutomatic()
+        // {
+        //    LabelFormatter = DateTimeFormatter,
+        // };
 
 
         eloPlot.Title($"{tourney.Name}-{tourney.TourneyId}");
 
-        eloPlot.SavePng(@$"C:\Users\harry\Downloads\RandomTourney-{tourney.TourneyId}.png", 1200, 1200);
+        eloPlot.SavePng(@$"C:\Users\harry\Downloads\{tourney.Name}-{tourney.TourneyId}.png", 1200, 1200);
     }
 
     public static string DateTimeFormatter(DateTime dateTime)

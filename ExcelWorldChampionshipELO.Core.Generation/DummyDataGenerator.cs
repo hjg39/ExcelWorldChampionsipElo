@@ -28,7 +28,7 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
             games[i] = GenerateGame();
         }
 
-        DateTime startingEloDate = games.Min(x => x.DateTime).AddDays(-1);
+        double startingEloDate = games.Min(x => x.Order) - 1d;
 
         Player[] players = new Player[_numberOfPlayers];
 
@@ -55,7 +55,7 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
     }
 
 
-    private Player GeneratePlayer(Game[] games, DateTime startingEloDate)
+    private Player GeneratePlayer(Game[] games, double startingEloDate)
     {
         Dictionary<Guid, GameResult> playerResults = [];
             
@@ -99,7 +99,9 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
         GameId = Guid.NewGuid(),
         Name = GetRandomString(),
         MaxScore = _random.Next(3, 6) * 250,
-        DateTime = DateTime.UtcNow.AddDays(_random.Next(0, 366)).AddMinutes(_random.Next(0, 1440)),
+        Order = 100d * _random.NextDouble(),
+        Author = null,
+        Description = null,
     };
 
     private void ValidateInputs()
