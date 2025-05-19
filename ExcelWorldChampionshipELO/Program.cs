@@ -19,13 +19,16 @@ namespace ExcelWorldChampionshipELO
         {
             try
             {
-                Console.WriteLine("Please enter command, e.g. 'run-tourney':");
+                Console.WriteLine("Please enter command, e.g. 'run-default-tourney':");
                 string? input = Console.ReadLine()?.ToLower();
 
                 switch (input)
                 {
                     case "exit":
                         return true;
+                    case "run-default-tourney":
+                        RunDefaultTourney();
+                        return false;
                     case "run-tourney":
                         RunTourney();
                         return false;
@@ -36,7 +39,7 @@ namespace ExcelWorldChampionshipELO
                         RunRandomTourneyConfigured();
                         return false;
                     default:
-                        Console.WriteLine("Input not recognised, try 'exit', 'run-tourney', 'run-random-tourney-auto' or 'run-random-tourney-configured'.");
+                        Console.WriteLine("Input not recognised, try 'exit', 'run-default-tourney', 'run-tourney', 'run-random-tourney-auto' or 'run-random-tourney-configured'.");
                         return false;
                 }
             }
@@ -66,6 +69,19 @@ namespace ExcelWorldChampionshipELO
 
             InputTourneyController.RunTourney(tourneyInputs);
         }
+
+        public static void RunDefaultTourney()
+        {
+            TourneyInputs tourneyInputs = new()
+            {
+                Name = "Default Tourney Elo Data",
+                GameDataPath = "C:\\Users\\harry\\source\\repos\\ExcelWorldChampionshipELO\\SampleResources\\GameData.csv",
+                PlayerDataPath = "C:\\Users\\harry\\source\\repos\\ExcelWorldChampionshipELO\\SampleResources\\PlayerData.csv",
+            };
+
+            InputTourneyController.RunTourney(tourneyInputs);
+        }
+
 
         public static void RunRandomTourneyConfigured()
         {
