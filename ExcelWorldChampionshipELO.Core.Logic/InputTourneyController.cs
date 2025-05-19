@@ -15,6 +15,7 @@ public sealed class InputTourneyController
         Tourney tourney = DocumentParser.GetTourney(input);
         EloCalculator.CalculateElos(tourney, 64);
         EloPlotter.PlotTopElos(tourney);
+        EloPlotter.PlotGameDifficulty(tourney);
 
         stopwatch.Stop();
         Console.WriteLine($"TimeTaken: {stopwatch.ElapsedMilliseconds}ms");

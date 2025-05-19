@@ -11,12 +11,37 @@ public static class EloCalculator
         int i = 1;
         foreach (Game game in gamesInOrder)
         {
-            UpdateElos(game, tourney.Players, maxAdjustmentPerGame);
-            Console.WriteLine($"Game {i++} completed, EloMax: {tourney.Players.Max(x => x.EloLatest)}, EloMin: {tourney.Players.Min(x => x.EloLatest)}");
+            UpdatePlayerElos(game, tourney.Players, maxAdjustmentPerGame);
+            CalculateGameDifficulty(game, tourney.Players);
+            Console.WriteLine($"Game {i++} of {gamesInOrder.Length} ({game.Name}) completed, EloMax: {tourney.Players.Max(x => x.EloLatest)}, EloMin: {tourney.Players.Min(x => x.EloLatest)}");
+        }
+
+        Game[] gamesRankedByDifficulty = [.. gamesInOrder.Where(x => x.Difficulty is not null).OrderBy(x => x.Difficulty)];
+
+        for (int j = 0; j < gamesRankedByDifficulty.Length; j++)
+        {
+            gamesRankedByDifficulty[j].DifficultyRank = j;
         }
     }
 
-    private static void UpdateElos(Game game, Player[] players, double maxAdjustmentPerGame)
+    private static void CalculateGameDifficulty(Game game, Player[] players)
+    {
+        Player[] relevantPlayers = [.. players.Where(x => x.EloScores.ContainsKey(game.GameNumber) && x.EloScores.Count >= 5)];
+
+        List<double> estimatedEloBasedOnSinglePlayer = [];
+
+        foreach (Player player in relevantPlayers)
+        {
+            double elo = player.LastEloBeforeGameNumber(game.GameNumber);
+            double percentScore = player.GameScores[game.GameId].Score / game.MaxScore;
+
+            estimatedEloBasedOnSinglePlayer.Add(elo * 2 * (1 - percentScore));
+        }
+
+        game.Difficulty = estimatedEloBasedOnSinglePlayer.Count != 0 ? estimatedEloBasedOnSinglePlayer.Average() : null;
+    }
+
+    private static void UpdatePlayerElos(Game game, Player[] players, double maxAdjustmentPerGame)
     {
         Guid gameId = game.GameId;
 

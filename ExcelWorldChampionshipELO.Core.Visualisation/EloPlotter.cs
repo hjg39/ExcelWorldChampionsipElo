@@ -8,7 +8,27 @@ namespace ExcelWorldChampionshipELO.Core.Visualisation;
 
 public static class EloPlotter
 {
-    private static ConcurrentDictionary<Guid, Dictionary<double, string>> _gameNames = new();
+    private static readonly ConcurrentDictionary<Guid, Dictionary<double, string>> _gameNames = new();
+
+    public static void PlotGameDifficulty(Tourney tourney)
+    {
+        Plot gameDifficultyPlot = new();
+
+        Game[] orderedGames = [.. tourney.Games.Where(x => x.Difficulty is double d).OrderBy(x => x.Difficulty)];
+
+        gameDifficultyPlot.Add.Bars(orderedGames.Select(x => (double)x.DifficultyRank).ToArray(), orderedGames.Select(x => x.Difficulty));
+
+        gameDifficultyPlot.YLabel("Difficulty");
+
+        IXAxis xAxis = gameDifficultyPlot.Axes.GetXAxes().First();
+        xAxis.TickGenerator = new NumericManual([.. orderedGames.Select(x => x.DifficultyRank)], orderedGames.Select(x => x.Name).ToArray());
+        xAxis.TickLabelStyle.Rotation = 90;
+        xAxis.TickLabelStyle.Alignment = Alignment.LowerLeft;
+        xAxis.MinimumSize = 300;
+
+        gameDifficultyPlot.Title($"{tourney.Name}-Game Difficulties-{tourney.TourneyId}");
+        gameDifficultyPlot.SavePng(@$"C:\Users\harry\Downloads\{tourney.Name}-Game Difficulties-{tourney.TourneyId}.png", 1800, 1200);
+    }
 
     public static void PlotTopElos(Tourney tourney)
     {
@@ -39,7 +59,6 @@ public static class EloPlotter
         eloPlot.Legend.Alignment = Alignment.UpperLeft;
 
         eloPlot.Title($"{tourney.Name}-{tourney.TourneyId}");
-
         eloPlot.SavePng(@$"C:\Users\harry\Downloads\{tourney.Name}-{tourney.TourneyId}.png", 1800, 1200);
     }
 

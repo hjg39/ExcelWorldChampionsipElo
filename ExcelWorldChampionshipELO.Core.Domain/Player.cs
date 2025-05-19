@@ -27,4 +27,16 @@ public sealed class Player
     public double EloMax => EloScores.Count != 0 ? EloScores.Max(x => x.Value) : Constants.DefaultElo;
 
     public double EloLatest => EloScores.Count != 0 ? EloScores.MaxBy(x => x.Key).Value : Constants.DefaultElo;
+
+    public double LastEloBeforeGameNumber(double time)
+    {
+        IEnumerable<KeyValuePair<double, double>> releveantScores = EloScores.Where(x => x.Key < time);
+
+        if (!releveantScores.Any())
+        {
+            return Constants.DefaultElo;
+        }
+
+        return releveantScores.MaxBy(x => x.Key).Value;
+    }
 }

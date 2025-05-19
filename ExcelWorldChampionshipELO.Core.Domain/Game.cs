@@ -1,6 +1,6 @@
 ﻿namespace ExcelWorldChampionshipELO.Core.Domain;
 
-public sealed record Game
+public sealed class Game
 {
     public required Guid GameId { get; init; }
 
@@ -13,4 +13,8 @@ public sealed record Game
     public required string? Author { get; init; }
 
     public required string? Description { get; init; }
+
+    public double? Difficulty { get; set; }
+
+    public int DifficultyRank { get; set; }
 }
