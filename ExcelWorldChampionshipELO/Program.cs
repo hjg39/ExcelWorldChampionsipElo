@@ -147,6 +147,8 @@ namespace ExcelWorldChampionshipELO
         private static void RunCustomTourney()
         {
             string name = GetStringInput("tourneyName");
+
+            WriteSystemPrompt("See csv sample files in the exe folder for the input data format.");
             string gamesFilePath = GetFileInput("gameDataCsv");
             string playersFilePath = GetFileInput("playerDataCsvFilePath");
 
