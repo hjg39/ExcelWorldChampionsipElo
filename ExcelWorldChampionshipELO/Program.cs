@@ -3,7 +3,6 @@ using ExcelWorldChampionshipELO.Core.Domain;
 using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
 using ExcelWorldChampionshipELO.Core.Logic;
 using ExcelWorldChampionshipELO.Core.Storage;
-using Terminal.Gui;
 
 namespace ExcelWorldChampionshipELO
 {
@@ -13,34 +12,25 @@ namespace ExcelWorldChampionshipELO
 
         static void Main()
         {
-            Application.Init();
+            Console.ForegroundColor = ConsoleColor.White;
+            bool exit = false;
 
-            try
+            while (!exit)
             {
-                Console.ForegroundColor = ConsoleColor.White;
-                bool exit = false;
-
-                while (!exit)
+                if (TourneyStorage.LastRunTourney is not Tourney tourney)
                 {
-                    if (TourneyStorage.LastRunTourney is not Tourney tourney)
-                    {
-                        exit = InterpretStartingCommand();
-                    }
-                    else
-                    {
-                        if (!_hasTourneyBeenSet)
-                        {
-                            WriteUserPrompt($"Tourney of {tourney.Games.Length} games and {tourney.Players.Length} players ran successfully.");
-                            _hasTourneyBeenSet = true;
-                        }
-
-                        exit = InterpretFollowUpCommand();
-                    }
+                    exit = InterpretStartingCommand();
                 }
-            }
-            finally
-            {
-                Application.Shutdown();
+                else
+                {
+                    if (!_hasTourneyBeenSet)
+                    {
+                        WriteSystemPrompt($"Tourney of {tourney.Games.Length} games and {tourney.Players.Length} players ran successfully.");
+                        _hasTourneyBeenSet = true;
+                    }
+
+                    exit = InterpretFollowUpCommand();
+                }
             }
         }
 
@@ -48,7 +38,7 @@ namespace ExcelWorldChampionshipELO
         {
             try
             {
-                WriteUserPrompt("Please enter a follow-up command, e.g. 'exit', 'print-results' or 'player-stats':");
+                WriteSystemPrompt("Please enter a follow-up command, e.g. 'exit', 'print-results' or 'player-stats':");
 
                 string? input = Console.ReadLine()?.ToLower();
 
@@ -79,7 +69,7 @@ namespace ExcelWorldChampionshipELO
         private static void ExecutePlayerStatsCommand()
         {
             Tourney tourney = TourneyStorage.LastRunTourney!;
-            WriteUserPrompt($"Please enter player name (e.g.) '{tourney.Players.MaxBy(x => x.EloLatest)!.Name}'");
+            WriteSystemPrompt($"Please enter player name (e.g.) '{tourney.Players.MaxBy(x => x.EloLatest)!.Name}'");
 
             string? input = Console.ReadLine()?.ToLower();
 
@@ -94,7 +84,7 @@ namespace ExcelWorldChampionshipELO
             }
             else
             {
-                WriteUserPrompt($"{input} not found in the data, did you mean {tourney.Players.MinBy(x => LevenshteinDistance.CalculateDistance(input, x.Name))!.Name}?");
+                WriteSystemPrompt($"{input} not found in the data, did you mean {tourney.Players.MinBy(x => LevenshteinDistance.CalculateDistance(input, x.Name))!.Name}?");
                 ExecutePlayerStatsCommand();
             }
 
@@ -150,7 +140,7 @@ namespace ExcelWorldChampionshipELO
             InputTourneyController.RunTourney(tourneyInputs);
         }
 
-        private static void WriteUserPrompt(string text)
+        private static void WriteSystemPrompt(string text)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine(text);
@@ -184,7 +174,7 @@ namespace ExcelWorldChampionshipELO
 
             while (!isSet)
             {
-                WriteUserPrompt($"Please enter the {parameterName}:");
+                WriteSystemPrompt($"Please enter the {parameterName}:");
 
                 string? consoleInput = Console.ReadLine();
 
@@ -194,7 +184,7 @@ namespace ExcelWorldChampionshipELO
                 }
                 else
                 {
-                    WriteUserPrompt("Could not interpret input.");
+                    WriteSystemPrompt("Could not interpret input.");
                 }
             }
 
@@ -208,7 +198,7 @@ namespace ExcelWorldChampionshipELO
 
             while (!isSet)
             {
-                WriteUserPrompt($"Please enter the {parameterName}:");
+                WriteSystemPrompt($"Please enter the {parameterName}:");
                 string? consoleInput = Console.ReadLine();
 
                 if (double.TryParse(consoleInput, out input))
@@ -217,7 +207,7 @@ namespace ExcelWorldChampionshipELO
                 }
                 else
                 {
-                    WriteUserPrompt("Could not interpret input.");
+                    WriteSystemPrompt("Could not interpret input.");
                 }
             }
 
@@ -231,7 +221,7 @@ namespace ExcelWorldChampionshipELO
 
             while (!isSet)
             {
-                WriteUserPrompt($"Please enter the {parameterName}:");
+                WriteSystemPrompt($"Please enter the {parameterName}:");
                 string? consoleInput = Console.ReadLine();
 
                 if (!string.IsNullOrWhiteSpace(consoleInput))
@@ -241,7 +231,7 @@ namespace ExcelWorldChampionshipELO
                 }
                 else
                 {
-                    WriteUserPrompt("Could not interpret input.");
+                    WriteSystemPrompt("Could not interpret input.");
                 }
             }
 
@@ -250,29 +240,38 @@ namespace ExcelWorldChampionshipELO
 
         private static string GetFileInput(string parameterName)
         {
+            bool isSet = false;
             string input = string.Empty;
 
-            WriteUserPrompt($"Please select the {parameterName} file:");
-
-            OpenDialog openDialog = new("Open File", $"Select the {parameterName} to open");
-            Application.Run(openDialog);
-
-            string? filePath = openDialog.FilePath.ToString();
-
-            if (!openDialog.Canceled && !string.IsNullOrWhiteSpace(filePath))
+            while (!isSet)
             {
-                WriteUserPrompt($"Selected file: {filePath}");
-                return filePath;
+                WriteSystemPrompt($"Please enter the {parameterName}:");
+                string? consoleInput = Console.ReadLine();
+
+                if (string.IsNullOrWhiteSpace(consoleInput))
+                {
+                    WriteSystemPrompt("Could not interpret input.");
+                }
+                else if (!File.Exists(consoleInput))
+                {
+                    WriteSystemPrompt("File not found, please try again.");
+                    return GetFileInput(parameterName);
+                }
+                else
+                {
+                    input = consoleInput;
+                    isSet = true;
+                }
             }
-    
-            return string.Empty;
+
+            return input;
         }
 
         private static bool InterpretStartingCommand()
         {
             try
             {
-                WriteUserPrompt("Please enter command, e.g. 'exit', 'run-default-tourney' or 'run-tourney':");
+                WriteSystemPrompt("Please enter command, e.g. 'exit', 'run-default-tourney' or 'run-tourney':");
                 string? input = Console.ReadLine()?.ToLower();
 
                 switch (input)
