@@ -17,6 +17,7 @@ public sealed class DummyTourneyController
         EloCalculator.CalculateElos(tourney, 32);
         EloPlotter.PlotTopElos(tourney);
         EloPlotter.PlotGameDifficulty(tourney);
+        EloPlotter.PlotFinalElos(tourney);
 
         stopwatch.Stop();
         Console.WriteLine($"TimeTaken: {stopwatch.ElapsedMilliseconds}ms");

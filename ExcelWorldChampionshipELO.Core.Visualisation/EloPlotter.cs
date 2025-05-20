@@ -10,6 +10,28 @@ public static class EloPlotter
 {
     private static readonly ConcurrentDictionary<Guid, Dictionary<double, string>> _gameNames = new();
 
+    public static void PlotFinalElos(Tourney tourney)
+    {
+        Plot finalElo = new();
+
+        Player[] orderedPlayers = [.. tourney.Players.Where(x => x.GameScores.Count >= 5).OrderBy(x => x.EloLatest)];
+
+        double[] xAxisValues = [.. Enumerable.Range(0, orderedPlayers.Length).Select(x => (double)x)];
+
+        finalElo.Add.Bars(xAxisValues, orderedPlayers.Select(x => x.EloLatest));
+
+        finalElo.YLabel("Elo");
+
+        IXAxis xAxis = finalElo.Axes.GetXAxes().First();
+        xAxis.TickGenerator = new NumericManual(xAxisValues, orderedPlayers.Select(x => x.Name).ToArray());
+        xAxis.TickLabelStyle.Rotation = 90;
+        xAxis.TickLabelStyle.Alignment = Alignment.LowerLeft;
+        xAxis.MinimumSize = 300;
+
+        finalElo.Title($"{tourney.Name}-Final Elos-{tourney.TourneyId}");
+        finalElo.SavePng(@$"C:\Users\harry\Downloads\{tourney.Name}-Final Elos-{tourney.TourneyId}.png", 5000, 1200);
+    }
+
     public static void PlotGameDifficulty(Tourney tourney)
     {
         Plot gameDifficultyPlot = new();
