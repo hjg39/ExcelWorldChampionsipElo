@@ -46,7 +46,9 @@ namespace ExcelWorldChampionshipELO
                 {
                     case "exit":
                         return true;
-                    case "print-results":
+                    case "get-csv-results":
+                        return false;
+                    case "get-chart-results":
                         return false;
                     case "player-stats":
                         ExecutePlayerStatsCommand();
