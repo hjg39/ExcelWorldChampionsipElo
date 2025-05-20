@@ -120,9 +120,6 @@ public static class EloPlotter
         worldRankingPlot.SavePng(CreateDesktopPath(@$"Top20-WorldRankings-{tourney.Name}-{tourney.TourneyId}.png"), 1800, 1200);
     }
 
-    private static string CreateDesktopPath(string name)
-        => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), name);
-
     public static void PlotPlayerElos(Player mainPlayer, Player[] players, Tourney tourney)
     {
         Plot eloPlot = new();
@@ -192,4 +189,6 @@ public static class EloPlotter
         worldRankingPlot.SavePng(CreateDesktopPath(@$"{mainPlayer.Name} and rivals-WorldRankings-{tourney.Name}-{tourney.TourneyId}.png"), 1800, 1200);
     }
 
+    private static string CreateDesktopPath(string name)
+    => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), name);
 }

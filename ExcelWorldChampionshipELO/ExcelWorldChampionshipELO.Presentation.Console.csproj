@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ExcelWorldChampionshipELO.Core.Exporting\ExcelWorldChampionshipELO.Core.Exporting.csproj" />
     <ProjectReference Include="..\ExcelWorldChampionshipELO.Core.Logic\ExcelWorldChampionshipELO.Core.Logic.csproj" />
   </ItemGroup>
 

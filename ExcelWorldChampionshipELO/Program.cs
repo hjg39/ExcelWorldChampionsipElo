@@ -1,8 +1,10 @@
 ﻿using ExcelWorldChampionshipELO.Core.Common;
 using ExcelWorldChampionshipELO.Core.Domain;
 using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
+using ExcelWorldChampionshipELO.Core.Exporting;
 using ExcelWorldChampionshipELO.Core.Logic;
 using ExcelWorldChampionshipELO.Core.Storage;
+using System.Reflection;
 
 namespace ExcelWorldChampionshipELO
 {
@@ -47,6 +49,8 @@ namespace ExcelWorldChampionshipELO
                     case "exit":
                         return true;
                     case "get-csv-results":
+                        CsvExporter.ExportPlayerResults(TourneyStorage.LastRunTourney!);
+                        WriteSystemPrompt("Exported csv results to desktop");
                         return false;
                     case "get-chart-results":
                         InputTourneyController.PlotTourney(TourneyStorage.LastRunTourney!);
@@ -140,7 +144,7 @@ namespace ExcelWorldChampionshipELO
             Console.ForegroundColor = ConsoleColor.White;
         }
 
-        private static void RunTourney()
+        private static void RunCustomTourney()
         {
             string name = GetStringInput("tourneyName");
             string gamesFilePath = GetFileInput("gameDataCsv");
@@ -158,11 +162,16 @@ namespace ExcelWorldChampionshipELO
 
         private static void RunDefaultTourney()
         {
+            string exePath = Assembly.GetExecutingAssembly().Location;
+            string exeDirectory = Path.GetDirectoryName(exePath)!;
+
+            string resourcesDirectory = Path.Combine(exeDirectory, "SampleResources");
+
             TourneyInputs tourneyInputs = new()
             {
                 Name = "Default Tourney Elo Data",
-                GameDataPath = "C:\\Users\\harry\\source\\repos\\ExcelWorldChampionshipELO\\SampleResources\\GameData.csv",
-                PlayerDataPath = "C:\\Users\\harry\\source\\repos\\ExcelWorldChampionshipELO\\SampleResources\\PlayerData.csv",
+                GameDataPath = Path.Combine(resourcesDirectory, "GameData.csv"),
+                PlayerDataPath = Path.Combine(resourcesDirectory, "PlayerData.csv"),
             };
 
             InputTourneyController.RunTourney(tourneyInputs);
@@ -299,7 +308,7 @@ namespace ExcelWorldChampionshipELO
         {
             try
             {
-                WriteSystemPrompt("Please enter command, e.g. 'exit', 'run-default-tourney' or 'run-tourney':");
+                WriteSystemPrompt("Please enter command, e.g. 'exit', 'run-default-tourney' or 'run-custom-tourney':");
                 string? input = Console.ReadLine()?.ToLower();
 
                 switch (input)
@@ -309,8 +318,8 @@ namespace ExcelWorldChampionshipELO
                     case "run-default-tourney":
                         RunDefaultTourney();
                         return false;
-                    case "run-tourney":
-                        RunTourney();
+                    case "run-custom-tourney":
+                        RunCustomTourney();
                         return false;
                     case "run-random-tourney-auto":
                         DummyTourneyController.RunTourney();
