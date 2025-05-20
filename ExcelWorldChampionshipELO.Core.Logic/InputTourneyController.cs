@@ -1,7 +1,7 @@
 ﻿using ExcelWorldChampionshipELO.Core.Domain;
 using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
 using ExcelWorldChampionshipELO.Core.Parsing;
-using ExcelWorldChampionshipELO.Core.Visualisation;
+using ExcelWorldChampionshipELO.Core.Storage;
 using System.Diagnostics;
 
 namespace ExcelWorldChampionshipELO.Core.Logic;
@@ -12,13 +12,16 @@ public sealed class InputTourneyController
     {
         Stopwatch stopwatch = Stopwatch.StartNew();
 
-        Tourney tourney = DocumentParser.GetTourney(input);
-        EloCalculator.CalculateElos(tourney, 64);
-        EloPlotter.PlotTopElos(tourney);
-        EloPlotter.PlotGameDifficulty(tourney);
-        EloPlotter.PlotFinalElos(tourney);
+        try
+        {
+            Tourney tourney = DocumentParser.GetTourney(input);
+            EloCalculator.CalculateElos(tourney, 64);
 
-        stopwatch.Stop();
-        Console.WriteLine($"TimeTaken: {stopwatch.ElapsedMilliseconds}ms");
+            TourneyStorage.LastRunTourney = tourney;
+        }
+        finally
+        {
+            Console.WriteLine($"TimeTaken: {stopwatch.ElapsedMilliseconds}ms");
+        }
     }
 }

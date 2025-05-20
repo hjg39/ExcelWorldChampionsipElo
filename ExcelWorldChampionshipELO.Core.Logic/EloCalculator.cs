@@ -13,7 +13,7 @@ public static class EloCalculator
         {
             UpdatePlayerElos(game, tourney.Players, maxAdjustmentPerGame);
             CalculateGameDifficulty(game, tourney.Players);
-            Console.WriteLine($"Game {i++} of {gamesInOrder.Length} ({game.Name}) completed, EloMax: {tourney.Players.Max(x => x.EloLatest)}, EloMin: {tourney.Players.Min(x => x.EloLatest)}");
+            Console.WriteLine($"Game {i++} of {gamesInOrder.Length} ({game.Name}) processed, EloMax: {tourney.Players.Max(x => x.EloLatest):0.00}, EloMin: {tourney.Players.Min(x => x.EloLatest):0.00}");
         }
 
         Game[] gamesRankedByDifficulty = [.. gamesInOrder.Where(x => x.Difficulty is not null).OrderBy(x => x.Difficulty)];

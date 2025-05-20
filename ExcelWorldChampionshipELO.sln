@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelWorldChampionshipELO.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelWorldChampionshipELO.Core.Visualisation", "ExcelWorldChampionshipELO.Core.Visualisation\ExcelWorldChampionshipELO.Core.Visualisation.csproj", "{CE923378-A387-453C-A53C-4FCD4A737B98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.Core.Parsing", "ExcelWorldChampionshipELO.Core.Parsing\ExcelWorldChampionshipELO.Core.Parsing.csproj", "{218A6C24-97A4-42CC-9AEE-9FAC020D7ED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcelWorldChampionshipELO.Core.Parsing", "ExcelWorldChampionshipELO.Core.Parsing\ExcelWorldChampionshipELO.Core.Parsing.csproj", "{218A6C24-97A4-42CC-9AEE-9FAC020D7ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelWorldChampionshipELO.Core.Storage", "ExcelWorldChampionshipELO.Core.Storage\ExcelWorldChampionshipELO.Core.Storage.csproj", "{89A3E1E4-484A-4930-9946-1C0684229ADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{218A6C24-97A4-42CC-9AEE-9FAC020D7ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{218A6C24-97A4-42CC-9AEE-9FAC020D7ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{218A6C24-97A4-42CC-9AEE-9FAC020D7ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A3E1E4-484A-4930-9946-1C0684229ADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A3E1E4-484A-4930-9946-1C0684229ADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A3E1E4-484A-4930-9946-1C0684229ADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A3E1E4-484A-4930-9946-1C0684229ADD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

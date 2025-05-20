@@ -1,5 +1,6 @@
 ﻿using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
 using ExcelWorldChampionshipELO.Core.Logic;
+using ExcelWorldChampionshipELO.Core.Storage;
 
 namespace ExcelWorldChampionshipELO
 {
@@ -11,15 +12,55 @@ namespace ExcelWorldChampionshipELO
 
             while (!exit)
             {
-                exit = InterpretCommand();
+                if (TourneyStorage.LastRunTourney is null)
+                {
+                    exit = InterpretStartingCommand();
+                }
+                else
+                {
+                    exit = InterpretFollowUpCommand();
+                }
             }
         }
 
-        public static bool InterpretCommand()
+        private static bool InterpretFollowUpCommand()
         {
             try
             {
-                Console.WriteLine("Please enter command, e.g. 'run-default-tourney':");
+                Console.WriteLine("Please enter a follow-up command, e.g. 'exit', 'print-results' or 'player-stats':");
+
+                string? input = Console.ReadLine()?.ToLower();
+
+                switch (input)
+                {
+                    case "exit":
+                        return true;
+                    case "print-results":
+                        return false;
+                    case "player-stats":
+                        return false;
+                    default:
+                        Console.WriteLine("Input not recognised, please try again.");
+                        return false;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception:");
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+                Console.WriteLine(ex.InnerException);
+
+                return false;
+            }
+        }
+
+        private static bool InterpretStartingCommand()
+        {
+            try
+            {
+                Console.WriteLine("Please enter command, e.g. 'exit', 'run-default-tourney' or 'run-tourney':");
                 string? input = Console.ReadLine()?.ToLower();
 
                 switch (input)
@@ -39,7 +80,7 @@ namespace ExcelWorldChampionshipELO
                         RunRandomTourneyConfigured();
                         return false;
                     default:
-                        Console.WriteLine("Input not recognised, try 'exit', 'run-default-tourney', 'run-tourney', 'run-random-tourney-auto' or 'run-random-tourney-configured'.");
+                        Console.WriteLine("Input not recognised, please try again.");
                         return false;
                 }
             }
@@ -54,7 +95,7 @@ namespace ExcelWorldChampionshipELO
             }
         }
 
-        public static void RunTourney()
+        private static void RunTourney()
         {
             string name = GetStringInput("tourneyName");
             string gamesFilePath = GetStringInput("gameDataCsvFilePath");
@@ -70,7 +111,7 @@ namespace ExcelWorldChampionshipELO
             InputTourneyController.RunTourney(tourneyInputs);
         }
 
-        public static void RunDefaultTourney()
+        private static void RunDefaultTourney()
         {
             TourneyInputs tourneyInputs = new()
             {
@@ -83,7 +124,7 @@ namespace ExcelWorldChampionshipELO
         }
 
 
-        public static void RunRandomTourneyConfigured()
+        private static void RunRandomTourneyConfigured()
         {
             int seed = GetIntegerInput("seed");
             int numberOfGames = GetIntegerInput("numberOfGames");
@@ -103,7 +144,7 @@ namespace ExcelWorldChampionshipELO
             DummyTourneyController.RunTourney(dummyTourneyInputs);
         }
 
-        public static int GetIntegerInput(string parameterName)
+        private static int GetIntegerInput(string parameterName)
         {
             bool isSet = false;
             int input = 0;
@@ -126,7 +167,7 @@ namespace ExcelWorldChampionshipELO
             return input;
         }
 
-        public static double GetDoubleInput(string parameterName)
+        private static double GetDoubleInput(string parameterName)
         {
             bool isSet = false;
             double input = 0;
@@ -149,7 +190,7 @@ namespace ExcelWorldChampionshipELO
             return input;
         }
 
-        public static string GetStringInput(string parameterName)
+        private static string GetStringInput(string parameterName)
         {
             bool isSet = false;
             string input = string.Empty;
