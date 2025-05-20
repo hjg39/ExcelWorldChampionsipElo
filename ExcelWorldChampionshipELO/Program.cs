@@ -38,7 +38,7 @@ namespace ExcelWorldChampionshipELO
         {
             try
             {
-                WriteSystemPrompt("Please enter a follow-up command, e.g. 'exit', 'print-results' or 'player-stats':");
+                WriteSystemPrompt("Please enter a follow-up command, e.g. 'exit', 'get-csv-results', 'get-chart-results' or 'player-stats':");
 
                 string? input = Console.ReadLine()?.ToLower();
 
@@ -100,7 +100,7 @@ namespace ExcelWorldChampionshipELO
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine($"Name: {player.Name}");
-            Console.WriteLine($"Data on {player.GameScores.Count} games available: {player.FirstGamePlayed(tourney).Name} to {player.LastGamePlayed(tourney).Name}");
+            Console.WriteLine($"Data on {player.GameScores.Count} games available: '{player.FirstGamePlayed(tourney).Name}' to '{player.LastGamePlayed(tourney).Name}'");
             
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine($"Latest Elo: {player.EloLatest:0.00}, achieved on {player.GameWhereEloAchieved(player.EloLatest, tourney).Name}.");
