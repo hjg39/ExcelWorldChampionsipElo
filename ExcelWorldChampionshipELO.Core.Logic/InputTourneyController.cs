@@ -34,9 +34,9 @@ public sealed class InputTourneyController
         EloPlotter.PlotFinalElos(tourney);
     }
 
-    public static void PlotPlayers(Player[] players, Tourney tourney)
+    public static void PlotPlayers(Player mainPlayer, Player[] players, Tourney tourney)
     {
-        //EloPlotter.PlotPlayerElos(players, tourney);
-        //EloPlotter.PlotPlayerRankings(players, tourney);
+        EloPlotter.PlotPlayerElos(mainPlayer, players, tourney);
+        EloPlotter.PlotPlayerRankings(mainPlayer, players, tourney);
     }
 }

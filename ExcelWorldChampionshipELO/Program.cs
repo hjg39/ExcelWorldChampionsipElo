@@ -110,11 +110,11 @@ namespace ExcelWorldChampionshipELO
             Guid[] latest10GameIds = [.. tourney.Games.OrderByDescending(x => x.GameNumber).Take(10).Select(x => x.GameId)];
 
             List<Player> relevantPlayers = [..tourney.Players.Where(x => x.GameScores.Keys.Intersect(latest10GameIds).Count() >= 2)];
-            relevantPlayers = [.. relevantPlayers.OrderBy(x => player.EloLatest - x.EloLatest).Take(21)];
+            relevantPlayers = [.. relevantPlayers.OrderBy(x => Math.Abs(player.EloLatest - x.EloLatest)).Take(21)];
 
             relevantPlayers.Add(player);
 
-            InputTourneyController.PlotPlayers([.. relevantPlayers.Distinct()], tourney);
+            InputTourneyController.PlotPlayers(player, [.. relevantPlayers.Distinct()], tourney);
 
             WriteSystemPrompt($"Saved {player.Name} charts to desktop.");
         }

@@ -69,7 +69,6 @@ public static class EloPlotter
             scatter.LegendText = player.Name;
         }
 
-        // eloPlot.XLabel("Date");
         eloPlot.YLabel("Elo");
 
         IXAxis xAxis = eloPlot.Axes.GetXAxes().First();
@@ -101,14 +100,13 @@ public static class EloPlotter
             scatter.LegendText = player.Name;
         }
 
-        // eloPlot.XLabel("Date");
         worldRankingPlot.YLabel("World Ranking");
 
         worldRankingPlot.Axes.AutoScaler.InvertedY = true;
-        var v = worldRankingPlot.Axes.GetYAxes().First();
+        IYAxis yAxis = worldRankingPlot.Axes.GetYAxes().First();
 
-        v.Max = 0;
-        v.Min = 30;
+        yAxis.Max = 0;
+        yAxis.Min = 30;
 
         IXAxis xAxis = worldRankingPlot.Axes.GetXAxes().First();
         xAxis.TickGenerator = new NumericManual([.. gameData.Keys], gameData.Values.ToArray());
@@ -124,4 +122,74 @@ public static class EloPlotter
 
     private static string CreateDesktopPath(string name)
         => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), name);
+
+    public static void PlotPlayerElos(Player mainPlayer, Player[] players, Tourney tourney)
+    {
+        Plot eloPlot = new();
+
+        Player[] orderedPlayers = [.. players.OrderByDescending(x => x.EloLatest)];
+
+        Dictionary<double, string> gameData = tourney.Games.ToDictionary(x => x.GameNumber, x => x.Name);
+        double minTimelineValue = players.SelectMany(x => x.EloScores.Keys).Min();
+        gameData[minTimelineValue] = "Start";
+        _gameNames[tourney.TourneyId] = new Dictionary<double, string>(gameData);
+
+        foreach (Player player in orderedPlayers)
+        {
+            Scatter scatter = eloPlot.Add.Scatter([.. player.EloScores.Keys], player.EloScores.Values.ToArray());
+            scatter.LegendText = player.Name;
+        }
+
+        eloPlot.YLabel("Elo");
+
+        IXAxis xAxis = eloPlot.Axes.GetXAxes().First();
+        xAxis.TickGenerator = new NumericManual([.. gameData.Keys], gameData.Values.ToArray());
+        xAxis.TickLabelStyle.Rotation = 90;
+        xAxis.TickLabelStyle.Alignment = Alignment.LowerLeft;
+        xAxis.MinimumSize = 300;
+
+        eloPlot.Legend.Alignment = Alignment.UpperLeft;
+
+        eloPlot.Title($"{mainPlayer.Name} and rivals-Elos-{tourney.Name}-{tourney.TourneyId}");
+        eloPlot.SavePng(CreateDesktopPath(@$"{mainPlayer.Name} and rivals-Elos-{tourney.Name}-{tourney.TourneyId}.png"), 1800, 1200);
+    }
+
+    public static void PlotPlayerRankings(Player mainPlayer, Player[] players, Tourney tourney)
+    {
+        Plot worldRankingPlot = new();
+
+        Player[] orderedPlayers = [.. players.OrderBy(x => x.WorldRankingLatest)];
+
+        Dictionary<double, string> gameData = tourney.Games.ToDictionary(x => x.GameNumber, x => x.Name);
+        double minTimelineValue = players.SelectMany(x => x.WorldRankings.Keys).Min();
+        gameData[minTimelineValue] = "Start";
+        _gameNames[tourney.TourneyId] = new Dictionary<double, string>(gameData);
+
+        foreach (Player player in orderedPlayers)
+        {
+            Scatter scatter = worldRankingPlot.Add.Scatter([.. player.WorldRankings.Keys], player.WorldRankings.Values.ToArray());
+            scatter.LegendText = player.Name;
+        }
+
+        IYAxis yAxis = worldRankingPlot.Axes.GetYAxes().First();
+
+        yAxis.Max = mainPlayer.WorldRankingLatest - 20;
+        yAxis.Min = mainPlayer.WorldRankingLatest + 20;
+
+        worldRankingPlot.YLabel("World Ranking");
+
+        worldRankingPlot.Axes.AutoScaler.InvertedY = true;
+
+        IXAxis xAxis = worldRankingPlot.Axes.GetXAxes().First();
+        xAxis.TickGenerator = new NumericManual([.. gameData.Keys], gameData.Values.ToArray());
+        xAxis.TickLabelStyle.Rotation = 90;
+        xAxis.TickLabelStyle.Alignment = Alignment.LowerLeft;
+        xAxis.MinimumSize = 300;
+
+        worldRankingPlot.Legend.Alignment = Alignment.UpperLeft;
+
+        worldRankingPlot.Title($"{mainPlayer.Name} and rivals-WorldRankings-{tourney.Name}-{tourney.TourneyId}");
+        worldRankingPlot.SavePng(CreateDesktopPath(@$"{mainPlayer.Name} and rivals-WorldRankings-{tourney.Name}-{tourney.TourneyId}.png"), 1800, 1200);
+    }
+
 }
