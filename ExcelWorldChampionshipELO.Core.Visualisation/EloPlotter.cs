@@ -85,5 +85,5 @@ public static class EloPlotter
     }
 
     private static string CreateDesktopPath(string name)
-        => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), );
+        => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), name);
 }

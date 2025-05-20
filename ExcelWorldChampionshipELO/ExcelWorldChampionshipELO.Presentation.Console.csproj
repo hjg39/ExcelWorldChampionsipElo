@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Terminal.Gui" Version="1.18.1" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ExcelWorldChampionshipELO.Core.Logic\ExcelWorldChampionshipELO.Core.Logic.csproj" />
   </ItemGroup>
 
