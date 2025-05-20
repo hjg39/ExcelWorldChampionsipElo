@@ -81,7 +81,7 @@ public static class EloPlotter
         eloPlot.Legend.Alignment = Alignment.UpperLeft;
 
         eloPlot.Title($"{tourney.Name}-{tourney.TourneyId}");
-        eloPlot.SavePng(@$"C:\Users\harry\Downloads\{tourney.Name}-{tourney.TourneyId}.png", 1800, 1200);
+        eloPlot.SavePng(@$"C:\Users\harry\Downloads\Top20-{tourney.Name}-{tourney.TourneyId}.png", 1800, 1200);
     }
 
     public static string DoubleFormatter(double gameTime, Guid tourneyId)

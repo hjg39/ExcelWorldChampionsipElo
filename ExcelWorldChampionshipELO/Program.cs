@@ -1,4 +1,5 @@
-﻿using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
+﻿using ExcelWorldChampionshipELO.Core.Domain;
+using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
 using ExcelWorldChampionshipELO.Core.Logic;
 using ExcelWorldChampionshipELO.Core.Storage;
 
@@ -38,6 +39,7 @@ namespace ExcelWorldChampionshipELO
                     case "print-results":
                         return false;
                     case "player-stats":
+                        ExecutePlayerStatsCommand();
                         return false;
                     default:
                         Console.WriteLine("Input not recognised, please try again.");
@@ -56,43 +58,34 @@ namespace ExcelWorldChampionshipELO
             }
         }
 
-        private static bool InterpretStartingCommand()
+        private static void ExecutePlayerStatsCommand()
         {
-            try
-            {
-                Console.WriteLine("Please enter command, e.g. 'exit', 'run-default-tourney' or 'run-tourney':");
-                string? input = Console.ReadLine()?.ToLower();
+            Tourney tourney = TourneyStorage.LastRunTourney!;
 
-                switch (input)
-                {
-                    case "exit":
-                        return true;
-                    case "run-default-tourney":
-                        RunDefaultTourney();
-                        return false;
-                    case "run-tourney":
-                        RunTourney();
-                        return false;
-                    case "run-random-tourney-auto":
-                        DummyTourneyController.RunTourney();
-                        return false;
-                    case "run-random-tourney-configured":
-                        RunRandomTourneyConfigured();
-                        return false;
-                    default:
-                        Console.WriteLine("Input not recognised, please try again.");
-                        return false;
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Exception:");
-                Console.WriteLine(ex.Message);
-                Console.WriteLine(ex.StackTrace);
-                Console.WriteLine(ex.InnerException);
+            Console.WriteLine($"Please enter player name (e.g.) '{tourney.Players.MaxBy(x => x.EloLatest)!.Name}'");
+            string? input = Console.ReadLine()?.ToLower();
 
-                return false;
+            if (string.IsNullOrWhiteSpace(input))
+            {
+                return;
             }
+
+            if (tourney.Players.FirstOrDefault(x => x.Name == input) is Player player)
+            {
+                PrintPlayerStats(player);
+            }
+            else
+            {
+                Console.WriteLine($"{input} not found in the data.");
+                ExecutePlayerStatsCommand();
+            }
+
+            return;
+        }
+
+        private static void PrintPlayerStats(Player player)
+        {
+
         }
 
         private static void RunTourney()
@@ -212,6 +205,45 @@ namespace ExcelWorldChampionshipELO
             }
 
             return input;
+        }
+
+        private static bool InterpretStartingCommand()
+        {
+            try
+            {
+                Console.WriteLine("Please enter command, e.g. 'exit', 'run-default-tourney' or 'run-tourney':");
+                string? input = Console.ReadLine()?.ToLower();
+
+                switch (input)
+                {
+                    case "exit":
+                        return true;
+                    case "run-default-tourney":
+                        RunDefaultTourney();
+                        return false;
+                    case "run-tourney":
+                        RunTourney();
+                        return false;
+                    case "run-random-tourney-auto":
+                        DummyTourneyController.RunTourney();
+                        return false;
+                    case "run-random-tourney-configured":
+                        RunRandomTourneyConfigured();
+                        return false;
+                    default:
+                        Console.WriteLine("Input not recognised, please try again.");
+                        return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Exception:");
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+                Console.WriteLine(ex.InnerException);
+
+                return false;
+            }
         }
     }
 }
