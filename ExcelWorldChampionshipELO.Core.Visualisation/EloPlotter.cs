@@ -170,7 +170,7 @@ public static class EloPlotter
 
         IYAxis yAxis = worldRankingPlot.Axes.GetYAxes().First();
 
-        yAxis.Max = mainPlayer.WorldRankingLatest - 20;
+        yAxis.Max = Math.Max(1, mainPlayer.WorldRankingLatest - 20);
         yAxis.Min = mainPlayer.WorldRankingLatest + 20;
 
         worldRankingPlot.YLabel("World Ranking");
