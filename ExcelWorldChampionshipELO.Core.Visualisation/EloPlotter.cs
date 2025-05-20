@@ -88,7 +88,7 @@ public static class EloPlotter
     {
         Plot worldRankingPlot = new();
 
-        Player[] orderedPlayers = [.. tourney.Players.OrderByDescending(x => x.WorldRankingLatest)];
+        Player[] orderedPlayers = [.. tourney.Players.OrderBy(x => x.WorldRankingLatest)];
 
         Dictionary<double, string> gameData = tourney.Games.ToDictionary(x => x.GameNumber, x => x.Name);
         double minTimelineValue = tourney.Players.SelectMany(x => x.WorldRankings.Keys).Min();
