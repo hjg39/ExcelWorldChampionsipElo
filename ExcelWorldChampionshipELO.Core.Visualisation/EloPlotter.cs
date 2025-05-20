@@ -105,6 +105,10 @@ public static class EloPlotter
         worldRankingPlot.YLabel("World Ranking");
 
         worldRankingPlot.Axes.AutoScaler.InvertedY = true;
+        var v = worldRankingPlot.Axes.GetYAxes().First();
+
+        v.Max = 0;
+        v.Min = 30;
 
         IXAxis xAxis = worldRankingPlot.Axes.GetXAxes().First();
         xAxis.TickGenerator = new NumericManual([.. gameData.Keys], gameData.Values.ToArray());
