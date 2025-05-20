@@ -49,12 +49,15 @@ namespace ExcelWorldChampionshipELO
                     case "get-csv-results":
                         return false;
                     case "get-chart-results":
+                        InputTourneyController.PlotTourney(TourneyStorage.LastRunTourney!);
+                        WriteSystemPrompt("Saved charts to desktop.");
                         return false;
                     case "player-stats":
                         ExecutePlayerStatsCommand();
+                        
                         return false;
                     default:
-                        Console.WriteLine("Input not recognised, please try again.");
+                        WriteSystemPrompt("Input not recognised, please try again.");
                         return false;
                 }
 

@@ -29,7 +29,7 @@ public static class EloPlotter
         xAxis.MinimumSize = 300;
 
         finalElo.Title($"{tourney.Name}-Final Elos-{tourney.TourneyId}");
-        finalElo.SavePng(@$"C:\Users\harry\Downloads\{tourney.Name}-Final Elos-{tourney.TourneyId}.png", 5000, 1200);
+        finalElo.SavePng(CreateDesktopPath(@$"{tourney.Name}-Final Elos-{tourney.TourneyId}.png"), 5000, 1200);
     }
 
     public static void PlotGameDifficulty(Tourney tourney)
@@ -49,7 +49,7 @@ public static class EloPlotter
         xAxis.MinimumSize = 300;
 
         gameDifficultyPlot.Title($"{tourney.Name}-Game Difficulties-{tourney.TourneyId}");
-        gameDifficultyPlot.SavePng(@$"C:\Users\harry\Downloads\{tourney.Name}-Game Difficulties-{tourney.TourneyId}.png", 1800, 1200);
+        gameDifficultyPlot.SavePng(CreateDesktopPath(@$"{tourney.Name}-Game Difficulties-{tourney.TourneyId}.png"), 1800, 1200);
     }
 
     public static void PlotTopElos(Tourney tourney)
@@ -80,19 +80,10 @@ public static class EloPlotter
 
         eloPlot.Legend.Alignment = Alignment.UpperLeft;
 
-        eloPlot.Title($"{tourney.Name}-{tourney.TourneyId}");
-        eloPlot.SavePng(@$"C:\Users\harry\Downloads\Top20-{tourney.Name}-{tourney.TourneyId}.png", 1800, 1200);
+        eloPlot.Title($"Top20-{tourney.Name}-{tourney.TourneyId}");
+        eloPlot.SavePng(CreateDesktopPath(@$"Top20-{tourney.Name}-{tourney.TourneyId}.png"), 1800, 1200);
     }
 
-    public static string DoubleFormatter(double gameTime, Guid tourneyId)
-    {
-        Dictionary<double, string> caseNamesByTime = _gameNames[tourneyId];
-
-        if (!(caseNamesByTime.TryGetValue(gameTime, out string? result)))
-        {
-            return string.Empty;
-        }
-
-        return result;
-    }
+    private static string CreateDesktopPath(string name)
+        => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), );
 }

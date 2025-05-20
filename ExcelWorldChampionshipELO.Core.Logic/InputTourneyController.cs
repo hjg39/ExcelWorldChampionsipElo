@@ -2,6 +2,7 @@
 using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
 using ExcelWorldChampionshipELO.Core.Parsing;
 using ExcelWorldChampionshipELO.Core.Storage;
+using ExcelWorldChampionshipELO.Core.Visualisation;
 using System.Diagnostics;
 
 namespace ExcelWorldChampionshipELO.Core.Logic;
@@ -23,5 +24,12 @@ public sealed class InputTourneyController
         {
             Debug.WriteLine($"TimeTaken: {stopwatch.ElapsedMilliseconds}ms");
         }
+    }
+
+    public static void PlotTourney(Tourney tourney)
+    {
+        EloPlotter.PlotTopElos(tourney);
+        EloPlotter.PlotGameDifficulty(tourney);
+        EloPlotter.PlotFinalElos(tourney);
     }
 }
