@@ -80,8 +80,42 @@ public static class EloPlotter
 
         eloPlot.Legend.Alignment = Alignment.UpperLeft;
 
-        eloPlot.Title($"Top20-{tourney.Name}-{tourney.TourneyId}");
-        eloPlot.SavePng(CreateDesktopPath(@$"Top20-{tourney.Name}-{tourney.TourneyId}.png"), 1800, 1200);
+        eloPlot.Title($"Top20-Elos-{tourney.Name}-{tourney.TourneyId}");
+        eloPlot.SavePng(CreateDesktopPath(@$"Top20-Elos-{tourney.Name}-{tourney.TourneyId}.png"), 1800, 1200);
+    }
+
+    public static void PlotTopRankings(Tourney tourney)
+    {
+        Plot worldRankingPlot = new();
+
+        Player[] orderedPlayers = [.. tourney.Players.OrderByDescending(x => x.WorldRankingLatest)];
+
+        Dictionary<double, string> gameData = tourney.Games.ToDictionary(x => x.GameNumber, x => x.Name);
+        double minTimelineValue = tourney.Players.SelectMany(x => x.WorldRankings.Keys).Min();
+        gameData[minTimelineValue] = "Start";
+        _gameNames[tourney.TourneyId] = new Dictionary<double, string>(gameData);
+
+        foreach (Player player in orderedPlayers.Take(20))
+        {
+            Scatter scatter = worldRankingPlot.Add.Scatter([.. player.WorldRankings.Keys], player.WorldRankings.Values.ToArray());
+            scatter.LegendText = player.Name;
+        }
+
+        // eloPlot.XLabel("Date");
+        worldRankingPlot.YLabel("World Ranking");
+
+        worldRankingPlot.Axes.AutoScaler.InvertedY = true;
+
+        IXAxis xAxis = worldRankingPlot.Axes.GetXAxes().First();
+        xAxis.TickGenerator = new NumericManual([.. gameData.Keys], gameData.Values.ToArray());
+        xAxis.TickLabelStyle.Rotation = 90;
+        xAxis.TickLabelStyle.Alignment = Alignment.LowerLeft;
+        xAxis.MinimumSize = 300;
+
+        worldRankingPlot.Legend.Alignment = Alignment.UpperLeft;
+
+        worldRankingPlot.Title($"Top20-WorldRankings-{tourney.Name}-{tourney.TourneyId}");
+        worldRankingPlot.SavePng(CreateDesktopPath(@$"Top20-WorldRankings-{tourney.Name}-{tourney.TourneyId}.png"), 1800, 1200);
     }
 
     private static string CreateDesktopPath(string name)

@@ -84,6 +84,7 @@ namespace ExcelWorldChampionshipELO
             if (tourney.Players.FirstOrDefault(x => x.Name.Equals(input, StringComparison.CurrentCultureIgnoreCase)) is Player player)
             {
                 PrintPlayerStats(player, tourney);
+                ExecutePrintPlayerChartsCommand(player, tourney);
             }
             else
             {
@@ -92,6 +93,30 @@ namespace ExcelWorldChampionshipELO
             }
 
             return;
+        }
+
+        private static void ExecutePrintPlayerChartsCommand(Player player, Tourney tourney)
+        {
+            WriteSystemPrompt($"Enter 'Yes' to create charts for {player.Name} and their closest active rivals, enter anything else otherwise.");
+            string? input = Console.ReadLine()?.ToLower();
+
+            if (input != "yes")
+            {
+                return;
+            }
+
+            int targetPlayerFinalWorldRanking = player.WorldRankingLatest;
+
+            Guid[] latest10GameIds = [.. tourney.Games.OrderByDescending(x => x.GameNumber).Take(10).Select(x => x.GameId)];
+
+            List<Player> relevantPlayers = [..tourney.Players.Where(x => x.GameScores.Keys.Intersect(latest10GameIds).Count() >= 2)];
+            relevantPlayers = [.. relevantPlayers.OrderBy(x => player.EloLatest - x.EloLatest).Take(21)];
+
+            relevantPlayers.Add(player);
+
+            InputTourneyController.PlotPlayers([.. relevantPlayers.Distinct()], tourney);
+
+            WriteSystemPrompt($"Saved {player.Name} charts to desktop.");
         }
 
         private static void PrintPlayerStats(Player player, Tourney tourney)

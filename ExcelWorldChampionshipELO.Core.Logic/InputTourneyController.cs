@@ -29,7 +29,14 @@ public sealed class InputTourneyController
     public static void PlotTourney(Tourney tourney)
     {
         EloPlotter.PlotTopElos(tourney);
+        EloPlotter.PlotTopRankings(tourney);
         EloPlotter.PlotGameDifficulty(tourney);
         EloPlotter.PlotFinalElos(tourney);
+    }
+
+    public static void PlotPlayers(Player[] players, Tourney tourney)
+    {
+        //EloPlotter.PlotPlayerElos(players, tourney);
+        //EloPlotter.PlotPlayerRankings(players, tourney);
     }
 }
