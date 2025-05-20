@@ -3,6 +3,7 @@ using ExcelWorldChampionshipELO.Core.Domain;
 using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
 using ExcelWorldChampionshipELO.Core.Logic;
 using ExcelWorldChampionshipELO.Core.Storage;
+using Terminal.Gui;
 
 namespace ExcelWorldChampionshipELO
 {
@@ -12,29 +13,38 @@ namespace ExcelWorldChampionshipELO
 
         static void Main()
         {
-            Console.ForegroundColor = ConsoleColor.White;
-            bool exit = false;
+            Application.Init();
 
-            while (!exit)
+            try
             {
-                if (TourneyStorage.LastRunTourney is not Tourney tourney)
-                {
-                    exit = InterpretStartingCommand();
-                }
-                else
-                {
-                    if (!_hasTourneyBeenSet)
-                    {
-                        WriteUserPrompt($"Tourney of {tourney.Games.Length} games and {tourney.Players.Length} players ran successfully.");
-                        _hasTourneyBeenSet = true;
-                    }
+                Console.ForegroundColor = ConsoleColor.White;
+                bool exit = false;
 
-                    exit = InterpretFollowUpCommand(tourney);
+                while (!exit)
+                {
+                    if (TourneyStorage.LastRunTourney is not Tourney tourney)
+                    {
+                        exit = InterpretStartingCommand();
+                    }
+                    else
+                    {
+                        if (!_hasTourneyBeenSet)
+                        {
+                            WriteUserPrompt($"Tourney of {tourney.Games.Length} games and {tourney.Players.Length} players ran successfully.");
+                            _hasTourneyBeenSet = true;
+                        }
+
+                        exit = InterpretFollowUpCommand();
+                    }
                 }
+            }
+            finally
+            {
+                Application.Shutdown();
             }
         }
 
-        private static bool InterpretFollowUpCommand(Tourney tourney)
+        private static bool InterpretFollowUpCommand()
         {
             try
             {
@@ -115,8 +125,8 @@ namespace ExcelWorldChampionshipELO
         private static void RunTourney()
         {
             string name = GetStringInput("tourneyName");
-            string gamesFilePath = GetStringInput("gameDataCsvFilePath");
-            string playersFilePath = GetStringInput("playerDataCsvFilePath");
+            string gamesFilePath = GetFileInput("gameDataCsv");
+            string playersFilePath = GetFileInput("playerDataCsvFilePath");
 
             TourneyInputs tourneyInputs = new()
             {
@@ -236,6 +246,26 @@ namespace ExcelWorldChampionshipELO
             }
 
             return input;
+        }
+
+        private static string GetFileInput(string parameterName)
+        {
+            string input = string.Empty;
+
+            WriteUserPrompt($"Please select the {parameterName} file:");
+
+            OpenDialog openDialog = new("Open File", $"Select the {parameterName} to open");
+            Application.Run(openDialog);
+
+            string? filePath = openDialog.FilePath.ToString();
+
+            if (!openDialog.Canceled && !string.IsNullOrWhiteSpace(filePath))
+            {
+                WriteUserPrompt($"Selected file: {filePath}");
+                return filePath;
+            }
+    
+            return string.Empty;
         }
 
         private static bool InterpretStartingCommand()
