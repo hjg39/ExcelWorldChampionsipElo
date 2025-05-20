@@ -20,6 +20,6 @@ public sealed class DummyTourneyController
         EloPlotter.PlotFinalElos(tourney);
 
         stopwatch.Stop();
-        Console.WriteLine($"TimeTaken: {stopwatch.ElapsedMilliseconds}ms");
+        Debug.WriteLine($"TimeTaken: {stopwatch.ElapsedMilliseconds}ms");
     }
 }

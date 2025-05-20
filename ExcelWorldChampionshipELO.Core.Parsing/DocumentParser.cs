@@ -90,6 +90,7 @@ public static class DocumentParser
             Country = lastInput.Country,
             EloScores = new() { { startingInputTime, Constants.DefaultElo } },
             GameScores = gameScores,
+            WorldRankings = [],
         };
     }
 

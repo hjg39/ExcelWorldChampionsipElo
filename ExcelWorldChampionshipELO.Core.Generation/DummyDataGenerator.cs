@@ -92,6 +92,7 @@ public sealed class DummyDataGenerator(DummyTourneyInputs? input = null)
             GameScores = playerResults,
             EloScores = new() { { startingEloDate, Constants.DefaultElo } },
             SeededSkill = skillLevel,
+            WorldRankings = [],
         };
     }
 

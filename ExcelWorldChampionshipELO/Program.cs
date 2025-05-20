@@ -1,4 +1,5 @@
-﻿using ExcelWorldChampionshipELO.Core.Domain;
+﻿using ExcelWorldChampionshipELO.Core.Common;
+using ExcelWorldChampionshipELO.Core.Domain;
 using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
 using ExcelWorldChampionshipELO.Core.Logic;
 using ExcelWorldChampionshipELO.Core.Storage;
@@ -7,28 +8,37 @@ namespace ExcelWorldChampionshipELO
 {
     internal class Program
     {
+        static bool _hasTourneyBeenSet = false;
+
         static void Main()
         {
+            Console.ForegroundColor = ConsoleColor.White;
             bool exit = false;
 
             while (!exit)
             {
-                if (TourneyStorage.LastRunTourney is null)
+                if (TourneyStorage.LastRunTourney is not Tourney tourney)
                 {
                     exit = InterpretStartingCommand();
                 }
                 else
                 {
-                    exit = InterpretFollowUpCommand();
+                    if (!_hasTourneyBeenSet)
+                    {
+                        WriteUserPrompt($"Tourney of {tourney.Games.Length} games and {tourney.Players.Length} players ran successfully.");
+                        _hasTourneyBeenSet = true;
+                    }
+
+                    exit = InterpretFollowUpCommand(tourney);
                 }
             }
         }
 
-        private static bool InterpretFollowUpCommand()
+        private static bool InterpretFollowUpCommand(Tourney tourney)
         {
             try
             {
-                Console.WriteLine("Please enter a follow-up command, e.g. 'exit', 'print-results' or 'player-stats':");
+                WriteUserPrompt("Please enter a follow-up command, e.g. 'exit', 'print-results' or 'player-stats':");
 
                 string? input = Console.ReadLine()?.ToLower();
 
@@ -49,11 +59,7 @@ namespace ExcelWorldChampionshipELO
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Exception:");
-                Console.WriteLine(ex.Message);
-                Console.WriteLine(ex.StackTrace);
-                Console.WriteLine(ex.InnerException);
-
+                WriteException(ex);
                 return false;
             }
         }
@@ -61,8 +67,8 @@ namespace ExcelWorldChampionshipELO
         private static void ExecutePlayerStatsCommand()
         {
             Tourney tourney = TourneyStorage.LastRunTourney!;
+            WriteUserPrompt($"Please enter player name (e.g.) '{tourney.Players.MaxBy(x => x.EloLatest)!.Name}'");
 
-            Console.WriteLine($"Please enter player name (e.g.) '{tourney.Players.MaxBy(x => x.EloLatest)!.Name}'");
             string? input = Console.ReadLine()?.ToLower();
 
             if (string.IsNullOrWhiteSpace(input))
@@ -70,22 +76,38 @@ namespace ExcelWorldChampionshipELO
                 return;
             }
 
-            if (tourney.Players.FirstOrDefault(x => x.Name == input) is Player player)
+            if (tourney.Players.FirstOrDefault(x => x.Name.Equals(input, StringComparison.CurrentCultureIgnoreCase)) is Player player)
             {
-                PrintPlayerStats(player);
+                PrintPlayerStats(player, tourney);
             }
             else
             {
-                Console.WriteLine($"{input} not found in the data.");
+                WriteUserPrompt($"{input} not found in the data, did you mean {tourney.Players.MinBy(x => LevenshteinDistance.CalculateDistance(input, x.Name))!.Name}?");
                 ExecutePlayerStatsCommand();
             }
 
             return;
         }
 
-        private static void PrintPlayerStats(Player player)
+        private static void PrintPlayerStats(Player player, Tourney tourney)
         {
+            Guid[] playerGames = [..player.GameScores.Keys];
 
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"Name: {player.Name}");
+            Console.WriteLine($"Data on {player.GameScores.Count} games available: {player.FirstGamePlayed(tourney).Name} to {player.LastGamePlayed(tourney).Name}");
+            
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine($"Latest Elo: {player.EloLatest:0.00}, achieved on {player.GameWhereEloAchieved(player.EloLatest, tourney).Name}.");
+            Console.WriteLine($"Min Elo: {player.EloMin:0.00}, achieved on {player.GameWhereEloAchieved(player.EloMin, tourney).Name}.");
+            Console.WriteLine($"Max Elo: {player.EloMax:0.00}, achieved on {player.GameWhereEloAchieved(player.EloMax, tourney).Name}.");
+
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine($"Latest world ranking: {player.WorldRankingLatest}, now that {player.GameWhereWorldRankingAchieved(player.WorldRankingLatest, tourney).Name} ran.");
+            Console.WriteLine($"Highest world ranking: {player.WorldRankingMin}, most recently occurred when {player.GameWhereWorldRankingAchieved(player.WorldRankingMin, tourney, false).Name} ran.");
+            Console.WriteLine($"Lowest world ranking: {player.WorldRankingMax}, first occured when {player.GameWhereWorldRankingAchieved(player.WorldRankingMax, tourney, true).Name} ran.");
+
+            Console.ForegroundColor = ConsoleColor.White;
         }
 
         private static void RunTourney()
@@ -116,6 +138,12 @@ namespace ExcelWorldChampionshipELO
             InputTourneyController.RunTourney(tourneyInputs);
         }
 
+        private static void WriteUserPrompt(string text)
+        {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(text);
+            Console.ForegroundColor = ConsoleColor.White;
+        }
 
         private static void RunRandomTourneyConfigured()
         {
@@ -144,7 +172,8 @@ namespace ExcelWorldChampionshipELO
 
             while (!isSet)
             {
-                Console.WriteLine($"Please enter the {parameterName}:");
+                WriteUserPrompt($"Please enter the {parameterName}:");
+
                 string? consoleInput = Console.ReadLine();
 
                 if (int.TryParse(consoleInput, out input))
@@ -153,7 +182,7 @@ namespace ExcelWorldChampionshipELO
                 }
                 else
                 {
-                    Console.WriteLine("Could not interpret input.");
+                    WriteUserPrompt("Could not interpret input.");
                 }
             }
 
@@ -167,7 +196,7 @@ namespace ExcelWorldChampionshipELO
 
             while (!isSet)
             {
-                Console.WriteLine($"Please enter the {parameterName}:");
+                WriteUserPrompt($"Please enter the {parameterName}:");
                 string? consoleInput = Console.ReadLine();
 
                 if (double.TryParse(consoleInput, out input))
@@ -176,7 +205,7 @@ namespace ExcelWorldChampionshipELO
                 }
                 else
                 {
-                    Console.WriteLine("Could not interpret input.");
+                    WriteUserPrompt("Could not interpret input.");
                 }
             }
 
@@ -190,7 +219,7 @@ namespace ExcelWorldChampionshipELO
 
             while (!isSet)
             {
-                Console.WriteLine($"Please enter the {parameterName}:");
+                WriteUserPrompt($"Please enter the {parameterName}:");
                 string? consoleInput = Console.ReadLine();
 
                 if (!string.IsNullOrWhiteSpace(consoleInput))
@@ -200,7 +229,7 @@ namespace ExcelWorldChampionshipELO
                 }
                 else
                 {
-                    Console.WriteLine("Could not interpret input.");
+                    WriteUserPrompt("Could not interpret input.");
                 }
             }
 
@@ -211,7 +240,7 @@ namespace ExcelWorldChampionshipELO
         {
             try
             {
-                Console.WriteLine("Please enter command, e.g. 'exit', 'run-default-tourney' or 'run-tourney':");
+                WriteUserPrompt("Please enter command, e.g. 'exit', 'run-default-tourney' or 'run-tourney':");
                 string? input = Console.ReadLine()?.ToLower();
 
                 switch (input)
@@ -237,13 +266,19 @@ namespace ExcelWorldChampionshipELO
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Exception:");
-                Console.WriteLine(ex.Message);
-                Console.WriteLine(ex.StackTrace);
-                Console.WriteLine(ex.InnerException);
-
+                WriteException(ex);
                 return false;
             }
+        }
+
+        private static void WriteException(Exception ex)
+        {
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("Exception:");
+            Console.WriteLine(ex.Message);
+            Console.WriteLine(ex.StackTrace);
+            Console.WriteLine(ex.InnerException);
+            Console.ForegroundColor = ConsoleColor.White;
         }
     }
 }

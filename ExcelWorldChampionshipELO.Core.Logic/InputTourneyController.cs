@@ -21,7 +21,7 @@ public sealed class InputTourneyController
         }
         finally
         {
-            Console.WriteLine($"TimeTaken: {stopwatch.ElapsedMilliseconds}ms");
+            Debug.WriteLine($"TimeTaken: {stopwatch.ElapsedMilliseconds}ms");
         }
     }
 }
