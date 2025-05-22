@@ -47,7 +47,12 @@ public static class EloCalculator
 
     private static void CalculateGameDifficulty(Game game, Player[] players)
     {
-        Player[] relevantPlayers = [.. players.Where(x => x.EloScores.ContainsKey(game.GameNumber) && x.EloScores.Count >= 5)];
+        Player[] relevantPlayers = [.. players.Where(x => x.EloScores.ContainsKey(game.GameNumber))];
+
+        if (players.Any(x => x.EloScores.Count >= 5))
+        {
+            relevantPlayers = [.. relevantPlayers.Where(x => x.EloScores.Count >= 5)];
+        }
 
         List<double> estimatedEloBasedOnSinglePlayer = [];
 

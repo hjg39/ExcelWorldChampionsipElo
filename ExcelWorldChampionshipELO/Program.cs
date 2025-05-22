@@ -50,6 +50,7 @@ namespace ExcelWorldChampionshipELO
                         return true;
                     case "get-csv-results":
                         CsvExporter.ExportPlayerResults(TourneyStorage.LastRunTourney!);
+                        CsvExporter.ExportGameDifficulties(TourneyStorage.LastRunTourney!);
                         WriteSystemPrompt("Exported csv results to desktop");
                         return false;
                     case "get-chart-results":

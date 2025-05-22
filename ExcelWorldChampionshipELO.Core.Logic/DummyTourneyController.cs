@@ -14,7 +14,7 @@ public sealed class DummyTourneyController
 
         DummyDataGenerator dummyDataGenerator = new(input);
         Tourney tourney = dummyDataGenerator.GenerateTournament();
-        EloCalculator.CalculateElos(tourney, 32);
+        EloCalculator.CalculateElos(tourney, 16);
         EloPlotter.PlotTopElos(tourney);
         EloPlotter.PlotGameDifficulty(tourney);
         EloPlotter.PlotFinalElos(tourney);

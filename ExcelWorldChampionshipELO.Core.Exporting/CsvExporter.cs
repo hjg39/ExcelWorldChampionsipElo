@@ -41,6 +41,28 @@ public static class CsvExporter
         }
     }
 
+    public static void ExportGameDifficulties(Tourney tourney)
+    {
+        using StreamWriter writer = new(CreateDesktopPath($"Game difficulties-{tourney.Name}-{tourney.TourneyId}.csv"));
+        using CsvWriter csv = new(writer, CultureInfo.InvariantCulture);
+
+        csv.WriteField("Name");
+
+        foreach (Game game in tourney.Games)
+        {
+            csv.WriteField(game.Name);
+        }
+
+        csv.NextRecord();
+
+        csv.WriteField("Score");
+
+        foreach (Game game in tourney.Games)
+        {
+            csv.WriteField(game.Difficulty);
+        }
+    }
+
     private static string CreateDesktopPath(string name)
         => Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), name);
 }
