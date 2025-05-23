@@ -12,19 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="excelicon.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="excelicon.png" />
     <Content Include="microsoft_excel_icon_132212.ico" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\excelicon.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
   </ItemGroup>
 
   <ItemGroup>
