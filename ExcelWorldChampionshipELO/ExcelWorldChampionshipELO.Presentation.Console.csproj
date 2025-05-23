@@ -8,6 +8,7 @@
     <PackageIcon>excelicon.png</PackageIcon>
     <PlatformTarget>x64</PlatformTarget>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <ApplicationIcon>microsoft_excel_icon_132212.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +17,7 @@
 
   <ItemGroup>
     <Content Include="excelicon.png" />
+    <Content Include="microsoft_excel_icon_132212.ico" />
   </ItemGroup>
 
   <ItemGroup>
