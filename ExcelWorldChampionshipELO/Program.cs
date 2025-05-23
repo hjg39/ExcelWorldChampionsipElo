@@ -165,7 +165,7 @@ namespace ExcelWorldChampionshipELO
 
         private static void RunDefaultTourney()
         {
-            string exePath = Assembly.GetExecutingAssembly().Location;
+            string exePath = AppDomain.CurrentDomain.RelativeSearchPath ?? AppDomain.CurrentDomain.BaseDirectory;
             string exeDirectory = Path.GetDirectoryName(exePath)!;
 
             string resourcesDirectory = Path.Combine(exeDirectory, "SampleResources");
