@@ -10,7 +10,8 @@
 
   <ItemGroup>
     <PackageReference Include="ScottPlot" Version="5.0.55" />
-    <PackageReference Include="SkiaSharp.NativeAssets.Win32" Version="3.119.0" />
+    <PackageReference Include="SkiaSharp" Version="2.88.9" />
+    <PackageReference Include="SkiaSharp.NativeAssets.Win32" Version="2.88.9" />
   </ItemGroup>
 
   <ItemGroup>
