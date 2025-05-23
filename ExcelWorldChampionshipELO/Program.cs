@@ -163,7 +163,7 @@ namespace ExcelWorldChampionshipELO
             InputTourneyController.RunTourney(tourneyInputs);
         }
 
-        private static void RunDefaultTourney()
+        private static void RunDefaultMEWCTourney()
         {
             string exePath = AppDomain.CurrentDomain.RelativeSearchPath ?? AppDomain.CurrentDomain.BaseDirectory;
             string exeDirectory = Path.GetDirectoryName(exePath)!;
@@ -172,9 +172,26 @@ namespace ExcelWorldChampionshipELO
 
             TourneyInputs tourneyInputs = new()
             {
-                Name = "Default Tourney Elo Data",
+                Name = "MEWC",
                 GameDataPath = Path.Combine(resourcesDirectory, "GameData.csv"),
                 PlayerDataPath = Path.Combine(resourcesDirectory, "PlayerData.csv"),
+            };
+
+            InputTourneyController.RunTourney(tourneyInputs);
+        }
+
+        private static void RunDefaultFMWCTourney()
+        {
+            string exePath = AppDomain.CurrentDomain.RelativeSearchPath ?? AppDomain.CurrentDomain.BaseDirectory;
+            string exeDirectory = Path.GetDirectoryName(exePath)!;
+
+            string resourcesDirectory = Path.Combine(exeDirectory, "SampleResources");
+
+            TourneyInputs tourneyInputs = new()
+            {
+                Name = "FMWC",
+                GameDataPath = Path.Combine(resourcesDirectory, "GameDataFMWC.csv"),
+                PlayerDataPath = Path.Combine(resourcesDirectory, "PlayerDataFMWC.csv"),
             };
 
             InputTourneyController.RunTourney(tourneyInputs);
@@ -311,15 +328,18 @@ namespace ExcelWorldChampionshipELO
         {
             try
             {
-                WriteSystemPrompt("Please enter command, e.g. 'exit', 'run-default-tourney' or 'run-custom-tourney':");
+                WriteSystemPrompt("Please enter command, e.g. 'exit', 'run-default-mewc-tourney', 'run-default-fmwc-tourney' or 'run-custom-tourney':");
                 string? input = Console.ReadLine()?.ToLower();
 
                 switch (input)
                 {
                     case "exit":
                         return true;
-                    case "run-default-tourney":
-                        RunDefaultTourney();
+                    case "run-default-mewc-tourney":
+                        RunDefaultMEWCTourney();
+                        return false;
+                    case "run-default-fmwc-tourney":
+                        RunDefaultFMWCTourney();
                         return false;
                     case "run-custom-tourney":
                         RunCustomTourney();
