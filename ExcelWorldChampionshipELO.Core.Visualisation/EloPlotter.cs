@@ -26,7 +26,7 @@ public static class EloPlotter
         xAxis.TickGenerator = new NumericManual(xAxisValues, orderedPlayers.Select(x => x.Name).ToArray());
         xAxis.TickLabelStyle.Rotation = 90;
         xAxis.TickLabelStyle.Alignment = Alignment.LowerLeft;
-        xAxis.MinimumSize = 300;
+        xAxis.MinimumSize = 600;
 
         finalElo.Title($"{tourney.Name}-Final Elos-{tourney.TourneyId}");
         finalElo.SavePng(CreateDesktopPath(@$"{tourney.Name}-Final Elos-{tourney.TourneyId}.png"), 5000, 1200);
@@ -46,7 +46,7 @@ public static class EloPlotter
         xAxis.TickGenerator = new NumericManual([.. orderedGames.Select(x => x.DifficultyRank)], orderedGames.Select(x => x.Name).ToArray());
         xAxis.TickLabelStyle.Rotation = 90;
         xAxis.TickLabelStyle.Alignment = Alignment.LowerLeft;
-        xAxis.MinimumSize = 300;
+        xAxis.MinimumSize = 600;
 
         gameDifficultyPlot.Title($"{tourney.Name}-Game Difficulties-{tourney.TourneyId}");
         gameDifficultyPlot.SavePng(CreateDesktopPath(@$"{tourney.Name}-Game Difficulties-{tourney.TourneyId}.png"), 1800, 1200);
@@ -75,7 +75,7 @@ public static class EloPlotter
         xAxis.TickGenerator = new NumericManual([..gameData.Keys], gameData.Values.ToArray());
         xAxis.TickLabelStyle.Rotation = 90;
         xAxis.TickLabelStyle.Alignment = Alignment.LowerLeft;
-        xAxis.MinimumSize = 300;
+        xAxis.MinimumSize = 600;
 
         eloPlot.Legend.Alignment = Alignment.UpperLeft;
 
@@ -112,7 +112,7 @@ public static class EloPlotter
         xAxis.TickGenerator = new NumericManual([.. gameData.Keys], gameData.Values.ToArray());
         xAxis.TickLabelStyle.Rotation = 90;
         xAxis.TickLabelStyle.Alignment = Alignment.LowerLeft;
-        xAxis.MinimumSize = 300;
+        xAxis.MinimumSize = 600;
 
         worldRankingPlot.Legend.Alignment = Alignment.UpperLeft;
 
@@ -143,7 +143,7 @@ public static class EloPlotter
         xAxis.TickGenerator = new NumericManual([.. gameData.Keys], gameData.Values.ToArray());
         xAxis.TickLabelStyle.Rotation = 90;
         xAxis.TickLabelStyle.Alignment = Alignment.LowerLeft;
-        xAxis.MinimumSize = 300;
+        xAxis.MinimumSize = 600;
 
         eloPlot.Legend.Alignment = Alignment.UpperLeft;
 
@@ -181,7 +181,7 @@ public static class EloPlotter
         xAxis.TickGenerator = new NumericManual([.. gameData.Keys], gameData.Values.ToArray());
         xAxis.TickLabelStyle.Rotation = 90;
         xAxis.TickLabelStyle.Alignment = Alignment.LowerLeft;
-        xAxis.MinimumSize = 300;
+        xAxis.MinimumSize = 600;
 
         worldRankingPlot.Legend.Alignment = Alignment.UpperLeft;
 
