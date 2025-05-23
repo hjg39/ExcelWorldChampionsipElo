@@ -1,0 +1,50 @@
+﻿GameNumber,GameDescription,GameName,Author,MaxPoints
+1,FMWC Exhibition Round,Forest Investment,Andrew Grigolyunovich,1000
+2,Financial Modelling World Cup 2020 Round 1,Warm Up With AFM;Lifetime Value;Real Estate,Andrew Grigolyunovich;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+3,Financial Modelling World Cup 2020 Round 2,Back To The Basics;Charging Station;Follow-Up With AFM,Andrew Grigolyunovich;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+4,Financial Modelling World Cup 2020 Round 3,Speed It Up;Diamonds Are Forever;Power-Up Builders,Andrew Grigolyunovich;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+5,Financial Modelling World Cup 2020 Round 4,Finance;The Weakest Link;Keep Snoozing,Andrew Grigolyunovich;Andrew Grigolyunovich;Andrew Grigolyunovich,2250
+6,Financial Modelling World Cup 2021 888 Battle,Cake To Bake,Andrew Grigolyunovich,1000
+7,FMWC Battle - Diarmuid vs Joseph,Knowledge Is Power,Andrew Grigolyunovich,1000
+8,Financial Modelling World Cup 2021 Round 1,Wendy;Stack A Unicorn;Headcount Analysis,Andrew Grigolyunovich;Anup Agarwal;Diarmuid Early,1000
+9,Financial Modelling World Cup 2021 Round 2,Roastery Café;Investing In The Future;Storeland,Andrew Grigolyunovich;Jason Webber;Samir Asadov,1000
+10,Financial Modelling World Cup 2021 Round 3,Starship;Excel Overlord;FMWC Classics,Emils Saulitis;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+11,Financial Modelling World Cup 2021 Round 4,New Wheels;Jet Hockey;Roca Rola Rollover,Emils Saulitis;Andrew Grigolyunovich;Janis Beikmanis,1000
+12,Financial Modelling World Cup 2021 Round 5,Rate My Ratios;What's My Net Worth;Supplier Waterfall,Emils Saulitis;Andrew Grigolyunovich;John Lim,1000
+13,Financial Modelling World Cup 2021 Round 6,Alpine Peak Inc.;Stock Options;Soccer Stats,Emils Saulitis;JP Delavin;Diarmuid Early,1000
+14,Financial Modelling World Cup 2021 Round 7,Timber Street;Debt Waterfall;Jack and Jill,Emils Saulitis;Andrew Grigolyunovich;Joseph Palisoc,1000
+15,Financial Modelling World Cup 2021 Round 8,Don't Miss The Turn;Cats and Dogs;Depreciation Modeling,Emils Saulitis;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+16,Financial Modelling World Cup 2021 Round 9,Avoid The Risk;To Sell Or Not To Sell;Do It Right Right Right,Emils Saulitis;Jason Webber;Michael Jarman,1000
+17,Financial Modelling World Cup 2021 Round 10,Share The Car;Widget Budget;Flying General or Limited,Emils Saulitis;Andrew Grigolyunovich;Samir Asadov,1000
+18,Financial Modelling World Cup 2021 Round 11,Great Gallery;Thinner Dinner;In The Pipeline,Emils Saulitis;Andrew Grigolyunovich;Michael Jarman,1000
+19,Financial Modelling World Cup 2021 Round 12,Hotel Room;When Sally Upsells Harry;Consultant's Nightmare,Emils Saulitis;Sameer Jagetia;Janis Beikmanis,1000
+20,Financial Modelling World Cup 2022 Round 1,Investments;More Fun In Fun City;Tiered Waterfall,Emils Saulitis;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+21,Financial Modelling World Cup 2022 Round 2,Client's Model;PPE: Project Profitability Estimation;Inventory Management,Emils Saulitis;Andrew Grigolyunovich;Diarmuid Early,1000
+22,Financial Modelling World Cup 2022 Round 3,First-Year Analyst;On-Time Running;Lease It Up,Andrew Grigolyunovich;Dan Mayoh;Anup Agarwal,1000
+23,Financial Modelling World Cup 2022 Round 4,Candy Shop;SaaS CRM Analytics;Tax Doesn't Have To Be Taxing,Emils Saulitis;Sameer Jagetia;Michael Jarman,1000
+24,Financial Modelling World Cup 2022 Round 5,Recycling Initiative;Travelling And Holidays;Tesla's Toil,Emils Saulitis;Dan Mayoh;Jason Webber,1000
+25,Financial Modelling World Cup 2022 Round 6,Good Game;Keep Your Book In Order;Layton's Lenders,Emils Saulitis;Andrew Grigolyunovich;Harry Gross,1000
+26,Financial Modelling World Cup 2022 Round 7,First-Year Analyst - Fall 2022;It's Harvest Time;Down To EBITDA,Andrew Grigolyunovich;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+27,Financial Modelling World Cup 2022 Round 8,A Quick Trip To Arizona;Fancy Abbreviations;FMWC Winter Classics,Emils Saulitis;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+28,Financial Modelling World Cup 2023 Round 1,Making The Cash Flow;Don't Waste Your Waste;The Good(will) the Bad and the PPA,Emils Saulitis;Andrew Grigolyunovich;Janis Beikmanis,1000
+29,Financial Modelling World Cup 2023 Round 2,Go Through Your Debt;Fun With Flags;Stolen Stars,Kiraën Andriamandimbisoa;Jason Webber;Harry Gross,1000
+30,Financial Modelling World Cup 2023 Round 3,What Is Your Value;Next Gen Gaming;Untapped Potential,Kiraën Andriamandimbisoa;Patrick Chatain;Michael Jarman,1000
+31,Financial Modelling World Cup 2023 Round 4,Solver Pro Max;Premium City;Phone Bill Analysis,Kiraën Andriamandimbisoa;Jaq Kennedy;Diarmuid Early / Nataly Falero,1000
+32,Financial Modelling World Cup 2023 Round 5,Real Excel;A Touring Pro;Creature Chaos,Kiraën Andriamandimbisoa;Andrew Grigolyunovich;Harry Gross,1000
+33,Financial Modelling World Cup 2023 Round 6,Working Capital;Order it!;Merge it!,Kiraën Andriamandimbisoa;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+34,Order.co Battle,Roll It Out,Andrew Grigolyunovich,1000
+35,Financial Modelling World Cup 2023 Round 7,"Modelling Tools;It's Depreciation, Not Depression!;Fund-A-Mental",Kiraën Andriamandimbisoa;Andrew Grigolyunovich;Michael Jarman,1000
+36,Financial Modelling World Cup 2023 Round 8,Last Reminder;Vlookie Expands;Book Your Flight,Kiraën Andriamandimbisoa;Andrew Grigolyunovich;Patrick Chatain,1000
+37,Financial Modelling World Cup 2024 Round 1,Inventory Valuation;Data King;Please FX,Kiraën Andriamandimbisoa;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+38,Financial Modelling World Cup 2024 Round 2,Saving For Las Vegas;Is Ride Sharing All right?;Truckin',David Brown;David Brown;David Brown,1000
+39,Financial Modelling World Cup 2024 Round 3,Investment Portfolio;Portfolio Review;Baseball Opening Day,Sameer Jagetia;Sameer Jagetia;Sameer Jagetia,1000
+40,Excelerate Summit Battle,The Forecasting Power,Andrew Grigolyunovich,1000
+41,Financial Modelling World Cup 2024 Round 4,Data;Chained Melodies;Larry's Life Plans,Joseph Palisoc;Joseph Palisoc;Joseph Palisoc,1000
+42,Financial Modelling World Cup 2024 Round 5,Back Of The Envelope;Cohercion;Grapes Of Wrath,Jason Sindler;Jason Sindler;Jason Sindler,1000
+43,Financial Modelling World Cup 2024 Round 6,Long-Term Investing;It's All Relative;It's Not Rocket Science,Michael Jarman;Michael Jarman;Michael Jarman,1000
+44,Financial Modelling World Cup 2024 Round 7,Fizzical Creations;The Staff Cost Challenge;TikTales,Jaq Kennedy;Jaq Kennedy;Jaq Kennedy,1000
+45,Financial Modelling World Cup 2024 Round 8,Return To The Shareholder;Discounted Books;Cap In Hand,Steve Schulz;Steve Schulz;Steve Schulz,1000
+46,Financial Modelling World Cup 2025 Round 1,Tax Puzzle;Santa's Financials;AFM Enterprises,Ny Tsiory Rakotonanahary;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+47,Financial Modelling World Cup 2025 Round 2,Sweet Time;Organic Growth;FMWC Properties,Ny Tsiory Rakotonanahary;Andrew Grigolyunovich;Andrew Grigolyunovich,1000
+48,Financial Modelling World Cup 2025 Round 3,Will You Be Mine;How Do You Do;The Fund To Be,Anup Agarwal;Anup Agarwal;Anup Agarwal,1000
+49,Financial Modelling World Cup 2025 Round 4,Playing With Repaying;Come Fly With Me;Race To The Bottom,Michael Jarman;Michael Jarman;Michael Jarman,1000
