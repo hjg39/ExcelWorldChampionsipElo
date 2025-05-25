@@ -8,8 +8,10 @@
 
   <ItemGroup>
     <None Remove="SampleResources\GameData.csv" />
+    <None Remove="SampleResources\GameDataBR.csv" />
     <None Remove="SampleResources\GameDataFMWC.csv" />
     <None Remove="SampleResources\PlayerData.csv" />
+    <None Remove="SampleResources\PlayerDataBR.csv" />
     <None Remove="SampleResources\PlayerDataFMWC.csv" />
   </ItemGroup>
 
@@ -17,10 +19,16 @@
     <Content Include="SampleResources\GameData.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="SampleResources\GameDataBR.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="SampleResources\GameDataFMWC.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="SampleResources\PlayerData.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SampleResources\PlayerDataBR.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="SampleResources\PlayerDataFMWC.csv">

@@ -197,6 +197,23 @@ namespace ExcelWorldChampionshipELO
             InputTourneyController.RunTourney(tourneyInputs);
         }
 
+        private static void RunDefaultMEWCBrazilTourney()
+        {
+            string exePath = AppDomain.CurrentDomain.RelativeSearchPath ?? AppDomain.CurrentDomain.BaseDirectory;
+            string exeDirectory = Path.GetDirectoryName(exePath)!;
+
+            string resourcesDirectory = Path.Combine(exeDirectory, "SampleResources");
+
+            TourneyInputs tourneyInputs = new()
+            {
+                Name = "MEWC Brazil",
+                GameDataPath = Path.Combine(resourcesDirectory, "GameDataBR.csv"),
+                PlayerDataPath = Path.Combine(resourcesDirectory, "PlayerDataBR.csv"),
+            };
+
+            InputTourneyController.RunTourney(tourneyInputs);
+        }
+
         private static void WriteSystemPrompt(string text)
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
@@ -328,7 +345,7 @@ namespace ExcelWorldChampionshipELO
         {
             try
             {
-                WriteSystemPrompt("Please enter command, e.g. 'exit', 'run-default-mewc-tourney', 'run-default-fmwc-tourney' or 'run-custom-tourney':");
+                WriteSystemPrompt("Please enter command, e.g. 'exit', 'run-default-mewc-tourney', 'run-default-fmwc-tourney', 'run-default-mewc-brazil-tourney' or 'run-custom-tourney':");
                 string? input = Console.ReadLine()?.ToLower();
 
                 switch (input)
@@ -340,6 +357,9 @@ namespace ExcelWorldChampionshipELO
                         return false;
                     case "run-default-fmwc-tourney":
                         RunDefaultFMWCTourney();
+                        return false;
+                    case "run-default-mewc-brazil-tourney":
+                        RunDefaultMEWCBrazilTourney();
                         return false;
                     case "run-custom-tourney":
                         RunCustomTourney();
