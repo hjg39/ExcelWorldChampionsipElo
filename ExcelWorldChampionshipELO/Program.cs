@@ -4,7 +4,6 @@ using ExcelWorldChampionshipELO.Core.Domain.ConsoleInput;
 using ExcelWorldChampionshipELO.Core.Exporting;
 using ExcelWorldChampionshipELO.Core.Logic;
 using ExcelWorldChampionshipELO.Core.Storage;
-using System.Reflection;
 
 namespace ExcelWorldChampionshipELO
 {
