@@ -124,7 +124,7 @@ public static class EloCalculator
                 totalExpectedScoreForPlayer += expectedWinChances[i, j];
             }
 
-            double updateAmount = maxAdjustmentPerGame * ((totalActualScoreForPlayer - totalExpectedScoreForPlayer) / (numberOfGameResults - 1));
+            double updateAmount = maxAdjustmentPerGame * ((totalActualScoreForPlayer - totalExpectedScoreForPlayer) / Math.Pow(Math.Max(1, numberOfGameResults - 1), 0.99));
 
             GameResult currentGameResult = gameResults[i];
             Player currentPlayer = currentGameResult.Player!;
