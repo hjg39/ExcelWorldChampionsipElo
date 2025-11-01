@@ -16,7 +16,6 @@
 1,Igor Yengalychev,Kazakhstan,322,1
 1,Willem Gerritsen,Netherlands,334,1
 1,Anup Agarwal,India,310,1
-1,M Zulhari Baba,Malaysia,0,1
 1,Nataly Falero,Australia,310,1
 1,Venkata Godugula,United Arab Emirates,150,1
 1,Bo Rydobon,Thailand,310,1
@@ -26,7 +25,6 @@
 1,Christopher Ashworth,South Africa,322,1
 1,Nitish Mehta,India,36,1
 1,Theodoros Kasianis,Cyprus,258,1
-1,Will Wardle,United Kingdom,0,1
 1,Jerry Joshua Diaz,Philippines,18,1
 1,Bohdan Yakymchuk,Ukraine,340,1
 1,Catherine Xu,Australia,310,1
@@ -34,21 +32,13 @@
 1,Slobodan Djukic,Serbia,39,1
 1,Dmitrijs Lukasevics,Sweden,310,1
 1,Jorge Martins,Portugal,42,1
-1,Rui Gomes,Portugal,0,1
 1,Aleksandrs Goba,Austria,325,1
 1,Vikash Bilotia,India,165,1
-1,Marcel Franke,Germany,0,1
-1,Pauls Silis,Austria,0,1
-1,Manav Agarwal,Germany,0,1
 1,Dhara Shah,India,150,1
 1,Cheong Ng,Australia,337,1
-1,Léo Perret,Switzerland,0,1
-1,Levi Bailey,Australia,0,1
 1,Tim Roberts,United Kingdom,310,1
 1,Tenis Lenerts,Austria,304,1
 1,John Lim,Australia,325,1
-1,Ilgar Zarbaliyev,Azerbaijan,0,1
-1,Darren Owen,Australia,0,1
 1,Maricar Torralba,Australia,177,1
 1,Maxim Sagaidak,Russia,310,1
 1,Olli Hamalainen,Australia,150,1
@@ -62,31 +52,24 @@
 2,Tudor Banea,Canada,72,1
 2,Ivan Rico,Columbia,4,1
 2,Nazeer Slarmie,South Africa,60,1
-2,Alex Lee,United States of America,0,1
 2,Daniel Moertl Pereira De Mello,Brazil,32,1
 2,Jason Webber,South Africa,102,1
 2,Michael Aleksic,Canada,108,1
 2,Jelle Hettinga,Costa Rica,72,1
 2,Jefferson Oliveira,Brazil,60,1
 2,Oskars Vainovskis,Austria,102,1
-2,Jannik Hercksen,United States of America,0,1
 2,David Drury,United Kingdom,88,1
-2,John Opondo,Kenya,0,1
 2,Cesar Prieto,Mexico,80,1
 2,Eldar Radovici,United States of America,72,1
 2,Sameer Jagetia,United States of America,205,1
 2,Adam Schults,United States of America,72,1
 2,Jorge Ivan Ayala Rojas,Columbia,60,1
-2,Emiles Žubulis,Austria,0,1
 2,Pam Kirchen,United States of America,16,1
 2,Ashleigh Roberts,United States of America,87,1
-2,Jae Kyun Kim,United States of America,0,1
 2,Chris Sides,United States of America,66,1
-2,Tom Dang,United States of America,0,1
 2,Filip Krerowicz,Poland,150,1
 2,Tyson Corner,United States of America,72,1
 2,Dan Johnson,United States of America,88,1
-2,Steffany Ayala,United States of America,0,1
 2,Jason Sindler,United States of America,158,1
 2,Erik Oehm,United States of America,75,1
 2,Konrad Schäfers,Germany,72,1
@@ -99,7 +82,6 @@
 2,Justin Sterling,United States of America,74,1
 2,Brian Montgomery,United States of America,95,1
 2,Joseph Michael Palisoc,United States of America,150,1
-2,Rich Mcmullen,United States of America,0,1
 2,Stephanie Annerose,United States of America,146,1
 2,Adam Burnham,United Kingdom,72,1
 2,Norman Sheppard,United States of America,4,1
@@ -108,21 +90,15 @@
 2,Stephen Xiao,Canada,72,1
 2,Branden Lewis,Canada,178,1
 2,Stig Hedström-Cornéer,Sweden,27,1
-2,John-Erik Johansson,United States of America,0,1
-2,Julian Cupillari,Canada,0,1
 2,Stephen Halligan,United States of America,185,1
 2,Emilie Williams,Canada,66,1
 2,Jeff Tan,Malaysia,40,1
-2,Alana Reid,Canada,0,1
-2,Josh Moore,United States of America,0,1
 2,Tetsuki Ando,Switzerland,66,1
 2,Cecelia Rieb,United States of America,66,1
 2,Joseph Jones-Jennings,United Kingdom,60,1
-2,Michael Ortenberg,United States of America,0,1
 2,Jason Moore,United States of America,103,1
 2,Nikolay Georgiev,Bulgaria,97,1
 2,Benjamin Buring,Canada,33,1
-2,Linda Murphy,United States of America,0,1
 2,Pavel Kozlov,Russia,92,1
 2,Samir Asadov,Ireland,82,1
 3,Abhishek Jasuja,India,52,1
@@ -156,13 +132,10 @@
 4,Diarmuid Early,Ireland,8,1
 4,Brian Montgomery,United States of America,6,1
 4,Joseph Michael Palisoc,United States of America,60,1
-4,Stephanie Annerose,United States of America,0,1
-4,Adam Burnham,United Kingdom,0,1
 4,Julie Bowden,United Kingdom,16,1
 4,Branden Lewis,Canada,8,1
 4,Stig Hedström-Cornéer,Sweden,20,1
 4,Stephen Halligan,United States of America,12,1
-4,Emilie Williams,Canada,0,1
 4,Alana Reid,Canada,6,1
 4,Cecelia Rieb,Kazakhstan,27,1
 4,Joseph Jones-Jennings,United Kingdom,6,1
@@ -174,7 +147,6 @@
 5,Gabriela Stroj,Poland,80,1
 5,Willem Gerritsen,Netherlands,173,1
 5,Anup Agarwal,India,282,1
-5,Pichaya Pan-anukooln,Thailand,0,1
 5,Christopher Ashworth,South Africa,192,1
 5,Bohdan Yakymchuk,Ukraine,60,1
 5,Dmitrijs Lukasevics,Sweden,158,1
@@ -188,7 +160,6 @@
 6,Diarmuid Early,Ireland,488,1
 6,Joseph Michael Palisoc,United States of America,550,1
 6,Julie Bowden,United Kingdom,46,1
-6,Stig Hedström-Cornéer,Sweden,0,1
 6,Stephen Halligan,United States of America,63,1
 6,Cecelia Rieb,United States of America,97,1
 6,Jason Moore,United States of America,487,1
@@ -231,57 +202,57 @@
 10,Andrew Ngai,Australia,302,1
 11,Michael Jarman,Canada,280,1
 11,Andrew Ngai,Australia,734,1
-12,Michael Clarke,New Zealand,"5,000",0.9674
-12,Stefanus Ng,Indonesia,"5,000",0.9587
-12,Matthew Fried,Australia,"4,550",0.9651
-12,Dhara Shah,India,"4,200",0.9587
-12,Ben Gutscher,China,"4,100",0.9701
-12,Toby Funston,Australia,"4,050",0.9583
-12,Jason Naniong,Japan,"3,600",0.9598
-12,Steve Schulz,Australia,"3,600",0.9583
-12,Bo Rydobon,Thailand,"3,450",0.9585
-12,JP Delavin,Philippines,"3,375",0.9593
-12,Princess Camille Ong,Philippines,"3,300",0.9627
-12,Gani Toleugazyyev,Kazakhstan,"3,300",0.959
-12,Cheong Ng,New Zealand,"3,100",0.9583
-12,Min Chen,Australia,"2,950",0.9608
-12,Pichaya Pan-anukooln,Thailand,"2,950",0.9589
-12,Chris Wilson,United Kingdom,"2,950",0.9589
-12,Alvin Siu Hin Lui,"Hong Kong SAR, China","2,800",0.9589
-12,Vineet Sharma,India,"2,800",0.9583
-12,Peter Li,Australia,"2,700",0.9597
-12,Julien Lacaze,Réunion,"2,650",0.9589
-12,#760171,India,"2,650",0.9583
-12,John Patrick Felizco,Philippines,"2,600",0.959
-12,Nataly Falero,Australia,"2,500",0.9583
-12,#170753,New Zealand,"2,500",0.9612
-12,#808584,Pakistan,"2,475",0.9597
-12,Mohammed Fari,Saudi Arabia,"2,450",0.9583
-12,#910076,China,"2,400",0.9592
-12,#919483,New Zealand,"2,350",0.9611
-12,#170280,Australia,"2,200",0.9583
-12,#694032,Australia,"2,200",0.9583
-12,#512367,Australia,"2,050",0.9583
-12,#786617,Saudi Arabia,"2,025",0.9583
-12,#283421,Australia,"2,000",0.9635
-12,#994510,Kazakhstan,"2,000",0.9584
-12,#100444,Kazakhstan,"1,950",0.9595
-12,#670238,"Taiwan, Republic of China","1,950",0.9584
-12,#153716,Philippines,"1,900",0.973
-12,#778434,Australia,"1,900",0.9598
-12,#897601,Australia,"1,800",0.9588
-12,#668420,India,"1,750",0.9583
-12,#758191,Singapore,"1,500",0.9609
-12,#237536,New Zealand,"1,500",0.9583
-12,#645348,Pakistan,"1,450",0.9599
-12,#791305,Australia,"1,425",0.9583
-12,#795088,Pakistan,"1,300",0.9591
-12,#337242,"Taiwan, Republic of China","1,300",0.9585
-12,#924893,Indonesia,"1,200",0.9608
-12,#283238,India,"1,200",0.9595
-12,#377489,Australia,"1,125",0.9583
-12,#360329,Australia,"1,050",0.9584
-12,#311440,Singapore,"1,000",0.9607
+12,Michael Clarke,New Zealand,5000,0.9674
+12,Stefanus Ng,Indonesia,5000,0.9587
+12,Matthew Fried,Australia,4550,0.9651
+12,Dhara Shah,India,4200,0.9587
+12,Ben Gutscher,China,4100,0.9701
+12,Toby Funston,Australia,4050,0.9583
+12,Jason Naniong,Japan,3600,0.9598
+12,Steve Schulz,Australia,3600,0.9583
+12,Bo Rydobon,Thailand,3450,0.9585
+12,JP Delavin,Philippines,3375,0.9593
+12,Princess Camille Ong,Philippines,3300,0.9627
+12,Gani Toleugazyyev,Kazakhstan,3300,0.959
+12,Cheong Ng,New Zealand,3100,0.9583
+12,Min Chen,Australia,2950,0.9608
+12,Pichaya Pan-anukooln,Thailand,2950,0.9589
+12,Chris Wilson,United Kingdom,2950,0.9589
+12,Alvin Siu Hin Lui,"Hong Kong SAR, China",2800,0.9589
+12,Vineet Sharma,India,2800,0.9583
+12,Peter Li,Australia,2700,0.9597
+12,Julien Lacaze,Réunion,2650,0.9589
+12,#760171,India,2650,0.9583
+12,John Patrick Felizco,Philippines,2600,0.959
+12,Nataly Falero,Australia,2500,0.9583
+12,#170753,New Zealand,2500,0.9612
+12,#808584,Pakistan,2475,0.9597
+12,Mohammed Fari,Saudi Arabia,2450,0.9583
+12,#910076,China,2400,0.9592
+12,#919483,New Zealand,2350,0.9611
+12,#170280,Australia,2200,0.9583
+12,#694032,Australia,2200,0.9583
+12,#512367,Australia,2050,0.9583
+12,#786617,Saudi Arabia,2025,0.9583
+12,#283421,Australia,2000,0.9635
+12,#994510,Kazakhstan,2000,0.9584
+12,#100444,Kazakhstan,1950,0.9595
+12,#670238,"Taiwan, Republic of China",1950,0.9584
+12,#153716,Philippines,1900,0.973
+12,#778434,Australia,1900,0.9598
+12,#897601,Australia,1800,0.9588
+12,#668420,India,1750,0.9583
+12,#758191,Singapore,1500,0.9609
+12,#237536,New Zealand,1500,0.9583
+12,#645348,Pakistan,1450,0.9599
+12,#791305,Australia,1425,0.9583
+12,#795088,Pakistan,1300,0.9591
+12,#337242,"Taiwan, Republic of China",1300,0.9585
+12,#924893,Indonesia,1200,0.9608
+12,#283238,India,1200,0.9595
+12,#377489,Australia,1125,0.9583
+12,#360329,Australia,1050,0.9584
+12,#311440,Singapore,1000,0.9607
 12,#969951,Australia,950,0.9583
 12,#154336,Australia,950,0.9583
 12,#219557,Australia,950,0.9583
@@ -299,246 +270,246 @@
 12,#693902,India,300,0.9583
 12,#540026,Australia,150,0.9583
 12,#341306,Australia,100,0.9583
-13,Diarmuid Early,Ireland,"4,800",0.9825
-13,Willem Gerritsen,Netherlands,"5,000",0.9744
-13,Michael Holmes,Canada,"5,000",0.9646
-13,Brian Hanley,United States of America,"5,000",0.9643
-13,Alfons Oliver Altes,Spain,"5,000",0.9636
-13,Justin Merson,Canada,"5,000",0.9619
-13,Brittany Deaton,United States of America,"5,000",0.9618
-13,Jason Webber,South Africa,"5,000",0.9618
-13,Eduardo Gonzalez Arias,Spain,"5,000",0.9614
-13,Peter Rebecchi,United Kingdom,"5,000",0.9611
-13,David Brown,United States of America,"5,000",0.9605
-13,Paul Dent,United Kingdom,"4,600",0.9646
-13,Nicolas Micot,France,"4,600",0.9635
-13,Nick McCartney,United States of America,"4,600",0.9619
-13,Lianna Gerrish,United States of America,"4,600",0.96
-13,Bram Van Eeckhout,Belgium,"4,600",0.9596
-13,Isaac Méndez Cortiñas,Spain,"4,400",0.9605
-13,Emad Oughourli,United States of America,"4,300",0.9588
-13,Tom Vincent,United Kingdom,"4,300",0.9583
-13,Michael Thanasides,United States of America,"4,300",0.9583
-13,David Rosel,United Kingdom,"4,000",0.9683
-13,Dan Seiders,United States of America,"4,000",0.9606
-13,Albert Blom,Netherlands,"4,000",0.9601
-13,Harry Seiders,United States of America,"4,000",0.9601
-13,Taylor Robinson,United States of America,"4,000",0.9595
-13,Mary Brown,United States of America,"4,000",0.9595
-13,Patrick Chatain,Colombia,"4,000",0.9592
-13,Aleksandrs Goba,Latvia,"4,000",0.959
-13,Ricardo Domínguez,Mexico,"4,000",0.9589
-13,Grigoriy Korkishko,Russian Federation,"4,000",0.9587
-13,Zsolt Mogyorósi,Hungary,"4,000",0.9585
-13,Joseph Michael Palisoc,United States of America,"4,000",0.9584
-13,Luke Moraga,United States of America,"4,000",0.9583
-13,Nick Lowman,United States of America,"3,975",0.959
-13,Jaq Kennedy,United Kingdom,"3,875",0.9585
-13,Khaled Habib,Egypt,"3,800",0.9586
-13,Ben deLeon,United States of America,"3,800",0.9586
-13,Jakub Pomykalski,Poland,"3,800",0.9584
-13,Pierre Sertin,France,"3,675",0.9584
-13,Steyn Wolmarans,South Africa,"3,600",0.9659
-13,Bob Schriver,United States of America,"3,600",0.9636
-13,Christian Hueber,Austria,"3,600",0.9623
-13,Ryan Bains,United Kingdom,"3,600",0.9597
-13,Joris Greiwe,Germany,"3,600",0.9597
-13,Fanny Caillot,Germany,"3,600",0.9596
-13,Martijn Adriaanse,Netherlands,"3,600",0.9594
-13,Julie Bowden,United Kingdom,"3,600",0.9594
-13,Andrew Luchenbach,United States of America,"3,600",0.9589
-13,Joaquin Courreges,Argentina,"3,600",0.9586
-13,Neil Foot,United Kingdom,"3,600",0.9583
-13,Jakub Hluzow,Poland,"3,600",0.9583
-13,Niels Christian Lundtoft,Denmark,"3,400",0.9642
-13,Loic Coquer,France,"3,400",0.9616
-13,Bryan Ferrier,United States of America,"3,400",0.9598
-13,Adam Reichenbach,Hungary,"3,400",0.9596
-13,David Scully,United States of America,"3,400",0.9591
-13,Steve Hales,United Kingdom,"3,400",0.9589
-13,William Freestone,United Kingdom,"3,400",0.9587
-13,Kjell De Troye,Belgium,"3,400",0.9584
-13,Adam Steiner,Austria,"3,400",0.9584
-13,Greg Hingsbergen,United States of America,"3,375",0.9605
-13,Peter van Veen,Netherlands,"3,300",0.9646
-13,Ben Pridmore,United Kingdom,"3,300",0.9615
-13,Thomas Keane,Canada,"3,300",0.9588
-13,Jesi Lipp,United States of America,"3,300",0.9585
-13,Andrew Biglowe,United Kingdom,"3,300",0.9583
-13,Kenneth Wang,United States of America,"3,200",0.9706
-13,Jan Mooijer,Netherlands,"3,200",0.9592
-13,Nick Tone,United States of America,"3,200",0.9585
-13,Lyanne van Dijk,Netherlands,"3,100",0.9583
-13,Lorenzo Foti,Italy,"3,000",0.9627
-13,Mackenzie Dixon,Canada,"3,000",0.9616
-13,Graydon Moore,Canada,"3,000",0.9611
-13,Sergio Travieso,Spain,"3,000",0.9602
-13,Stephen Dunn,United Kingdom,"3,000",0.9599
-13,#359416,France,"3,000",0.9597
-13,Kiraën Andriamandimbisoa,Madagascar,"3,000",0.9595
-13,Daric Harrington,United States of America,"3,000",0.9593
-13,#215464,France,"3,000",0.9593
-13,#459611,Poland,"3,000",0.9589
-13,Jason Hutcheson,United States of America,"3,000",0.9588
-13,#598466,United Kingdom,"3,000",0.9585
-13,#673580,Germany,"3,000",0.9583
-13,Wim van Vliet,Netherlands,"3,000",0.9583
-13,Ben Rotblatt,United States of America,"3,000",0.9583
-13,#198540,Ireland,"2,975",0.9623
-13,Stephen Xiao,Canada,"2,975",0.9611
-13,#562325,Bulgaria,"2,975",0.9606
-13,Robert Valentine,United States of America,"2,975",0.9585
-13,Nathan Cunningham,United States of America,"2,975",0.9583
-13,Barbara Mauric,France,"2,900",0.9592
-13,Martin Rydder,United States of America,"2,900",0.9583
-13,Henriette Hamer,Netherlands,"2,900",0.9583
-13,Katelyn Stienen,United States of America,"2,875",0.9633
-13,Tyler Hargrave,Canada,"2,875",0.9633
-13,Shaun McCarthy,United States of America,"2,875",0.9583
-13,Josh Tiger,United States of America,"2,850",0.9583
-13,#763179,Germany,"2,800",0.9602
-13,#856592,Egypt,"2,800",0.9588
-13,#896395,United States of America,"2,800",0.9583
-13,Henri Virol,France,"2,775",0.9596
-13,#401263,Austria,"2,775",0.9594
-13,#247477,Switzerland,"2,775",0.9588
-13,Jason Sindler,United States of America,"2,775",0.9584
-13,#495904,Madagascar,"2,775",0.9583
-13,#767877,United Kingdom,"2,775",0.9583
-13,Mads Rasztar,Denmark,"2,700",0.9628
-13,#578116,Georgia,"2,700",0.9604
-13,#771672,United Kingdom,"2,700",0.9596
-13,Leonards Budņiks,Latvia,"2,700",0.9592
-13,#344649,Russian Federation,"2,700",0.9591
-13,Renier Wessels,South Africa,"2,700",0.959
-13,#702429,United Kingdom,"2,700",0.9587
-13,#662535,Canada,"2,700",0.9585
-13,#955767,France,"2,700",0.9585
-13,#663508,United Kingdom,"2,700",0.9583
-13,#359106,United States of America,"2,700",0.9583
-13,#131935,Sweden,"2,675",0.9586
-13,#150446,United States of America,"2,675",0.9583
-13,#193265,Portugal,"2,600",0.9996
-13,#515923,Netherlands,"2,600",0.9638
-13,#169026,United States of America,"2,600",0.9613
-13,#771923,Canada,"2,600",0.9585
-13,Jelle Hettinga,Costa Rica,"2,600",0.9583
-13,Juan Pablo Brea,Argentina,"2,600",0.9583
-13,#938503,United States of America,"2,600",0.9583
-13,Thomas Marcelo,Brazil,"2,600",0.9583
-13,Florence Hermeline,Ireland,"2,600",0.9583
-13,#418224,Poland,"2,575",0.9591
-13,#615528,United States of America,"2,575",0.9585
-13,#306201,France,"2,575",0.9583
-13,#550898,Sweden,"2,400",0.9617
-13,#282576,United Kingdom,"2,375",0.9604
-13,#789411,France,"2,375",0.96
-13,David Nordstrom,United States of America,"2,375",0.9596
-13,#818149,Greece,"2,375",0.9588
-13,#752943,United States of America,"2,375",0.9587
-13,Lena Brehm,Germany,"2,375",0.9587
-13,#475227,United States of America,"2,375",0.9583
-13,#406861,Netherlands,"2,350",0.959
-13,#635682,France,"2,300",0.9589
-13,#403881,France,"2,300",0.9587
-13,#906666,United Kingdom,"2,300",0.9585
-13,#977356,United States of America,"2,300",0.9583
-13,#741531,Madagascar,"2,300",0.9583
-13,#187461,United Kingdom,"2,300",0.9583
-13,#956374,Germany,"2,250",0.9583
-13,#891737,France,"2,225",0.9589
-13,#312692,France,"2,225",0.9583
-13,#152902,France,"2,200",0.9586
-13,#255089,France,"2,200",0.9583
-13,#115519,Poland,"2,200",0.9583
-13,#357737,France,"2,175",0.9586
-13,Colin Davidson,United States of America,"2,175",0.9583
-13,#248312,Netherlands,"2,150",0.9583
-13,#886983,Norway,"2,125",0.9614
-13,Jacob De La Cruz,United States of America,"2,125",0.9608
-13,#265314,United States of America,"2,100",0.9643
-13,#692842,Canada,"2,100",0.9588
-13,Benjamin Bratton,United States of America,"2,100",0.9583
-13,#275739,Sweden,"2,075",0.9583
-13,#917335,United States of America,"2,075",0.9583
-13,#882854,Russian Federation,"2,075",0.9583
-13,Samir Asadov,Ukraine,"2,050",0.9583
-13,#500108,France,"2,000",0.9769
-13,#318013,United States of America,"2,000",0.9643
-13,#125152,United States of America,"2,000",0.9644
-13,#821978,Austria,"2,000",0.9613
-13,Ryan Harlow,United Kingdom,"2,000",0.9583
-13,Emilie Williams,Canada,"1,975",0.9583
-13,#432386,United Kingdom,"1,950",0.968
-13,#813504,United States of America,"1,950",0.968
-13,#872285,United States of America,"1,925",0.9621
-13,#846687,United States of America,"1,900",0.9615
-13,Jason Levine,United States of America,"1,900",0.9584
-13,#300713,Germany,"1,900",0.9583
-13,#319291,United States of America,"1,900",0.9583
-13,#219438,Poland,"1,900",0.9583
-13,#591819,United States of America,"1,875",0.9614
-13,#511099,Canada,"1,875",0.9608
-13,#947308,United States of America,"1,825",0.9598
-13,#549792,United States of America,"1,825",0.9588
-13,#994800,Netherlands,"1,800",0.9583
-13,#494145,South Africa,"1,775",0.9593
-13,#172292,United States of America,"1,725",0.959
-13,#890755,Ukraine,"1,700",0.9698
-13,#495952,Germany,"1,700",0.96
-13,#719637,Brazil,"1,700",0.959
-13,#666865,Mozambique,"1,700",0.9589
-13,#563632,France,"1,700",0.9583
-13,ARMANDO GODINA CARRASCO,United Kingdom,"1,700",0.9583
-13,#557224,France,"1,700",0.9583
-13,#547292,Canada,"1,700",0.9583
-13,Brian Newell,United States of America,"1,600",0.9597
-13,#927548,Belgium,"1,600",0.9595
-13,#209401,France,"1,600",0.9589
-13,#943200,United States of America,"1,600",0.9585
-13,#594731,Finland,"1,600",0.9583
-13,#923928,United States of America,"1,600",0.9583
-13,#796432,Portugal,"1,600",0.9583
-13,#208764,United States of America,"1,600",0.9583
-13,#312775,United States of America,"1,575",0.9596
-13,Karim Awenat,United Kingdom,"1,550",0.9585
-13,#841277,United States of America,"1,475",0.9583
-13,#483364,Spain,"1,400",0.9597
-13,#455793,Slovenia,"1,400",0.9586
-13,#679775,South Africa,"1,400",0.9583
-13,#660095,United States of America,"1,375",0.9636
-13,#828340,United Kingdom,"1,375",1
-13,#365111,Poland,"1,375",0.959
-13,Norman Sheppard,United States of America,"1,375",0.9588
-13,#514479,Spain,"1,375",0.9585
-13,#783000,South Africa,"1,375",0.9583
-13,#314772,France,"1,350",0.9613
-13,#246951,United States of America,"1,350",0.9585
-13,#889861,United States of America,"1,350",0.9584
-13,Ashleigh Roberts,United States of America,"1,325",0.9586
-13,#153334,France,"1,300",0.9584
-13,#832435,France,"1,300",0.9583
-13,Cecelia Rieb,United States of America,"1,275",0.9595
-13,#986512,United States of America,"1,275",0.9584
-13,#208142,United Kingdom,"1,275",0.9583
-13,#173772,Egypt,"1,225",0.9606
-13,Marcus Strautman,United States of America,"1,175",1
-13,#940975,France,"1,175",0.959
-13,#956126,Brazil,"1,125",0.9595
-13,#806924,United States of America,"1,100",0.9588
-13,#518776,Canada,"1,100",0.9583
-13,#211706,United States of America,"1,075",0.9825
-13,Jim Pappalardo,United States of America,"1,075",0.9583
-13,#292487,France,"1,050",0.9679
-13,#420317,France,"1,025",0.9585
-13,#386571,United Kingdom,"1,000",0.969
-13,#244703,Germany,"1,000",0.9687
-13,#424373,United States of America,"1,000",0.9668
-13,#713228,Guernsey,"1,000",0.9615
-13,#933305,Germany,"1,000",0.9609
-13,#583839,Brazil,"1,000",0.9584
-13,#787692,Canada,"1,000",0.9583
-13,#483414,Hungary,"1,000",0.9583
+13,Diarmuid Early,Ireland,4800,0.9825
+13,Willem Gerritsen,Netherlands,5000,0.9744
+13,Michael Holmes,Canada,5000,0.9646
+13,Brian Hanley,United States of America,5000,0.9643
+13,Alfons Oliver Altes,Spain,5000,0.9636
+13,Justin Merson,Canada,5000,0.9619
+13,Brittany Deaton,United States of America,5000,0.9618
+13,Jason Webber,South Africa,5000,0.9618
+13,Eduardo Gonzalez Arias,Spain,5000,0.9614
+13,Peter Rebecchi,United Kingdom,5000,0.9611
+13,David Brown,United States of America,5000,0.9605
+13,Paul Dent,United Kingdom,4600,0.9646
+13,Nicolas Micot,France,4600,0.9635
+13,Nick McCartney,United States of America,4600,0.9619
+13,Lianna Gerrish,United States of America,4600,0.96
+13,Bram Van Eeckhout,Belgium,4600,0.9596
+13,Isaac Méndez Cortiñas,Spain,4400,0.9605
+13,Emad Oughourli,United States of America,4300,0.9588
+13,Tom Vincent,United Kingdom,4300,0.9583
+13,Michael Thanasides,United States of America,4300,0.9583
+13,David Rosel,United Kingdom,4000,0.9683
+13,Dan Seiders,United States of America,4000,0.9606
+13,Albert Blom,Netherlands,4000,0.9601
+13,Harry Seiders,United States of America,4000,0.9601
+13,Taylor Robinson,United States of America,4000,0.9595
+13,Mary Brown,United States of America,4000,0.9595
+13,Patrick Chatain,Colombia,4000,0.9592
+13,Aleksandrs Goba,Latvia,4000,0.959
+13,Ricardo Domínguez,Mexico,4000,0.9589
+13,Grigoriy Korkishko,Russian Federation,4000,0.9587
+13,Zsolt Mogyorósi,Hungary,4000,0.9585
+13,Joseph Michael Palisoc,United States of America,4000,0.9584
+13,Luke Moraga,United States of America,4000,0.9583
+13,Nick Lowman,United States of America,3975,0.959
+13,Jaq Kennedy,United Kingdom,3875,0.9585
+13,Khaled Habib,Egypt,3800,0.9586
+13,Ben deLeon,United States of America,3800,0.9586
+13,Jakub Pomykalski,Poland,3800,0.9584
+13,Pierre Sertin,France,3675,0.9584
+13,Steyn Wolmarans,South Africa,3600,0.9659
+13,Bob Schriver,United States of America,3600,0.9636
+13,Christian Hueber,Austria,3600,0.9623
+13,Ryan Bains,United Kingdom,3600,0.9597
+13,Joris Greiwe,Germany,3600,0.9597
+13,Fanny Caillot,Germany,3600,0.9596
+13,Martijn Adriaanse,Netherlands,3600,0.9594
+13,Julie Bowden,United Kingdom,3600,0.9594
+13,Andrew Luchenbach,United States of America,3600,0.9589
+13,Joaquin Courreges,Argentina,3600,0.9586
+13,Neil Foot,United Kingdom,3600,0.9583
+13,Jakub Hluzow,Poland,3600,0.9583
+13,Niels Christian Lundtoft,Denmark,3400,0.9642
+13,Loic Coquer,France,3400,0.9616
+13,Bryan Ferrier,United States of America,3400,0.9598
+13,Adam Reichenbach,Hungary,3400,0.9596
+13,David Scully,United States of America,3400,0.9591
+13,Steve Hales,United Kingdom,3400,0.9589
+13,William Freestone,United Kingdom,3400,0.9587
+13,Kjell De Troye,Belgium,3400,0.9584
+13,Adam Steiner,Austria,3400,0.9584
+13,Greg Hingsbergen,United States of America,3375,0.9605
+13,Peter van Veen,Netherlands,3300,0.9646
+13,Ben Pridmore,United Kingdom,3300,0.9615
+13,Thomas Keane,Canada,3300,0.9588
+13,Jesi Lipp,United States of America,3300,0.9585
+13,Andrew Biglowe,United Kingdom,3300,0.9583
+13,Kenneth Wang,United States of America,3200,0.9706
+13,Jan Mooijer,Netherlands,3200,0.9592
+13,Nick Tone,United States of America,3200,0.9585
+13,Lyanne van Dijk,Netherlands,3100,0.9583
+13,Lorenzo Foti,Italy,3000,0.9627
+13,Mackenzie Dixon,Canada,3000,0.9616
+13,Graydon Moore,Canada,3000,0.9611
+13,Sergio Travieso,Spain,3000,0.9602
+13,Stephen Dunn,United Kingdom,3000,0.9599
+13,#359416,France,3000,0.9597
+13,Kiraën Andriamandimbisoa,Madagascar,3000,0.9595
+13,Daric Harrington,United States of America,3000,0.9593
+13,#215464,France,3000,0.9593
+13,#459611,Poland,3000,0.9589
+13,Jason Hutcheson,United States of America,3000,0.9588
+13,#598466,United Kingdom,3000,0.9585
+13,#673580,Germany,3000,0.9583
+13,Wim van Vliet,Netherlands,3000,0.9583
+13,Ben Rotblatt,United States of America,3000,0.9583
+13,#198540,Ireland,2975,0.9623
+13,Stephen Xiao,Canada,2975,0.9611
+13,#562325,Bulgaria,2975,0.9606
+13,Robert Valentine,United States of America,2975,0.9585
+13,Nathan Cunningham,United States of America,2975,0.9583
+13,Barbara Mauric,France,2900,0.9592
+13,Martin Rydder,United States of America,2900,0.9583
+13,Henriette Hamer,Netherlands,2900,0.9583
+13,Katelyn Stienen,United States of America,2875,0.9633
+13,Tyler Hargrave,Canada,2875,0.9633
+13,Shaun McCarthy,United States of America,2875,0.9583
+13,Josh Tiger,United States of America,2850,0.9583
+13,#763179,Germany,2800,0.9602
+13,#856592,Egypt,2800,0.9588
+13,#896395,United States of America,2800,0.9583
+13,Henri Virol,France,2775,0.9596
+13,#401263,Austria,2775,0.9594
+13,#247477,Switzerland,2775,0.9588
+13,Jason Sindler,United States of America,2775,0.9584
+13,#495904,Madagascar,2775,0.9583
+13,#767877,United Kingdom,2775,0.9583
+13,Mads Rasztar,Denmark,2700,0.9628
+13,#578116,Georgia,2700,0.9604
+13,#771672,United Kingdom,2700,0.9596
+13,Leonards Budņiks,Latvia,2700,0.9592
+13,#344649,Russian Federation,2700,0.9591
+13,Renier Wessels,South Africa,2700,0.959
+13,#702429,United Kingdom,2700,0.9587
+13,#662535,Canada,2700,0.9585
+13,#955767,France,2700,0.9585
+13,#663508,United Kingdom,2700,0.9583
+13,#359106,United States of America,2700,0.9583
+13,#131935,Sweden,2675,0.9586
+13,#150446,United States of America,2675,0.9583
+13,#193265,Portugal,2600,0.9996
+13,#515923,Netherlands,2600,0.9638
+13,#169026,United States of America,2600,0.9613
+13,#771923,Canada,2600,0.9585
+13,Jelle Hettinga,Costa Rica,2600,0.9583
+13,Juan Pablo Brea,Argentina,2600,0.9583
+13,#938503,United States of America,2600,0.9583
+13,Thomas Marcelo,Brazil,2600,0.9583
+13,Florence Hermeline,Ireland,2600,0.9583
+13,#418224,Poland,2575,0.9591
+13,#615528,United States of America,2575,0.9585
+13,#306201,France,2575,0.9583
+13,#550898,Sweden,2400,0.9617
+13,#282576,United Kingdom,2375,0.9604
+13,#789411,France,2375,0.96
+13,David Nordstrom,United States of America,2375,0.9596
+13,#818149,Greece,2375,0.9588
+13,#752943,United States of America,2375,0.9587
+13,Lena Brehm,Germany,2375,0.9587
+13,#475227,United States of America,2375,0.9583
+13,#406861,Netherlands,2350,0.959
+13,#635682,France,2300,0.9589
+13,#403881,France,2300,0.9587
+13,#906666,United Kingdom,2300,0.9585
+13,#977356,United States of America,2300,0.9583
+13,#741531,Madagascar,2300,0.9583
+13,#187461,United Kingdom,2300,0.9583
+13,#956374,Germany,2250,0.9583
+13,#891737,France,2225,0.9589
+13,#312692,France,2225,0.9583
+13,#152902,France,2200,0.9586
+13,#255089,France,2200,0.9583
+13,#115519,Poland,2200,0.9583
+13,#357737,France,2175,0.9586
+13,Colin Davidson,United States of America,2175,0.9583
+13,#248312,Netherlands,2150,0.9583
+13,#886983,Norway,2125,0.9614
+13,Jacob De La Cruz,United States of America,2125,0.9608
+13,#265314,United States of America,2100,0.9643
+13,#692842,Canada,2100,0.9588
+13,Benjamin Bratton,United States of America,2100,0.9583
+13,#275739,Sweden,2075,0.9583
+13,#917335,United States of America,2075,0.9583
+13,#882854,Russian Federation,2075,0.9583
+13,Samir Asadov,Ukraine,2050,0.9583
+13,#500108,France,2000,0.9769
+13,#318013,United States of America,2000,0.9643
+13,#125152,United States of America,2000,0.9644
+13,#821978,Austria,2000,0.9613
+13,Ryan Harlow,United Kingdom,2000,0.9583
+13,Emilie Williams,Canada,1975,0.9583
+13,#432386,United Kingdom,1950,0.968
+13,#813504,United States of America,1950,0.968
+13,#872285,United States of America,1925,0.9621
+13,#846687,United States of America,1900,0.9615
+13,Jason Levine,United States of America,1900,0.9584
+13,#300713,Germany,1900,0.9583
+13,#319291,United States of America,1900,0.9583
+13,#219438,Poland,1900,0.9583
+13,#591819,United States of America,1875,0.9614
+13,#511099,Canada,1875,0.9608
+13,#947308,United States of America,1825,0.9598
+13,#549792,United States of America,1825,0.9588
+13,#994800,Netherlands,1800,0.9583
+13,#494145,South Africa,1775,0.9593
+13,#172292,United States of America,1725,0.959
+13,#890755,Ukraine,1700,0.9698
+13,#495952,Germany,1700,0.96
+13,#719637,Brazil,1700,0.959
+13,#666865,Mozambique,1700,0.9589
+13,#563632,France,1700,0.9583
+13,ARMANDO GODINA CARRASCO,United Kingdom,1700,0.9583
+13,#557224,France,1700,0.9583
+13,#547292,Canada,1700,0.9583
+13,Brian Newell,United States of America,1600,0.9597
+13,#927548,Belgium,1600,0.9595
+13,#209401,France,1600,0.9589
+13,#943200,United States of America,1600,0.9585
+13,#594731,Finland,1600,0.9583
+13,#923928,United States of America,1600,0.9583
+13,#796432,Portugal,1600,0.9583
+13,#208764,United States of America,1600,0.9583
+13,#312775,United States of America,1575,0.9596
+13,Karim Awenat,United Kingdom,1550,0.9585
+13,#841277,United States of America,1475,0.9583
+13,#483364,Spain,1400,0.9597
+13,#455793,Slovenia,1400,0.9586
+13,#679775,South Africa,1400,0.9583
+13,#660095,United States of America,1375,0.9636
+13,#828340,United Kingdom,1375,1
+13,#365111,Poland,1375,0.959
+13,Norman Sheppard,United States of America,1375,0.9588
+13,#514479,Spain,1375,0.9585
+13,#783000,South Africa,1375,0.9583
+13,#314772,France,1350,0.9613
+13,#246951,United States of America,1350,0.9585
+13,#889861,United States of America,1350,0.9584
+13,Ashleigh Roberts,United States of America,1325,0.9586
+13,#153334,France,1300,0.9584
+13,#832435,France,1300,0.9583
+13,Cecelia Rieb,United States of America,1275,0.9595
+13,#986512,United States of America,1275,0.9584
+13,#208142,United Kingdom,1275,0.9583
+13,#173772,Egypt,1225,0.9606
+13,Marcus Strautman,United States of America,1175,1
+13,#940975,France,1175,0.959
+13,#956126,Brazil,1125,0.9595
+13,#806924,United States of America,1100,0.9588
+13,#518776,Canada,1100,0.9583
+13,#211706,United States of America,1075,0.9825
+13,Jim Pappalardo,United States of America,1075,0.9583
+13,#292487,France,1050,0.9679
+13,#420317,France,1025,0.9585
+13,#386571,United Kingdom,1000,0.969
+13,#244703,Germany,1000,0.9687
+13,#424373,United States of America,1000,0.9668
+13,#713228,Guernsey,1000,0.9615
+13,#933305,Germany,1000,0.9609
+13,#583839,Brazil,1000,0.9584
+13,#787692,Canada,1000,0.9583
+13,#483414,Hungary,1000,0.9583
 13,#101778,United States of America,975,0.9766
 13,James Humpish,United Kingdom,950,0.9789
 13,#559819,United States of America,900,0.9619
@@ -622,15 +593,15 @@
 14,Princess Camille Ong,Philippines,72,0.9792
 14,Gareth Watson,South Africa,42,0.9792
 14,Jason Webber,South Africa,19,0.9792
-15,Kenneth Wang,United States of America,"1,105",0.9792
-15,Paul Dent,United Kingdom,"1,105",0.9792
-15,Joseph Michael Palisoc,United States of America,"1,105",0.9792
-15,David Brown,United States of America,"1,105",0.9792
-15,Michael Jarman,United Kingdom,"1,105",0.9792
-15,Diarmuid Early,Ireland,"1,105",0.9792
-15,Michael Holmes,Canada,"1,099",0.9792
-15,Tim Roberts,United Kingdom,"1,040",0.9792
-15,Brittany Deaton,United States of America,"1,000",0.9792
+15,Kenneth Wang,United States of America,1105,0.9792
+15,Paul Dent,United Kingdom,1105,0.9792
+15,Joseph Michael Palisoc,United States of America,1105,0.9792
+15,David Brown,United States of America,1105,0.9792
+15,Michael Jarman,United Kingdom,1105,0.9792
+15,Diarmuid Early,Ireland,1105,0.9792
+15,Michael Holmes,Canada,1099,0.9792
+15,Tim Roberts,United Kingdom,1040,0.9792
+15,Brittany Deaton,United States of America,1000,0.9792
 15,Gabriela Stroj,Poland,980,0.9792
 15,Dan Mayoh,Australia,973,0.9792
 15,Sameer Jagetia,United States of America,781,0.9792
@@ -726,7 +697,7 @@
 16,Stefanus Ng,Indonesia,240,0.9792
 16,Nataly Falero,Australia,232,0.9792
 16,Nicolas Micot,France,220,0.9792
-17,Diarmuid Early,Ireland,"1,200",0.9792
+17,Diarmuid Early,Ireland,1200,0.9792
 17,Kenneth Wang,United States of America,811,0.9792
 17,Andrew Biglowe,United Kingdom,775,0.9792
 17,Ben deLeon,United States of America,775,0.9792
@@ -812,10 +783,10 @@
 21,Jason Hutcheson,United States of America,242,0.9792
 21,Mary Brown,United States of America,232,0.9792
 21,Gabriela Stroj,Poland,178,0.9792
-22,Andrew Ngai,Australia,"1,250",0.9792
-22,Brittany Deaton,United States of America,"1,250",0.9792
-22,Michael Jarman,United Kingdom,"1,200",0.9792
-22,Joseph Michael Palisoc,United States of America,"1,000",0.9792
+22,Andrew Ngai,Australia,1250,0.9792
+22,Brittany Deaton,United States of America,1250,0.9792
+22,Michael Jarman,United Kingdom,1200,0.9792
+22,Joseph Michael Palisoc,United States of America,1000,0.9792
 22,Matthew Fried,Australia,986,0.9792
 22,Michael Holmes,Canada,976,0.9792
 22,Michael Clarke,New Zealand,770,0.9792
@@ -824,7 +795,7 @@
 23,Andrew Ngai,Australia,615,0.9792
 23,Brittany Deaton,United States of America,610,0.9792
 23,Michael Jarman,United Kingdom,415,0.9792
-24,Andrew Ngai,Australia,"1,250",0.9722
+24,Andrew Ngai,Australia,1250,0.9722
 24,Matthew Fried,Australia,420,0.9722
 25,Michael Jarman,United Kingdom,640,0.9792
 25,Diarmuid Early,Ireland,481,0.9808
@@ -1032,17 +1003,17 @@
 26,#969639,Georgia,60,0.9792
 26,#243554,Belgium,42,0.9794
 26,#528889,Australia,18,0.9792
-27,Jack Franken,United States of America,"1,200",0.9899
-27,Andrew Ngai,Australia,"1,200",0.9879
-27,Sergio Trifiletti,Italy,"1,200",0.9877
-27,Ben Gutscher,China,"1,200",0.9834
-27,Min Chen,Australia,"1,200",0.9796
-27,Dhruv Raj Chaudhary,India,"1,200",0.9795
-27,Brittany Deaton,United States of America,"1,110",0.9881
-27,Nick Mccartney,United States of America,"1,110",0.9799
-27,Adam Reichenbach,Hungary,"1,070",0.9823
-27,Jakub Pomykalski,Poland,"1,040",0.9804
-27,Anup Agarwal,India,"1,000",0.9792
+27,Jack Franken,United States of America,1200,0.9899
+27,Andrew Ngai,Australia,1200,0.9879
+27,Sergio Trifiletti,Italy,1200,0.9877
+27,Ben Gutscher,China,1200,0.9834
+27,Min Chen,Australia,1200,0.9796
+27,Dhruv Raj Chaudhary,India,1200,0.9795
+27,Brittany Deaton,United States of America,1110,0.9881
+27,Nick Mccartney,United States of America,1110,0.9799
+27,Adam Reichenbach,Hungary,1070,0.9823
+27,Jakub Pomykalski,Poland,1040,0.9804
+27,Anup Agarwal,India,1000,0.9792
 27,Danny Whittaker,Singapore,890,0.9792
 27,Eduardo Gonzalez Arias,Spain,876,0.985
 27,Greg Hingsbergen,United States of America,876,0.9808
@@ -1253,24 +1224,24 @@
 28,John Opondo,Kenya,18,0.9853
 28,#439969,Switzerland,12,0.9792
 28,Stephanie A,United States of America,12,0.9792
-29,Diarmuid Early,Ireland,"1,250",0.9878
-29,Andrew Ngai,Australia,"1,250",0.9867
-29,Jack Franken,United States of America,"1,200",0.9861
-29,Willem Gerritsen,Netherlands,"1,250",0.9828
-29,Peter Scharl,United States of America,"1,250",0.9824
-29,Chris Clarke,United Kingdom,"1,250",0.9816
-29,Anup Agarwal,India,"1,250",0.9815
-29,Michael Holmes,Canada,"1,250",0.9807
-29,Nicholas Fox,United States of America,"1,200",0.981
-29,Adam Carter,Canada,"1,200",0.9798
-29,Elliott Paterson,United Kingdom,"1,164",0.9811
-29,#877539,United States of America,"1,130",0.984
-29,Bo Rydobon,Thailand,"1,130",0.9816
-29,Matt Melsen,United States of America,"1,130",0.9792
-29,Jakub Pomykalski,Poland,"1,130",0.9792
-29,Nick Mccartney,United States of America,"1,130",0.9792
-29,Lorenzo Foti,Italy,"1,118",0.9792
-29,Greg Hingsbergen,United States of America,"1,000",0.9792
+29,Diarmuid Early,Ireland,1250,0.9878
+29,Andrew Ngai,Australia,1250,0.9867
+29,Jack Franken,United States of America,1200,0.9861
+29,Willem Gerritsen,Netherlands,1250,0.9828
+29,Peter Scharl,United States of America,1250,0.9824
+29,Chris Clarke,United Kingdom,1250,0.9816
+29,Anup Agarwal,India,1250,0.9815
+29,Michael Holmes,Canada,1250,0.9807
+29,Nicholas Fox,United States of America,1200,0.981
+29,Adam Carter,Canada,1200,0.9798
+29,Elliott Paterson,United Kingdom,1164,0.9811
+29,#877539,United States of America,1130,0.984
+29,Bo Rydobon,Thailand,1130,0.9816
+29,Matt Melsen,United States of America,1130,0.9792
+29,Jakub Pomykalski,Poland,1130,0.9792
+29,Nick Mccartney,United States of America,1130,0.9792
+29,Lorenzo Foti,Italy,1118,0.9792
+29,Greg Hingsbergen,United States of America,1000,0.9792
 29,Sameer Jagetia,United States of America,860,0.9793
 29,Jesi Lipp,United States of America,813,0.9792
 29,Ben Pridmore,United Kingdom,806,0.9823
@@ -1370,16 +1341,16 @@
 29,Sarah Fraser,Georgia,139,0.9803
 29,Sergio Travieso,Spain,132,0.9797
 29,#987216,Germany,94,0.9792
-30,Willem Gerritsen,Netherlands,"1,120",0.9816
-30,Anup Agarwal,India,"1,120",0.9805
-30,Jakub Pomykalski,Poland,"1,120",0.9795
-30,Timothy Shue,New Zealand,"1,120",0.9792
-30,Adam Carter,Canada,"1,120",0.9792
-30,Greg Hingsbergen,United States of America,"1,050",0.9793
-30,Harry Seiders,United States of America,"1,050",0.9792
-30,Lianna Gerrish,United States of America,"1,000",0.9792
-30,Jason Webber,South Africa,"1,000",0.9792
-30,Lorenzo Foti,Italy,"1,000",0.9792
+30,Willem Gerritsen,Netherlands,1120,0.9816
+30,Anup Agarwal,India,1120,0.9805
+30,Jakub Pomykalski,Poland,1120,0.9795
+30,Timothy Shue,New Zealand,1120,0.9792
+30,Adam Carter,Canada,1120,0.9792
+30,Greg Hingsbergen,United States of America,1050,0.9793
+30,Harry Seiders,United States of America,1050,0.9792
+30,Lianna Gerrish,United States of America,1000,0.9792
+30,Jason Webber,South Africa,1000,0.9792
+30,Lorenzo Foti,Italy,1000,0.9792
 30,#877539,United States of America,933,0.9805
 30,Min Chen,Australia,890,0.9792
 30,Pichaya Pan-Anukooln,Thailand,796,0.9807
@@ -1470,8 +1441,8 @@
 30,Diarmuid Early,Ireland,53,0.9798
 30,#421180,United States of America,42,0.9792
 30,#386206,Australia,6,0.9792
-31,Andrew Ngai,Australia,"1,250",0.9824
-31,Anup Agarwal,India,"1,000",0.9816
+31,Andrew Ngai,Australia,1250,0.9824
+31,Anup Agarwal,India,1000,0.9816
 31,Bo Rydobon,Thailand,772,0.9792
 31,Pakkapong Sricharoen,Thailand,766,0.9792
 31,Nicholas Fox,United States of America,760,0.9819
@@ -1715,7 +1686,7 @@
 32,Aleksandrs Goba,Latvia,28,0.9994
 32,Vasile Chiriac,Romania,12,0.9792
 32,#716276,United Kingdom,6,0.9792
-33,Diarmuid Early,Ireland,"1,000",0.9854
+33,Diarmuid Early,Ireland,1000,0.9854
 33,Min Chen,Australia,869,0.9792
 33,Anup Agarwal,India,813,0.9794
 33,Andrew Ngai,Australia,794,0.9842
@@ -1855,313 +1826,313 @@
 33,#833755,United States of America,50,0.9792
 33,Juan Pablo Brea,Argentina,50,0.9792
 33,#261141,United Kingdom,42,0.9863
-34,Andrew Ngai,Australia,"1,520",0.9792
-34,Brittany Deaton,United States of America,"1,168",0.9792
-34,Diarmuid Early,Ireland,"1,097",0.9792
-35,Princess Camille Ong,Philippines,"7,600",0.959
-35,Pakkapong Sricharoen,Thailand,"7,600",0.9588
-35,Steve Schulz,Australia,"7,150",0.9583
-35,Nick Boberg,New Zealand,"6,700",0.959
-35,Prithviraj Mavani,India,"6,300",0.9583
-35,Pichaya Pan-anukooln,Thailand,"6,100",0.9583
-35,Danny Whittaker,Singapore,"6,000",0.9598
-35,John Lim,Australia,"5,925",0.9599
-35,Emilie Williams,Canada,"5,800",0.959
-35,Anup Agarwal,India,"5,600",0.9588
-35,Bo Rydobon,Thailand,"5,600",0.9583
-35,Cheong Ng,New Zealand,"5,600",0.9583
-35,Julien Lacaze,Réunion,"5,450",0.9583
-35,Edwin Hartono Limbri,Australia,"5,275",0.9583
-35,Will Nord,Australia,"4,900",0.9587
-35,Catherine Xu,Australia,"4,750",0.9584
-35,Dario Mavec,Australia,"4,600",0.9585
-35,Rick Williams,Australia,"4,600",0.9583
-35,Tobias White,Australia,"4,600",0.9583
-35,Cameron Fraser,New Zealand,"4,025",0.9583
-35,Vikram Hattangady,India,"3,950",0.9633
-35,Min Chen,Australia,"3,950",0.9583
-35,#827458,Kuwait,"3,900",0.9584
-35,#310336,Indonesia,"3,800",0.9595
-35,#994800,Netherlands,"3,725",0.9592
-35,Samir Asadov,Ukraine,"3,725",0.9583
-35,Stevenson Yu,Philippines,"3,700",0.9594
-35,#375064,Australia,"3,400",0.9595
-35,Hussain Ali Nasser,Australia,"3,325",0.9584
-35,#661994,Australia,"3,100",0.9701
-35,Phichitphol Bunyakanok,Thailand,"3,100",0.9622
-35,Mark Pilkington,Australia,"3,050",0.9587
-35,#298321,Australia,"2,975",0.9583
-35,#200670,Singapore,"2,950",0.9583
-35,#434548,Australia,"2,750",0.9716
-35,Timothy Shue,New Zealand,"2,525",0.9601
-35,#219557,Australia,"2,350",0.9588
-35,Dhara Shah,India,"2,200",0.9583
-35,Ksenia Sobina,United Arab Emirates,"2,000",0.9583
-35,#500449,United States of America,"1,900",0.9583
-35,Eldar Lachinov,Azerbaijan,"1,825",0.9583
-35,Johnson Mathias,India,"1,600",0.9609
-35,Roland Halili,Philippines,"1,600",0.9594
-35,Arnel Dave Jimenez,Thailand,"1,600",0.9583
-35,Chris Saw,Australia,"1,550",0.9598
-35,Darragh Horan,Australia,"1,500",0.9583
-35,#240351,Australia,"1,250",0.9626
-35,#275739,Sweden,"1,250",0.9605
-35,#127455,Vietnam,"1,250",0.9597
-35,Mohammed Fari,Saudi Arabia,"1,075",0.9583
+34,Andrew Ngai,Australia,1520,0.9792
+34,Brittany Deaton,United States of America,1168,0.9792
+34,Diarmuid Early,Ireland,1097,0.9792
+35,Princess Camille Ong,Philippines,7600,0.959
+35,Pakkapong Sricharoen,Thailand,7600,0.9588
+35,Steve Schulz,Australia,7150,0.9583
+35,Nick Boberg,New Zealand,6700,0.959
+35,Prithviraj Mavani,India,6300,0.9583
+35,Pichaya Pan-anukooln,Thailand,6100,0.9583
+35,Danny Whittaker,Singapore,6000,0.9598
+35,John Lim,Australia,5925,0.9599
+35,Emilie Williams,Canada,5800,0.959
+35,Anup Agarwal,India,5600,0.9588
+35,Bo Rydobon,Thailand,5600,0.9583
+35,Cheong Ng,New Zealand,5600,0.9583
+35,Julien Lacaze,Réunion,5450,0.9583
+35,Edwin Hartono Limbri,Australia,5275,0.9583
+35,Will Nord,Australia,4900,0.9587
+35,Catherine Xu,Australia,4750,0.9584
+35,Dario Mavec,Australia,4600,0.9585
+35,Rick Williams,Australia,4600,0.9583
+35,Tobias White,Australia,4600,0.9583
+35,Cameron Fraser,New Zealand,4025,0.9583
+35,Vikram Hattangady,India,3950,0.9633
+35,Min Chen,Australia,3950,0.9583
+35,#827458,Kuwait,3900,0.9584
+35,#310336,Indonesia,3800,0.9595
+35,#994800,Netherlands,3725,0.9592
+35,Samir Asadov,Ukraine,3725,0.9583
+35,Stevenson Yu,Philippines,3700,0.9594
+35,#375064,Australia,3400,0.9595
+35,Hussain Ali Nasser,Australia,3325,0.9584
+35,#661994,Australia,3100,0.9701
+35,Phichitphol Bunyakanok,Thailand,3100,0.9622
+35,Mark Pilkington,Australia,3050,0.9587
+35,#298321,Australia,2975,0.9583
+35,#200670,Singapore,2950,0.9583
+35,#434548,Australia,2750,0.9716
+35,Timothy Shue,New Zealand,2525,0.9601
+35,#219557,Australia,2350,0.9588
+35,Dhara Shah,India,2200,0.9583
+35,Ksenia Sobina,United Arab Emirates,2000,0.9583
+35,#500449,United States of America,1900,0.9583
+35,Eldar Lachinov,Azerbaijan,1825,0.9583
+35,Johnson Mathias,India,1600,0.9609
+35,Roland Halili,Philippines,1600,0.9594
+35,Arnel Dave Jimenez,Thailand,1600,0.9583
+35,Chris Saw,Australia,1550,0.9598
+35,Darragh Horan,Australia,1500,0.9583
+35,#240351,Australia,1250,0.9626
+35,#275739,Sweden,1250,0.9605
+35,#127455,Vietnam,1250,0.9597
+35,Mohammed Fari,Saudi Arabia,1075,0.9583
 35,Wei Ying Pang,Singapore,650,0.9583
-36,Brittany Deaton,United States of America,"10,000",0.9678
-36,Nicolas Micot,France,"9,915",0.9675
-36,Peter Scharl,United States of America,"9,115",0.9627
-36,Jason Hutcheson,United States of America,"8,830",0.9595
-36,Lorenzo Foti,Italy,"9,715",0.9626
-36,Adam Carter,Canada,"8,500",0.9597
-36,Katelyn Stienen,United States of America,"8,315",0.9583
-36,Elliott Paterson,United Kingdom,"8,200",0.9596
-36,Jacob Andrews,United States of America,"8,200",0.9583
-36,Kyle Sutton,United States of America,"8,000",0.9603
-36,Johnny Valeriote,United States of America,"8,000",0.9598
-36,Michael Holmes,Canada,"8,000",0.9594
-36,Christophe Belin,France,"7,915",0.9608
-36,Kenneth Wang,United States of America,"7,915",0.9584
-36,Jeremy Freelove,United States of America,"7,850",0.9583
-36,Alfons Oliver Altes,Spain,"7,700",0.9616
-36,Jesi Lipp,United States of America,"7,650",0.9611
-36,Harry Seiders,United States of America,"7,600",0.959
-36,Ben Pridmore,United Kingdom,"7,565",0.9642
-36,Ben deLeon,United States of America,"7,515",0.9615
-36,Sharon Parker,United States of America,"7,480",0.9583
-36,Harry Watson,United Kingdom,"7,415",0.9583
-36,Lyanne van Dijk,Netherlands,"7,410",0.9598
-36,Alwyn Birkholtz,South Africa,"7,335",0.9656
-36,Shaun McCarthy,United States of America,"7,315",0.9585
-36,Matt Ficarra,United States of America,"7,245",0.9584
-36,James Galbraith,United States of America,"7,220",0.9609
-36,Will Demere,United States of America,"7,215",0.9586
-36,Riley Flischel,United States of America,"7,150",0.9598
-36,Judith Droogsma,Netherlands,"6,785",0.9633
-36,Charles Poulain,France,"6,715",0.9583
-36,James Blackham,United Kingdom,"6,635",0.9592
-36,Martijn Adriaanse,Netherlands,"6,485",0.9586
-36,Matt Melsen,United States of America,"6,435",0.9591
-36,Oliver Lambert,United Kingdom,"6,415",0.9586
-36,Ricardo Domínguez,Mexico,"6,405",0.9584
-36,Sergio Trifiletti,Italy,"6,415",0.9585
-36,Kristain Lindemann,United States of America,"6,400",0.9586
-36,Brandon Moyer,United States of America,"6,400",0.9583
-36,Grigoriy Korkishko,Russian Federation,"6,345",0.9588
-36,Andrew Heybruch,United States of America,"6,250",0.9583
-36,Zsolt Mogyorósi,Hungary,"6,215",0.9586
-36,Jakub Pomykalski,Poland,"6,200",0.9592
-36,Jason Webber,South Africa,"6,200",0.9586
-36,Juan Cifuentes,Chile,"6,200",0.9584
-36,Robert Guiher,United States of America,"6,200",0.9583
-36,Alexey Sviridov,United Kingdom,"6,115",0.9601
-36,J. Parker Garrison,United States of America,"6,115",0.9588
-36,Taylor Robinson,United States of America,"6,115",0.9583
-36,Yiwei Cao,Italy,"6,105",0.9583
-36,Neil Foot,United Kingdom,"6,070",0.9595
-36,Adam Steiner,Austria,"6,060",0.9584
-36,Hayden Waller,Canada,"6,000",0.9583
-36,Jim Pappalardo,United States of America,"5,955",0.9612
-36,Kevin Taylor,United States of America,"5,945",1
-36,Matthew Jeanos,Canada,"5,915",0.9599
-36,Patrick Chatain,Colombia,"5,900",0.9625
-36,Nikolay Georgiev,Bulgaria,"5,900",0.9597
-36,Pieter Pienaar,South Africa,"5,860",0.96
-36,Henriette Hamer,Netherlands,"5,815",0.9583
-36,Tim Roberts,United Kingdom,"5,800",0.9608
-36,Renier Wessels,South Africa,"5,800",0.9593
-36,Samy Zerrouki,Switzerland,"5,765",0.9613
-36,Tianyu William Xiao,Switzerland,"5,765",0.9606
-36,Stephanie A,United States of America,"5,765",0.9583
-36,Pierre Sertin,France,"5,715",0.9606
-36,Chris Wilson,United Kingdom,"5,755",0.9583
-36,Jaq Kennedy,United Kingdom,"5,715",0.9583
-36,Anders Richter Lindén,Denmark,"5,680",0.961
-36,Tom Renker,Germany,"5,665",0.96
-36,Curtis Landry,United States of America,"5,615",0.9583
-36,Emad Oughourli,United States of America,"5,600",0.9641
-36,Matt O'Brien,United States of America,"5,565",0.9583
-36,Dan Seiders,United States of America,"5,560",0.9597
-36,Yun-Fei-Yang Liu,United States of America,"5,550",0.9587
-36,#742718,United Kingdom,"5,545",0.9592
-36,Graydon Moore,Canada,"5,500",0.9601
-36,Stig Hedström-Cornéer,Sweden,"5,500",0.9583
-36,#345244,Spain,"5,500",0.9583
-36,Jacob De La Cruz,United States of America,"5,490",0.9621
-36,Erick Meszaros-Jones,United States of America,"5,480",0.959
-36,Julie Bowden,United Kingdom,"5,450",0.9583
-36,Chris Pipka,Canada,"5,410",0.9583
-36,Mike Kern,United States of America,"5,350",0.9583
-36,Robert Barnes,United Kingdom,"5,305",0.9583
-36,Tom Vincent,United Kingdom,"5,265",0.959
-36,Fahad Haneefa,United Kingdom,"5,160",0.9602
-36,Eva Jansky-Tatham,Germany,"5,100",0.9583
-36,Timothy Bralick,United States of America,"5,060",0.961
-36,#876855,United States of America,"5,040",0.9583
-36,Cecelia Rieb,United States of America,"5,015",0.9596
-36,#725582,South Africa,"5,015",0.9583
-36,Ben Carr,United States of America,"5,000",0.9583
-36,Jakub Hluzow,Poland,"4,965",0.9583
-36,Gonçalo Antunes,Portugal,"4,925",0.96
-36,Sickboy Nico,Switzerland,"4,915",0.9591
-36,#535704,United States of America,"4,900",0.9598
-36,#440752,United Kingdom,"4,865",0.9602
-36,Branden Lewis,Canada,"4,865",0.9588
-36,Franco Bosman,South Africa,"4,850",0.9585
-36,Jeroen Adriaanse,Netherlands,"4,815",0.9584
-36,Hesham Fouad,Egypt,"4,810",0.9586
-36,#459611,Poland,"4,785",0.9583
-36,Arnold Miron,United Kingdom,"4,700",0.9591
-36,Armando Godina Carrasco,United Kingdom,"4,625",0.9601
-36,#429676,France,"4,615",0.9586
-36,#767270,France,"4,615",0.9585
-36,Diana Constantinescu,Canada,"4,615",0.9583
-36,Bryan Wilhaucks,United States of America,"4,610",0.9583
-36,Jack Franken,United States of America,"4,600",0.9672
-36,#763459,United Kingdom,"4,600",0.9583
-36,Katie May,United States of America,"4,565",0.9583
-36,Ryan Bains,United Kingdom,"4,545",0.9759
-36,#877539,United States of America,"4,510",0.965
-36,Klinsmann Langhanz,Brazil,"4,505",0.9583
-36,#495617,Italy,"4,400",0.9602
-36,Robert Buemmer,Australia,"4,310",0.9583
-36,Robert Webb,United States of America,"4,305",0.9618
-36,Juan Pedro León Pinochet,Chile,"4,200",0.9607
-36,Ian Naden,United Kingdom,"4,200",0.9602
-36,Denys Timankov,Germany,"4,200",0.9596
-36,Franz Brunner,Germany,"4,175",0.9584
-36,#978362,Switzerland,"4,165",0.9583
-36,Gregory Thompson,United States of America,"4,150",0.9583
-36,Luca Franceschini,Germany,"4,145",0.9663
-36,Michael Berman,United States of America,"4,100",0.9586
-36,Alvaro Ivan Rojas De la Torre,Bolivia,"4,080",0.9586
-36,Nick Tone,United States of America,"4,065",0.9583
-36,#741640,United States of America,"4,050",0.9583
-36,Ariadna Berger,Argentina,"4,030",0.9583
-36,Nick McCartney,United States of America,"4,030",0.9583
-36,John House,United Kingdom,"3,965",0.9583
-36,#216997,United States of America,"3,945",0.9585
-36,#458852,United States of America,"3,915",0.9583
-36,Benjamin Weber,Austria,"3,900",0.9996
-36,Ben Rotblatt,United States of America,"3,900",0.9613
-36,#649994,United States of America,"3,800",0.9594
-36,#885963,United States of America,"3,750",0.9585
-36,Xuan Nguyen,France,"3,800",0.9583
-36,David Rosel,United Kingdom,"3,750",0.9585
-36,Rob Wheatley,United Kingdom,"3,750",0.9583
-36,Steyn Wolmarans,South Africa,"3,745",0.9622
-36,Barbara Mauric,France,"3,730",0.9594
-36,Jack Parsons,United Kingdom,"3,715",0.9594
-36,Gage Simpson,United Kingdom,"3,705",0.961
-36,#535887,France,"3,700",0.9612
-36,#646435,France,"3,700",0.9584
-36,#798692,France,"3,655",0.9602
-36,Robert Valentine,United States of America,"3,650",0.959
-36,#965852,United States of America,"3,620",0.9588
-36,#711724,United States of America,"3,585",0.9598
-36,Martin Stafford,United Kingdom,"3,580",0.9592
-36,#892610,United States of America,"3,500",0.9591
-36,Antonio Malacrino,United Kingdom,"3,450",0.9603
-36,#488330,United States of America,"3,360",0.9583
-36,#351201,United States of America,"3,320",0.9583
-36,Valy Greavu,Romania,"3,300",0.9583
-36,Ashleigh Roberts,United States of America,"3,300",0.9583
-36,#551067,United States of America,"3,300",0.9583
-36,Sergio Travieso,Spain,"3,265",0.9609
-36,#884533,Canada,"3,245",0.9613
-36,#676425,United States of America,"3,235",0.9608
-36,Christian Brudy,Germany,"3,215",0.9585
-36,#491677,Finland,"3,215",0.9583
-36,Kelly Jones,South Africa,"3,180",0.9601
-36,Aaron Young,United States of America,"3,045",0.9583
-36,#977356,United States of America,"3,040",0.9584
-36,Sergei Mochtchenkov,Ukraine,"3,000",0.9592
-36,Kai Hartley,United States of America,"3,000",0.9585
-36,#328029,United Kingdom,"3,000",0.9583
-36,Martin Schaaphok,Netherlands,"2,960",0.9583
-36,#116775,United States of America,"2,950",0.9604
-36,Brian Csipkes,United States of America,"2,950",0.9583
-36,Mara Osio,Italy,"2,915",0.9614
-36,Roland Hartz,France,"2,915",0.9591
-36,John Vergara,Colombia,"2,915",0.9587
-36,Petr Keblusek,Czech Republic,"2,915",0.9584
-36,#555744,France,"2,910",0.9588
-36,John Townsend,United States of America,"2,900",0.9591
-36,Michael Hermann,Germany,"2,885",0.9593
-36,David Nordstrom,United States of America,"2,885",0.9585
-36,Andy Chen,United States of America,"2,885",0.9584
-36,Gabriel Sotero,Brazil,"2,850",0.9606
-36,Eric Langlois,Canada,"2,850",0.9586
-36,#287273,Israel,"2,850",0.9584
-36,Jacob Labkovski,United States of America,"2,815",0.9586
-36,#268472,United States of America,"2,755",0.9583
-36,Tanguy Prodault,France,"2,750",0.9589
-36,Arturo Polichuk,Mexico,"2,720",0.9588
-36,#120144,Germany,"2,695",0.9585
-36,Jérémie Verdonck,France,"2,690",0.9604
-36,#779988,South Africa,"2,645",0.9592
-36,#703082,United Kingdom,"2,610",0.9583
-36,Alex Schwartz,United States of America,"2,590",0.9584
-36,#858398,United States of America,"2,585",0.9583
-36,Josep Amela Milian,Spain,"2,550",0.9673
-36,Vladimir Smiljanic,Canada,"2,545",0.9586
-36,#822292,United States of America,"2,535",0.9584
-36,#366915,United States of America,"2,535",0.9583
-36,Amber Johnson,United States of America,"2,520",0.9583
-36,#981987,Latvia,"2,500",0.9584
-36,Michael Thanasides,United States of America,"2,480",0.9583
-36,#907027,United Kingdom,"2,450",0.9653
-36,Edmundo Heiras,Canada,"2,450",0.9583
-36,John Embree,United States of America,"2,435",0.9598
-36,#201808,United States of America,"2,435",0.9586
-36,#101174,France,"2,390",0.9583
-36,#774405,United States of America,"2,350",0.9599
-36,#788554,South Africa,"2,350",0.9586
-36,#880634,United States of America,"2,265",0.9586
-36,#623162,France,"2,265",0.9591
-36,Thomas M Dickinson,United States of America,"2,250",0.9588
-36,#474720,United States of America,"2,150",0.9605
-36,#464522,United States of America,"2,150",0.9597
-36,#684406,Czech Republic,"2,100",0.9599
-36,Emīls Žubulis,Latvia,"2,050",0.963
-36,Benjamin Bratton,United States of America,"2,050",0.9588
-36,#845054,Canada,"2,025",0.9583
-36,#543007,Denmark,"2,000",0.9583
-36,#638097,United Kingdom,"2,000",0.9583
-36,Jorge Ivan Ayala Rojas,Colombia,"1,965",0.9585
-36,#862053,Russian Federation,"1,950",0.959
-36,Laura Kathleen Lewis,United States of America,"1,915",0.9596
-36,Charles Moon,United States of America,"1,900",0.9595
-36,Thomas Marcelo,Brazil,"1,900",0.9583
-36,#600099,United States of America,"1,880",0.9583
-36,#124900,United Kingdom,"1,820",0.9583
-36,Jörg Profanter,Austria,"1,820",0.9583
-36,#216076,Austria,"1,750",0.9604
-36,Mercedes Kristal,United States of America,"1,710",0.9583
-36,#125725,United States of America,"1,700",0.9647
-36,#479714,United States of America,"1,700",0.9589
-36,Blake Owens,United States of America,"1,700",0.9583
-36,Valerio Villani,Italy,"1,685",0.9583
-36,#989460,Slovenia,"1,670",0.9598
-36,#750323,United States of America,"1,650",0.9583
-36,#251879,Spain,"1,645",0.9583
-36,#189704,Ireland,"1,645",0.9583
-36,Michele Matthews,United States of America,"1,615",0.9592
-36,#786442,United States of America,"1,600",0.9584
-36,#310869,France,"1,545",0.9583
-36,#539554,United Kingdom,"1,500",0.9603
-36,#847251,United States of America,"1,500",0.9583
-36,Norman Sheppard,United States of America,"1,430",0.9598
-36,#886983,Norway,"1,405",0.9615
-36,#871587,United States of America,"1,400",0.9583
-36,Fraser Buchanan,Canada,"1,300",0.9584
-36,#635553,United States of America,"1,300",0.9583
-36,#476290,Chile,"1,300",0.9583
-36,#715419,Sweden,"1,275",0.9589
-36,#129958,United Kingdom,"1,250",0.9615
-36,Daniel deLeon,United States of America,"1,220",0.9586
-36,Drew DePriest,United States of America,"1,050",0.9737
+36,Brittany Deaton,United States of America,10000,0.9678
+36,Nicolas Micot,France,9915,0.9675
+36,Peter Scharl,United States of America,9115,0.9627
+36,Jason Hutcheson,United States of America,8830,0.9595
+36,Lorenzo Foti,Italy,9715,0.9626
+36,Adam Carter,Canada,8500,0.9597
+36,Katelyn Stienen,United States of America,8315,0.9583
+36,Elliott Paterson,United Kingdom,8200,0.9596
+36,Jacob Andrews,United States of America,8200,0.9583
+36,Kyle Sutton,United States of America,8000,0.9603
+36,Johnny Valeriote,United States of America,8000,0.9598
+36,Michael Holmes,Canada,8000,0.9594
+36,Christophe Belin,France,7915,0.9608
+36,Kenneth Wang,United States of America,7915,0.9584
+36,Jeremy Freelove,United States of America,7850,0.9583
+36,Alfons Oliver Altes,Spain,7700,0.9616
+36,Jesi Lipp,United States of America,7650,0.9611
+36,Harry Seiders,United States of America,7600,0.959
+36,Ben Pridmore,United Kingdom,7565,0.9642
+36,Ben deLeon,United States of America,7515,0.9615
+36,Sharon Parker,United States of America,7480,0.9583
+36,Harry Watson,United Kingdom,7415,0.9583
+36,Lyanne van Dijk,Netherlands,7410,0.9598
+36,Alwyn Birkholtz,South Africa,7335,0.9656
+36,Shaun McCarthy,United States of America,7315,0.9585
+36,Matt Ficarra,United States of America,7245,0.9584
+36,James Galbraith,United States of America,7220,0.9609
+36,Will Demere,United States of America,7215,0.9586
+36,Riley Flischel,United States of America,7150,0.9598
+36,Judith Droogsma,Netherlands,6785,0.9633
+36,Charles Poulain,France,6715,0.9583
+36,James Blackham,United Kingdom,6635,0.9592
+36,Martijn Adriaanse,Netherlands,6485,0.9586
+36,Matt Melsen,United States of America,6435,0.9591
+36,Oliver Lambert,United Kingdom,6415,0.9586
+36,Ricardo Domínguez,Mexico,6405,0.9584
+36,Sergio Trifiletti,Italy,6415,0.9585
+36,Kristain Lindemann,United States of America,6400,0.9586
+36,Brandon Moyer,United States of America,6400,0.9583
+36,Grigoriy Korkishko,Russian Federation,6345,0.9588
+36,Andrew Heybruch,United States of America,6250,0.9583
+36,Zsolt Mogyorósi,Hungary,6215,0.9586
+36,Jakub Pomykalski,Poland,6200,0.9592
+36,Jason Webber,South Africa,6200,0.9586
+36,Juan Cifuentes,Chile,6200,0.9584
+36,Robert Guiher,United States of America,6200,0.9583
+36,Alexey Sviridov,United Kingdom,6115,0.9601
+36,J. Parker Garrison,United States of America,6115,0.9588
+36,Taylor Robinson,United States of America,6115,0.9583
+36,Yiwei Cao,Italy,6105,0.9583
+36,Neil Foot,United Kingdom,6070,0.9595
+36,Adam Steiner,Austria,6060,0.9584
+36,Hayden Waller,Canada,6000,0.9583
+36,Jim Pappalardo,United States of America,5955,0.9612
+36,Kevin Taylor,United States of America,5945,1
+36,Matthew Jeanos,Canada,5915,0.9599
+36,Patrick Chatain,Colombia,5900,0.9625
+36,Nikolay Georgiev,Bulgaria,5900,0.9597
+36,Pieter Pienaar,South Africa,5860,0.96
+36,Henriette Hamer,Netherlands,5815,0.9583
+36,Tim Roberts,United Kingdom,5800,0.9608
+36,Renier Wessels,South Africa,5800,0.9593
+36,Samy Zerrouki,Switzerland,5765,0.9613
+36,Tianyu William Xiao,Switzerland,5765,0.9606
+36,Stephanie A,United States of America,5765,0.9583
+36,Pierre Sertin,France,5715,0.9606
+36,Chris Wilson,United Kingdom,5755,0.9583
+36,Jaq Kennedy,United Kingdom,5715,0.9583
+36,Anders Richter Lindén,Denmark,5680,0.961
+36,Tom Renker,Germany,5665,0.96
+36,Curtis Landry,United States of America,5615,0.9583
+36,Emad Oughourli,United States of America,5600,0.9641
+36,Matt O'Brien,United States of America,5565,0.9583
+36,Dan Seiders,United States of America,5560,0.9597
+36,Yun-Fei-Yang Liu,United States of America,5550,0.9587
+36,#742718,United Kingdom,5545,0.9592
+36,Graydon Moore,Canada,5500,0.9601
+36,Stig Hedström-Cornéer,Sweden,5500,0.9583
+36,#345244,Spain,5500,0.9583
+36,Jacob De La Cruz,United States of America,5490,0.9621
+36,Erick Meszaros-Jones,United States of America,5480,0.959
+36,Julie Bowden,United Kingdom,5450,0.9583
+36,Chris Pipka,Canada,5410,0.9583
+36,Mike Kern,United States of America,5350,0.9583
+36,Robert Barnes,United Kingdom,5305,0.9583
+36,Tom Vincent,United Kingdom,5265,0.959
+36,Fahad Haneefa,United Kingdom,5160,0.9602
+36,Eva Jansky-Tatham,Germany,5100,0.9583
+36,Timothy Bralick,United States of America,5060,0.961
+36,#876855,United States of America,5040,0.9583
+36,Cecelia Rieb,United States of America,5015,0.9596
+36,#725582,South Africa,5015,0.9583
+36,Ben Carr,United States of America,5000,0.9583
+36,Jakub Hluzow,Poland,4965,0.9583
+36,Gonçalo Antunes,Portugal,4925,0.96
+36,Sickboy Nico,Switzerland,4915,0.9591
+36,#535704,United States of America,4900,0.9598
+36,#440752,United Kingdom,4865,0.9602
+36,Branden Lewis,Canada,4865,0.9588
+36,Franco Bosman,South Africa,4850,0.9585
+36,Jeroen Adriaanse,Netherlands,4815,0.9584
+36,Hesham Fouad,Egypt,4810,0.9586
+36,#459611,Poland,4785,0.9583
+36,Arnold Miron,United Kingdom,4700,0.9591
+36,Armando Godina Carrasco,United Kingdom,4625,0.9601
+36,#429676,France,4615,0.9586
+36,#767270,France,4615,0.9585
+36,Diana Constantinescu,Canada,4615,0.9583
+36,Bryan Wilhaucks,United States of America,4610,0.9583
+36,Jack Franken,United States of America,4600,0.9672
+36,#763459,United Kingdom,4600,0.9583
+36,Katie May,United States of America,4565,0.9583
+36,Ryan Bains,United Kingdom,4545,0.9759
+36,#877539,United States of America,4510,0.965
+36,Klinsmann Langhanz,Brazil,4505,0.9583
+36,#495617,Italy,4400,0.9602
+36,Robert Buemmer,Australia,4310,0.9583
+36,Robert Webb,United States of America,4305,0.9618
+36,Juan Pedro León Pinochet,Chile,4200,0.9607
+36,Ian Naden,United Kingdom,4200,0.9602
+36,Denys Timankov,Germany,4200,0.9596
+36,Franz Brunner,Germany,4175,0.9584
+36,#978362,Switzerland,4165,0.9583
+36,Gregory Thompson,United States of America,4150,0.9583
+36,Luca Franceschini,Germany,4145,0.9663
+36,Michael Berman,United States of America,4100,0.9586
+36,Alvaro Ivan Rojas De la Torre,Bolivia,4080,0.9586
+36,Nick Tone,United States of America,4065,0.9583
+36,#741640,United States of America,4050,0.9583
+36,Ariadna Berger,Argentina,4030,0.9583
+36,Nick McCartney,United States of America,4030,0.9583
+36,John House,United Kingdom,3965,0.9583
+36,#216997,United States of America,3945,0.9585
+36,#458852,United States of America,3915,0.9583
+36,Benjamin Weber,Austria,3900,0.9996
+36,Ben Rotblatt,United States of America,3900,0.9613
+36,#649994,United States of America,3800,0.9594
+36,#885963,United States of America,3750,0.9585
+36,Xuan Nguyen,France,3800,0.9583
+36,David Rosel,United Kingdom,3750,0.9585
+36,Rob Wheatley,United Kingdom,3750,0.9583
+36,Steyn Wolmarans,South Africa,3745,0.9622
+36,Barbara Mauric,France,3730,0.9594
+36,Jack Parsons,United Kingdom,3715,0.9594
+36,Gage Simpson,United Kingdom,3705,0.961
+36,#535887,France,3700,0.9612
+36,#646435,France,3700,0.9584
+36,#798692,France,3655,0.9602
+36,Robert Valentine,United States of America,3650,0.959
+36,#965852,United States of America,3620,0.9588
+36,#711724,United States of America,3585,0.9598
+36,Martin Stafford,United Kingdom,3580,0.9592
+36,#892610,United States of America,3500,0.9591
+36,Antonio Malacrino,United Kingdom,3450,0.9603
+36,#488330,United States of America,3360,0.9583
+36,#351201,United States of America,3320,0.9583
+36,Valy Greavu,Romania,3300,0.9583
+36,Ashleigh Roberts,United States of America,3300,0.9583
+36,#551067,United States of America,3300,0.9583
+36,Sergio Travieso,Spain,3265,0.9609
+36,#884533,Canada,3245,0.9613
+36,#676425,United States of America,3235,0.9608
+36,Christian Brudy,Germany,3215,0.9585
+36,#491677,Finland,3215,0.9583
+36,Kelly Jones,South Africa,3180,0.9601
+36,Aaron Young,United States of America,3045,0.9583
+36,#977356,United States of America,3040,0.9584
+36,Sergei Mochtchenkov,Ukraine,3000,0.9592
+36,Kai Hartley,United States of America,3000,0.9585
+36,#328029,United Kingdom,3000,0.9583
+36,Martin Schaaphok,Netherlands,2960,0.9583
+36,#116775,United States of America,2950,0.9604
+36,Brian Csipkes,United States of America,2950,0.9583
+36,Mara Osio,Italy,2915,0.9614
+36,Roland Hartz,France,2915,0.9591
+36,John Vergara,Colombia,2915,0.9587
+36,Petr Keblusek,Czech Republic,2915,0.9584
+36,#555744,France,2910,0.9588
+36,John Townsend,United States of America,2900,0.9591
+36,Michael Hermann,Germany,2885,0.9593
+36,David Nordstrom,United States of America,2885,0.9585
+36,Andy Chen,United States of America,2885,0.9584
+36,Gabriel Sotero,Brazil,2850,0.9606
+36,Eric Langlois,Canada,2850,0.9586
+36,#287273,Israel,2850,0.9584
+36,Jacob Labkovski,United States of America,2815,0.9586
+36,#268472,United States of America,2755,0.9583
+36,Tanguy Prodault,France,2750,0.9589
+36,Arturo Polichuk,Mexico,2720,0.9588
+36,#120144,Germany,2695,0.9585
+36,Jérémie Verdonck,France,2690,0.9604
+36,#779988,South Africa,2645,0.9592
+36,#703082,United Kingdom,2610,0.9583
+36,Alex Schwartz,United States of America,2590,0.9584
+36,#858398,United States of America,2585,0.9583
+36,Josep Amela Milian,Spain,2550,0.9673
+36,Vladimir Smiljanic,Canada,2545,0.9586
+36,#822292,United States of America,2535,0.9584
+36,#366915,United States of America,2535,0.9583
+36,Amber Johnson,United States of America,2520,0.9583
+36,#981987,Latvia,2500,0.9584
+36,Michael Thanasides,United States of America,2480,0.9583
+36,#907027,United Kingdom,2450,0.9653
+36,Edmundo Heiras,Canada,2450,0.9583
+36,John Embree,United States of America,2435,0.9598
+36,#201808,United States of America,2435,0.9586
+36,#101174,France,2390,0.9583
+36,#774405,United States of America,2350,0.9599
+36,#788554,South Africa,2350,0.9586
+36,#880634,United States of America,2265,0.9586
+36,#623162,France,2265,0.9591
+36,Thomas M Dickinson,United States of America,2250,0.9588
+36,#474720,United States of America,2150,0.9605
+36,#464522,United States of America,2150,0.9597
+36,#684406,Czech Republic,2100,0.9599
+36,Emīls Žubulis,Latvia,2050,0.963
+36,Benjamin Bratton,United States of America,2050,0.9588
+36,#845054,Canada,2025,0.9583
+36,#543007,Denmark,2000,0.9583
+36,#638097,United Kingdom,2000,0.9583
+36,Jorge Ivan Ayala Rojas,Colombia,1965,0.9585
+36,#862053,Russian Federation,1950,0.959
+36,Laura Kathleen Lewis,United States of America,1915,0.9596
+36,Charles Moon,United States of America,1900,0.9595
+36,Thomas Marcelo,Brazil,1900,0.9583
+36,#600099,United States of America,1880,0.9583
+36,#124900,United Kingdom,1820,0.9583
+36,Jörg Profanter,Austria,1820,0.9583
+36,#216076,Austria,1750,0.9604
+36,Mercedes Kristal,United States of America,1710,0.9583
+36,#125725,United States of America,1700,0.9647
+36,#479714,United States of America,1700,0.9589
+36,Blake Owens,United States of America,1700,0.9583
+36,Valerio Villani,Italy,1685,0.9583
+36,#989460,Slovenia,1670,0.9598
+36,#750323,United States of America,1650,0.9583
+36,#251879,Spain,1645,0.9583
+36,#189704,Ireland,1645,0.9583
+36,Michele Matthews,United States of America,1615,0.9592
+36,#786442,United States of America,1600,0.9584
+36,#310869,France,1545,0.9583
+36,#539554,United Kingdom,1500,0.9603
+36,#847251,United States of America,1500,0.9583
+36,Norman Sheppard,United States of America,1430,0.9598
+36,#886983,Norway,1405,0.9615
+36,#871587,United States of America,1400,0.9583
+36,Fraser Buchanan,Canada,1300,0.9584
+36,#635553,United States of America,1300,0.9583
+36,#476290,Chile,1300,0.9583
+36,#715419,Sweden,1275,0.9589
+36,#129958,United Kingdom,1250,0.9615
+36,Daniel deLeon,United States of America,1220,0.9586
+36,Drew DePriest,United States of America,1050,0.9737
 36,#298022,United Kingdom,950,0.9586
 36,Eylem Can Cetintas,Austria,900,0.9734
 36,#912854,Canada,850,0.9583
@@ -2180,7 +2151,7 @@
 36,#589772,Canada,300,0.9583
 36,#454364,United States of America,300,0.9583
 36,#722788,Puerto Rico,85,0.9583
-37,Andrew Ngai,Australia,"1,250",0.9792
+37,Andrew Ngai,Australia,1250,0.9792
 37,Pierre Sertin,France,420,0.9792
 37,Dario Mavec,Australia,390,0.9792
 37,Jaq Kennedy,United Kingdom,270,0.9792
@@ -2258,7 +2229,7 @@
 38,Lianna Gerrish,United States of America,290,0.9792
 38,Willem Gerritsen,Netherlands,746,0.9792
 38,Michael Jarman,United Kingdom,882,0.9792
-38,Kenneth Wang,United States of America,"1,120",0.9792
+38,Kenneth Wang,United States of America,1120,0.9792
 38,Matt O'Brien,United States of America,60,0.9792
 38,Klinsmann Langhanz,Brazil,306,0.9792
 38,Peter Scharl,United States of America,376,0.9792
@@ -2302,7 +2273,7 @@
 38,Samir Asadov,Ukraine,198,0.9792
 38,Riley Flischel,United States of America,470,0.9792
 38,Jeremy Freelove,United States of America,515,0.9792
-38,Diarmuid Early,Ireland,"1,050",0.9792
+38,Diarmuid Early,Ireland,1050,0.9792
 39,Andrew Ngai,Australia,902,0.9792
 39,Dario Mavec,Australia,770,0.9792
 39,Emilie Williams,Canada,316,0.9792
@@ -2398,7 +2369,7 @@
 42,Nicolas Micot,France,410,0.9792
 42,Tianyu William Xiao,Switzerland,273,0.9792
 42,Diarmuid Early,Ireland,780,0.9792
-43,Andrew Ngai,Australia,"1,215",0.9792
+43,Andrew Ngai,Australia,1215,0.9792
 43,Timothy Shue,New Zealand,418,0.9792
 43,Jakub Pomykalski,Poland,513,0.9792
 43,Stevenson Yu,Philippines,393,0.9792
@@ -2414,9 +2385,9 @@
 44,Adam Carter,Canada,624,0.9792
 44,Nicolas Micot,France,92,0.9792
 44,Diarmuid Early,Ireland,840,0.9792
-45,Michael Jarman,United Kingdom,"1,696",0.9792
-45,Jakub Pomykalski,Poland,"1,078",0.9792
-45,Adam Carter,Canada,"1,067",0.9792
+45,Michael Jarman,United Kingdom,1696,0.9792
+45,Jakub Pomykalski,Poland,1078,0.9792
+45,Adam Carter,Canada,1067,0.9792
 45,Peter Scharl,United States of America,993,0.9792
 45,Patrick Chatain,Colombia,945,0.9792
 46,Diarmuid Early,Ireland,983,0.9792
@@ -2427,7 +2398,7 @@
 47,Andrew Ngai,Australia,970,0.9792
 47,Michael Jarman,United Kingdom,774,0.9792
 47,Willem Gerritsen,Netherlands,620,0.9792
-48,Diarmuid Early,Ireland,"1,150",0.9792
+48,Diarmuid Early,Ireland,1150,0.9792
 48,Chris Clarke,United Kingdom,990,0.9797
 48,Willem Gerritsen,Netherlands,980,0.9797
 48,Jacob Andrews,United States of America,950,0.9801
@@ -2737,49 +2708,44 @@
 49,Anônimo 98,SP,30,0
 49,Calebe Stoffel,ES,30,0
 49,Alessandra Rosa Subirá Kunz de Jesus,SP,30,0
-49,Samuel Freitas,CE,0,1081
-49,Gustavo Moreno,SP,0,215
-49,Anônimo 121,SP,0,0
-49,Vinicius Sardenberg,RJ,0,0
-49,Anônimo 132,SP,0,0
-50,Diarmuid Early,Ireland,"1,250",0.9886
-50,Colin Sheehe,United States of America,"1,250",0.9831
-50,Anup Agarwal,India,"1,250",0.9825
-50,Sergio Trifiletti,Italy,"1,250",0.9805
-50,Harry Gross,United Kingdom,"1,250",0.9793
-50,Elliott Paterson,United Kingdom,"1,185",0.9793
-50,Chris Clarke,United Kingdom,"1,175",0.9793
-50,Nick Boberg,New Zealand,"1,160",0.9792
-50,Brittany Deaton,United States of America,"1,150",0.9801
-50,Ben Gutscher,China,"1,150",0.9792
-50,Adam Carter,Canada,"1,125",0.9826
-50,David Brown,United States of America,"1,125",0.9792
-50,Jack Franken,United States of America,"1,110",0.9817
-50,Dhruv Raj Chaudhary,India,"1,110",0.9796
-50,Nick Lowman,United States of America,"1,110",0.9792
-50,Lorenzo Foti,Italy,"1,110",0.9792
-50,Taylor Robinson,United States of America,"1,110",0.9792
-50,Min Chen,Australia,"1,110",0.9792
-50,Pakkapong Sricharoen,Thailand,"1,100",0.9796
-50,Brandon Moyer,United States of America,"1,100",0.9792
-50,Juan Cifuentes,Chile,"1,085",0.9792
-50,Katelyn Stienen,United States of America,"1,085",0.9792
-50,Bo Rydobon,Thailand,"1,060",0.9823
-50,Blake Ekelund,United States of America,"1,060",0.9799
-50,Joshua Bruce,United States of America,"1,060",0.9792
-50,Adam Reichenbach,Hungary,"1,060",0.9792
-50,Riley Flischel,United States of America,"1,060",0.9792
-50,Gabriela Stroj,Poland,"1,060",0.9792
-50,Cameron Fraser,New Zealand,"1,058",0.9794
-50,Samir Asadov,Ukraine,"1,035",0.9792
-50,Jasper van Merle,Netherlands,"1,025",0.9797
-50,David Nordstrom,United States of America,"1,025",0.9792
-50,#778047,Netherlands,"1,009",0.9805
-50,#310336,Indonesia,"1,000",0.98
-50,Curtis Landry,United States of America,"1,000",0.9798
-50,Anders Richter Lindén,Denmark,"1,000",0.9792
-50,Greg Hingsbergen,United States of America,"1,000",0.9792
-50,Luca Riccardi,Italy,"1,000",0.9792
+50,Diarmuid Early,Ireland,1250,0.9886
+50,Colin Sheehe,United States of America,1250,0.9831
+50,Anup Agarwal,India,1250,0.9825
+50,Sergio Trifiletti,Italy,1250,0.9805
+50,Harry Gross,United Kingdom,1250,0.9793
+50,Elliott Paterson,United Kingdom,1185,0.9793
+50,Chris Clarke,United Kingdom,1175,0.9793
+50,Nick Boberg,New Zealand,1160,0.9792
+50,Brittany Deaton,United States of America,1150,0.9801
+50,Ben Gutscher,China,1150,0.9792
+50,Adam Carter,Canada,1125,0.9826
+50,David Brown,United States of America,1125,0.9792
+50,Jack Franken,United States of America,1110,0.9817
+50,Dhruv Raj Chaudhary,India,1110,0.9796
+50,Nick Lowman,United States of America,1110,0.9792
+50,Lorenzo Foti,Italy,1110,0.9792
+50,Taylor Robinson,United States of America,1110,0.9792
+50,Min Chen,Australia,1110,0.9792
+50,Pakkapong Sricharoen,Thailand,1100,0.9796
+50,Brandon Moyer,United States of America,1100,0.9792
+50,Juan Cifuentes,Chile,1085,0.9792
+50,Katelyn Stienen,United States of America,1085,0.9792
+50,Bo Rydobon,Thailand,1060,0.9823
+50,Blake Ekelund,United States of America,1060,0.9799
+50,Joshua Bruce,United States of America,1060,0.9792
+50,Adam Reichenbach,Hungary,1060,0.9792
+50,Riley Flischel,United States of America,1060,0.9792
+50,Gabriela Stroj,Poland,1060,0.9792
+50,Cameron Fraser,New Zealand,1058,0.9794
+50,Samir Asadov,Ukraine,1035,0.9792
+50,Jasper van Merle,Netherlands,1025,0.9797
+50,David Nordstrom,United States of America,1025,0.9792
+50,#778047,Netherlands,1009,0.9805
+50,#310336,Indonesia,1000,0.98
+50,Curtis Landry,United States of America,1000,0.9798
+50,Anders Richter Lindén,Denmark,1000,0.9792
+50,Greg Hingsbergen,United States of America,1000,0.9792
+50,Luca Riccardi,Italy,1000,0.9792
 50,Stevenson Yu,Philippines,925,0.9792
 50,Johnny Valeriote,United States of America,910,0.9793
 50,Willem Gerritsen,Netherlands,910,0.9792
@@ -3033,19 +2999,15 @@
 51,Wanderlei Hüttel,SC,120,25
 51,Rogerio Almeida de Oliveira,SP,120,0
 51,Manoel Messias Batista,SP,98,0
-51,Anônimo 169,MG,0,449
-51,Anônimo 159,EX,0,111
-51,Agnaldo Clozer Pinheiro,SP,0,0
-51,Kelly Otofuji Honda,PR,0,0
-52,Andrew Ngai,Australia,"1,250",0.9887
-52,Diarmuid Early,Ireland,"1,250",0.9884
-52,Bo Rydobon,Thailand,"1,250",0.9799
-52,Anup Agarwal,India,"1,242",0.9803
-52,Jean Wolleh,Germany,"1,167",0.9792
-52,Adam Carter,Canada,"1,128",0.981
-52,Daniel Hart,United States of America,"1,128",0.9792
-52,Harry Gross,United Kingdom,"1,112",0.9793
-52,Benjamin Weber,Austria,"1,004",0.9793
+52,Andrew Ngai,Australia,1250,0.9887
+52,Diarmuid Early,Ireland,1250,0.9884
+52,Bo Rydobon,Thailand,1250,0.9799
+52,Anup Agarwal,India,1242,0.9803
+52,Jean Wolleh,Germany,1167,0.9792
+52,Adam Carter,Canada,1128,0.981
+52,Daniel Hart,United States of America,1128,0.9792
+52,Harry Gross,United Kingdom,1112,0.9793
+52,Benjamin Weber,Austria,1004,0.9793
 52,Ricardo Domínguez,Mexico,994,0.9793
 52,Edwin Brown,United Kingdom,982,0.9795
 52,Jakub Pomykalski,Poland,982,0.9794
@@ -3257,13 +3219,13 @@
 53,Rogerio Almeida de Oliveira,SP,260,48
 53,Manoel Messias Batista,SP,156,0
 53,Agnaldo Clozer Pinheiro,SP,120,0
-54,Peter Scharl,United States of America,"1,250",0.9821
-54,Jakub Pomykalski,Poland,"1,191",0.9792
-54,Anders Richter Lindén,Denmark,"1,110",0.9792
-54,Lorenzo Foti,Italy,"1,065",0.983
-54,Jack Franken,United States of America,"1,058",0.9792
-54,Andrew Ngai,Australia,"1,033",0.9794
-54,Joshua Bruce,United States of America,"1,012",0.9792
+54,Peter Scharl,United States of America,1250,0.9821
+54,Jakub Pomykalski,Poland,1191,0.9792
+54,Anders Richter Lindén,Denmark,1110,0.9792
+54,Lorenzo Foti,Italy,1065,0.983
+54,Jack Franken,United States of America,1058,0.9792
+54,Andrew Ngai,Australia,1033,0.9794
+54,Joshua Bruce,United States of America,1012,0.9792
 54,Michael Holmes,Canada,983,0.9794
 54,Ben deLeon,United States of America,973,0.9811
 54,Zhang Yunyi,China,973,0.9812
@@ -3513,13 +3475,10 @@
 55,Wanderlei Hüttel,SC,270,14
 55,Dionathan Magayver Sperandio,RS,264,0
 55,Samara Lana da Rocha,MG,124,0
-55,Bruno Leonardo Santos Cerqueira,BA,0,548
-55,Antonio Nicacio Da Silva,PB,0,465
-55,Matheus Turra Malucelli,PR,0,0
-56,Andrew Ngai,Australia,"1,190",0.9794
-56,Jakub Pomykalski,Poland,"1,070",0.9799
-56,Sergio Trifiletti,Italy,"1,070",0.9793
-56,Chris Clarke,United Kingdom,"1,024",0.9794
+56,Andrew Ngai,Australia,1190,0.9794
+56,Jakub Pomykalski,Poland,1070,0.9799
+56,Sergio Trifiletti,Italy,1070,0.9793
+56,Chris Clarke,United Kingdom,1024,0.9794
 56,Jack Franken,United States of America,988,0.9792
 56,Pakkapong Sricharoen,Thailand,974,0.9792
 56,Peter Scharl,United States of America,940,0.9796
@@ -3767,8 +3726,6 @@
 57,Dionathan Magayver Sperandio,RS,1200,-1800
 57,Manoel Messias Batista,SP,1000,-1800
 57,Anônimo 200,RS,5200,-641
-57,Anônimo 132,SP,0,-1800
-57,Rodrigo Rehder Do Amaral,SP,0,-1800
 58,Gilberto Come,SP,205,27
 58,Jardiel Euflázio Felismino,PB,200,0
 58,Rafael Amadeos Rodrigues Ireijo,SP,175,0
@@ -3823,10 +3780,10 @@
 61,Eduardo Schneider Nering,PR,420,0
 61,Gabriel Sotero,RJ,380,0
 61,Juliano Neves,SP,334,0
-62,Pakkapong Sricharoen,Thailand,"1,170",0.9868
-62,Ny Tsiory Rakotonanahary,Madagascar,"1,170",0.9803
-62,Jasper van Merle,Netherlands,"1,140",0.9855
-62,Jeremy Freelove,United States of America,"1,060",0.9851
+62,Pakkapong Sricharoen,Thailand,1170,0.9868
+62,Ny Tsiory Rakotonanahary,Madagascar,1170,0.9803
+62,Jasper van Merle,Netherlands,1140,0.9855
+62,Jeremy Freelove,United States of America,1060,0.9851
 62,Thanasis Dogramatzidis,Greece,770,0.9792
 62,Diarmuid Early,Ireland,750,0.9793
 62,Sergio Trifiletti,Italy,720,0.9792
@@ -3987,26 +3944,26 @@
 62,Sergio Travieso,Spain,56,0.9797
 62,Dan Blake,United States of America,29,0.9792
 62,Alyssa Infante,United States of America,20,0.9792
-63,Diarmuid Early,Ireland,"1,250",0.9881
-63,Andrew Ngai,Australia,"1,250",0.9832
-63,Colin Sheehe,United States of America,"1,250",0.9807
-63,Elliott Paterson,United Kingdom,"1,250",0.9795
-63,Nick Lowman,United States of America,"1,250",0.9792
-63,Sergio Trifiletti,Italy,"1,220",0.9798
-63,Tze Sheng Yeo,Australia,"1,159",0.9803
-63,Jean Wolleh,Germany,"1,159",0.9797
-63,Juan Cifuentes,Chile,"1,159",0.9793
-63,Brian Wright,United States of America,"1,110",0.9793
-63,Michael Holmes,Canada,"1,102",0.9793
-63,Jasper van Merle,Netherlands,"1,090",0.9792
-63,Julian Poeltl,Germany,"1,090",0.9792
-63,Emad Oughourli,United States of America,"1,030",0.9793
-63,Anup Agarwal,India,"1,016",0.9819
-63,Timothy Shue,New Zealand,"1,016",0.9793
-63,Gabriela Stroj,Poland,"1,015",0.9804
-63,Brittany Deaton,United States of America,"1,003",0.9841
-63,Ben Carr,United States of America,"1,003",0.9796
-63,Lorenzo Foti,Italy,"1,000",0.9792
+63,Diarmuid Early,Ireland,1250,0.9881
+63,Andrew Ngai,Australia,1250,0.9832
+63,Colin Sheehe,United States of America,1250,0.9807
+63,Elliott Paterson,United Kingdom,1250,0.9795
+63,Nick Lowman,United States of America,1250,0.9792
+63,Sergio Trifiletti,Italy,1220,0.9798
+63,Tze Sheng Yeo,Australia,1159,0.9803
+63,Jean Wolleh,Germany,1159,0.9797
+63,Juan Cifuentes,Chile,1159,0.9793
+63,Brian Wright,United States of America,1110,0.9793
+63,Michael Holmes,Canada,1102,0.9793
+63,Jasper van Merle,Netherlands,1090,0.9792
+63,Julian Poeltl,Germany,1090,0.9792
+63,Emad Oughourli,United States of America,1030,0.9793
+63,Anup Agarwal,India,1016,0.9819
+63,Timothy Shue,New Zealand,1016,0.9793
+63,Gabriela Stroj,Poland,1015,0.9804
+63,Brittany Deaton,United States of America,1003,0.9841
+63,Ben Carr,United States of America,1003,0.9796
+63,Lorenzo Foti,Italy,1000,0.9792
 63,Ben Gutscher,China,992,0.98
 63,Benjamin Weber,Austria,991,0.9792
 63,Adam Carter,Canada,990,0.9838
@@ -4230,36 +4187,36 @@
 63,#150712,United States of America,88,0.9794
 63,#371327,United Kingdom,30,0.9792
 63,Bruno Merola,Brazil,30,0.9792
-64,Diarmuid Early,Ireland,"1,250",0.9906
-64,Grayson Huynh,Australia,"1,250",0.9888
-64,Jack Franken,United States of America,"1,250",0.9892
-64,Benjamin Weber,Austria,"1,250",0.9877
-64,Jeremy Freelove,United States of America,"1,250",0.987
-64,Ben Gutscher,China,"1,250",0.9866
-64,Sergio Trifiletti,Italy,"1,250",0.9866
-64,Matt Stockton,United States of America,"1,250",0.9856
-64,Pakkapong Sricharoen,Thailand,"1,250",0.9853
-64,Nicolas Micot,France,"1,250",0.9842
-64,Coby Dombrowsky,United States of America,"1,250",0.9836
-64,Nick Boberg,New Zealand,"1,250",0.9834
-64,Johnny Valeriote,United States of America,"1,250",0.983
-64,Michael Holmes,Canada,"1,250",0.982
-64,Elliott Paterson,United Kingdom,"1,250",0.9818
-64,Kenneth Wang,United States of America,"1,250",0.9814
-64,Katrin Dziergwa,Germany,"1,250",0.9812
-64,Harry Seiders,United States of America,"1,250",0.9803
-64,Harry Watson,United Kingdom,"1,205",0.9812
-64,Zhang Yunyi,China,"1,160",0.985
-64,Bo Rydobon,Thailand,"1,130",0.9893
-64,Lorenzo Foti,Italy,"1,130",0.9885
-64,Julien Lacaze,Réunion,"1,130",0.9803
-64,Luca Riccardi,Italy,"1,130",0.9792
-64,Adam Carter,Canada,"1,090",0.9913
-64,Matthew Fried,Australia,"1,070",0.9809
-64,Eric Ashton,United States of America,"1,040",0.9864
-64,Cheong Ng,New Zealand,"1,040",0.9822
-64,Taylor Robinson,United States of America,"1,040",0.9792
-64,Tom Vincent,United Kingdom,"1,040",0.9792
+64,Diarmuid Early,Ireland,1250,0.9906
+64,Grayson Huynh,Australia,1250,0.9888
+64,Jack Franken,United States of America,1250,0.9892
+64,Benjamin Weber,Austria,1250,0.9877
+64,Jeremy Freelove,United States of America,1250,0.987
+64,Ben Gutscher,China,1250,0.9866
+64,Sergio Trifiletti,Italy,1250,0.9866
+64,Matt Stockton,United States of America,1250,0.9856
+64,Pakkapong Sricharoen,Thailand,1250,0.9853
+64,Nicolas Micot,France,1250,0.9842
+64,Coby Dombrowsky,United States of America,1250,0.9836
+64,Nick Boberg,New Zealand,1250,0.9834
+64,Johnny Valeriote,United States of America,1250,0.983
+64,Michael Holmes,Canada,1250,0.982
+64,Elliott Paterson,United Kingdom,1250,0.9818
+64,Kenneth Wang,United States of America,1250,0.9814
+64,Katrin Dziergwa,Germany,1250,0.9812
+64,Harry Seiders,United States of America,1250,0.9803
+64,Harry Watson,United Kingdom,1205,0.9812
+64,Zhang Yunyi,China,1160,0.985
+64,Bo Rydobon,Thailand,1130,0.9893
+64,Lorenzo Foti,Italy,1130,0.9885
+64,Julien Lacaze,Réunion,1130,0.9803
+64,Luca Riccardi,Italy,1130,0.9792
+64,Adam Carter,Canada,1090,0.9913
+64,Matthew Fried,Australia,1070,0.9809
+64,Eric Ashton,United States of America,1040,0.9864
+64,Cheong Ng,New Zealand,1040,0.9822
+64,Taylor Robinson,United States of America,1040,0.9792
+64,Tom Vincent,United Kingdom,1040,0.9792
 64,Sameer Jagetia,United States of America,992,0.9809
 64,Anders Richter Lindén,Denmark,974,0.9792
 64,Juan Cifuentes,Chile,950,0.981
@@ -4413,16 +4370,16 @@
 64,Vasile Chiriac,Romania,12,0.9795
 64,Nikola Grujicic,Serbia,4,0.9863
 64,Dan Blake,United States of America,2,0.9965
-65,Diarmuid Early,Ireland,"1,250",0.983
-65,Brittany Deaton,United States of America,"1,184",0.9796
-65,Anup Agarwal,India,"1,170",0.9792
-65,Peter Scharl,United States of America,"1,170",0.9792
-65,Jack Franken,United States of America,"1,134",0.9792
-65,Jasper van Merle,Netherlands,"1,112",0.9795
-65,Taylor Robinson,United States of America,"1,030",0.9805
-65,Willem Gerritsen,Netherlands,"1,030",0.9796
-65,Julien Lacaze,Réunion,"1,030",0.9795
-65,Brian Wright,United States of America,"1,030",0.9792
+65,Diarmuid Early,Ireland,1250,0.983
+65,Brittany Deaton,United States of America,1184,0.9796
+65,Anup Agarwal,India,1170,0.9792
+65,Peter Scharl,United States of America,1170,0.9792
+65,Jack Franken,United States of America,1134,0.9792
+65,Jasper van Merle,Netherlands,1112,0.9795
+65,Taylor Robinson,United States of America,1030,0.9805
+65,Willem Gerritsen,Netherlands,1030,0.9796
+65,Julien Lacaze,Réunion,1030,0.9795
+65,Brian Wright,United States of America,1030,0.9792
 65,Jeremy Freelove,United States of America,980,0.9792
 65,Adam Carter,Canada,950,0.9803
 65,Adam Reichenbach,Hungary,950,0.9797
@@ -4668,9 +4625,9 @@
 65,#526886,United States of America,75,0.9842
 65,Vasile Chiriac,Romania,63,0.9795
 65,Grant Pitarys,United States of America,20,0.9966
-66,Diarmuid Early,Ireland,"1,170",0.9797
-66,Chris Clarke,United Kingdom,"1,043",0.9795
-66,Eric Ashton,United States of America,"1,006",0.9792
+66,Diarmuid Early,Ireland,1170,0.9797
+66,Chris Clarke,United Kingdom,1043,0.9795
+66,Eric Ashton,United States of America,1006,0.9792
 66,Michael Holmes,Canada,894,0.9799
 66,Zhang Yunyi,China,885,0.9802
 66,Jean Wolleh,Germany,881,0.9792
@@ -4940,325 +4897,325 @@
 66,#703689,United States of America,51,0.9792
 66,Stig Hedström-Cornéer,Sweden,50,0.9801
 66,Justin Platt,United States of America,30,0.9803
-67,Timothy Shue,New Zealand,"7,200",0.9583
-67,Julien Lacaze,Réunion,"6,640",0.9619
-67,Stevenson Yu,Philippines,"6,500",0.9619
-67,Zhang Yunyi,China,"6,425",0.9612
-67,Logan Clarke,New Zealand,"6,425",0.9587
-67,Danny Whittaker,Singapore,"6,415",0.9583
-67,Matthew Fried,Australia,"6,375",0.9589
-67,Ben Gutscher,China,"5,775",0.9583
-67,Pakkapong Sricharoen,Thailand,"5,600",0.9611
-67,Cameron Fraser,New Zealand,"5,600",0.9594
-67,Princess Camille Ong,Philippines,"5,590",0.9583
-67,Cheong Ng,New Zealand,"5,450",0.9601
-67,Calvin Lim,Indonesia,"5,375",0.9605
-67,Steve Schulz,Australia,"5,300",0.9583
-67,Toby Funston,Australia,"5,290",0.96
-67,Prithviraj Mavani,India,"5,190",0.9583
-67,Min Min Chua,Singapore,"5,100",0.9583
-67,Grayson Huynh,Australia,"5,100",0.9583
-67,Robert Buemmer,Australia,"4,350",0.9612
-67,Pichaya Pan-anukooln,Thailand,"4,875",0.9618
-67,Kai Wei Lim,Singapore,"4,275",0.9593
-67,Will Nord,Australia,"4,015",0.9589
-67,Edwin Hartono Limbri,Australia,"3,975",0.959
-67,Tobias White,Australia,"3,900",0.9583
-67,Clement Galvier,Singapore,"3,750",0.9598
-67,Peter Li,Australia,"3,700",0.9583
-67,Ben Savage,Australia,"3,600",0.9617
-67,Ee Chen,New Zealand,"3,600",0.9599
-67,Rudyanto Handoko,Indonesia,"3,600",0.9583
-67,#651202,Indonesia,"3,450",0.9601
-67,#260418,"Hong Kong SAR, China","3,525",0.959
-67,Ben Taylor,Australia,"3,450",0.9583
-67,Ching Yeng Tan,Malaysia,"3,375",0.9583
-67,#219557,Australia,"3,300",0.9583
-67,Sandip Agarwal,India,"3,150",0.9595
-67,#193081,Australia,"2,775",0.9583
-67,Mohammed Fari,Saudi Arabia,"2,775",0.9583
-67,Prateek Mohan,India,"2,500",0.9583
-67,#316349,Indonesia,"2,475",0.9728
-67,Phichitphol Bunyakanok,Thailand,"2,475",0.9583
-67,Jimmy Law,Indonesia,"2,400",0.9645
-67,Eddy Wijaya,Indonesia,"2,100",0.9599
-67,Bo Rydobon,Thailand,"1,960",0.9583
-67,Nawaf Al Omari,Saudi Arabia,"1,950",0.9688
-67,Eldar Lachinov,Azerbaijan,"1,810",0.9583
-67,Songglod Petchamras,Thailand,"1,800",0.9584
-67,#650710,Thailand,"1,800",0.9583
-67,Shrey Pujari,India,"1,800",0.9583
-67,Cokro Fidian,Indonesia,"1,725",0.9583
-67,Lisa Huang,Australia,"1,725",0.9583
-67,Stephanie Magnuson,Australia,"1,650",0.9627
-67,#310336,Indonesia,"1,500",0.9583
-67,Murray Trim,New Zealand,"1,125",0.9602
+67,Timothy Shue,New Zealand,7200,0.9583
+67,Julien Lacaze,Réunion,6640,0.9619
+67,Stevenson Yu,Philippines,6500,0.9619
+67,Zhang Yunyi,China,6425,0.9612
+67,Logan Clarke,New Zealand,6425,0.9587
+67,Danny Whittaker,Singapore,6415,0.9583
+67,Matthew Fried,Australia,6375,0.9589
+67,Ben Gutscher,China,5775,0.9583
+67,Pakkapong Sricharoen,Thailand,5600,0.9611
+67,Cameron Fraser,New Zealand,5600,0.9594
+67,Princess Camille Ong,Philippines,5590,0.9583
+67,Cheong Ng,New Zealand,5450,0.9601
+67,Calvin Lim,Indonesia,5375,0.9605
+67,Steve Schulz,Australia,5300,0.9583
+67,Toby Funston,Australia,5290,0.96
+67,Prithviraj Mavani,India,5190,0.9583
+67,Min Min Chua,Singapore,5100,0.9583
+67,Grayson Huynh,Australia,5100,0.9583
+67,Robert Buemmer,Australia,4350,0.9612
+67,Pichaya Pan-anukooln,Thailand,4875,0.9618
+67,Kai Wei Lim,Singapore,4275,0.9593
+67,Will Nord,Australia,4015,0.9589
+67,Edwin Hartono Limbri,Australia,3975,0.959
+67,Tobias White,Australia,3900,0.9583
+67,Clement Galvier,Singapore,3750,0.9598
+67,Peter Li,Australia,3700,0.9583
+67,Ben Savage,Australia,3600,0.9617
+67,Ee Chen,New Zealand,3600,0.9599
+67,Rudyanto Handoko,Indonesia,3600,0.9583
+67,#651202,Indonesia,3450,0.9601
+67,#260418,"Hong Kong SAR, China",3525,0.959
+67,Ben Taylor,Australia,3450,0.9583
+67,Ching Yeng Tan,Malaysia,3375,0.9583
+67,#219557,Australia,3300,0.9583
+67,Sandip Agarwal,India,3150,0.9595
+67,#193081,Australia,2775,0.9583
+67,Mohammed Fari,Saudi Arabia,2775,0.9583
+67,Prateek Mohan,India,2500,0.9583
+67,#316349,Indonesia,2475,0.9728
+67,Phichitphol Bunyakanok,Thailand,2475,0.9583
+67,Jimmy Law,Indonesia,2400,0.9645
+67,Eddy Wijaya,Indonesia,2100,0.9599
+67,Bo Rydobon,Thailand,1960,0.9583
+67,Nawaf Al Omari,Saudi Arabia,1950,0.9688
+67,Eldar Lachinov,Azerbaijan,1810,0.9583
+67,Songglod Petchamras,Thailand,1800,0.9584
+67,#650710,Thailand,1800,0.9583
+67,Shrey Pujari,India,1800,0.9583
+67,Cokro Fidian,Indonesia,1725,0.9583
+67,Lisa Huang,Australia,1725,0.9583
+67,Stephanie Magnuson,Australia,1650,0.9627
+67,#310336,Indonesia,1500,0.9583
+67,Murray Trim,New Zealand,1125,0.9602
 67,Ksenia Sobina,United Arab Emirates,675,0.9583
 67,#200670,Singapore,300,0.9584
 67,#398740,Australia,300,0.9583
 67,Venkata Durga Satya Krishnasai Godugula,United Arab Emirates,300,0.9583
 67,#689995,Indonesia,300,0.9583
 67,Sony Herdiansyah,Indonesia,85,0.9591
-68,Diarmuid Early,Ireland,"6,140",0.9583
-68,Jean Wolleh,Germany,"5,960",0.9591
-68,Lorenzo Foti,Italy,"5,800",0.9592
-68,Michael Holmes,Canada,"5,600",0.9598
-68,Adam Reichenbach,Hungary,"5,600",0.9583
-68,Ben Carr,United States of America,"5,585",0.9584
-68,Yiwei Cao,Luxembourg,"5,510",0.9584
-68,Zsolt Mogyorósi,Hungary,"5,500",0.9584
-68,Greg Hingsbergen,United States of America,"5,500",0.9584
-68,Jack Franken,United States of America,"5,500",0.9583
-68,Eric Ashton,United States of America,"5,430",0.9586
-68,Sergio Trifiletti,Italy,"5,360",0.9716
-68,Coby Dombrowsky,United States of America,"5,360",0.959
-68,Karim Awenat,United Kingdom,"5,290",0.9583
-68,Jakub Pomykalski,Poland,"5,275",0.9728
-68,Jeremy Freelove,United States of America,"5,150",0.9585
-68,Harry Gross,United Kingdom,"5,130",0.9586
-68,Colin Davidson,Canada,"5,060",0.9583
-68,Joshua Bruce,United States of America,"4,900",0.9596
-68,Jasper van Merle,Netherlands,"4,675",0.9583
-68,Marton Hunyady,Hungary,"4,605",0.9583
-68,Peter Scharl,United States of America,"4,480",0.9586
-68,Benjamin Weber,Austria,"4,455",0.9583
-68,Nicolas Micot,France,"4,450",0.9583
-68,Ben Pridmore,United Kingdom,"4,400",0.9632
-68,Riley Flischel,United States of America,"4,400",0.9583
-68,Steyn Wolmarans,South Africa,"4,380",0.9586
-68,Edwin Brown,United Kingdom,"4,380",0.9586
-68,Chris Wilson,United Kingdom,"4,350",0.9583
-68,Michael Jarman,United Kingdom,"4,300",0.9604
-68,Matt Stockton,United States of America,"4,235",0.9583
-68,Derek Kaplan,United States of America,"4,200",0.9616
-68,Patrick Chatain,Colombia,"4,200",0.9587
-68,Brian Hanley,United States of America,"4,170",0.961
-68,Washington Demicheli,Brazil,"4,170",0.9583
-68,Matt Ficarra,United States of America,"4,120",0.9588
-68,Daniel Hart,United States of America,"4,100",0.9598
-68,David Nordstrom,United States of America,"4,100",0.9597
-68,Christian Mbolanantenaina,Madagascar,"4,100",0.9583
-68,Elliott Paterson,United Kingdom,"4,100",0.9583
-68,Juan Cifuentes,Chile,"4,000",0.9597
-68,Parker Garrison,United States of America,"4,000",0.9585
-68,Colin Sheehe,United States of America,"3,960",0.9583
-68,Grigoriy Korkishko,Russian Federation,"3,950",0.9584
-68,Sean Dunbar,United States of America,"3,950",0.9583
-68,Norman Sheppard,United States of America,"3,950",0.9583
-68,Johnny Valeriote,Canada,"3,950",0.9583
-68,Thanasis Dogramatzidis,Greece,"3,950",0.9583
-68,Esther Vander Meulen,Canada,"3,935",0.9583
-68,Jeroen Adriaanse,Ireland,"3,930",0.9591
-68,Ben deLeon,United States of America,"3,850",0.9606
-68,Andrew Heybruch,United States of America,"3,850",0.9583
-68,Robert Valentine,United States of America,"3,825",0.96
-68,Siim Aksel Amer,Estonia,"3,800",0.9588
-68,Martin Schaaphok,Netherlands,"3,750",0.9602
-68,Chris Clarke,United Kingdom,"3,750",0.9588
-68,Jason Webber,South Africa,"3,750",0.9588
-68,Jennifer Williams,United States of America,"3,750",0.9585
-68,Keegan Morrissey,Canada,"3,750",0.9584
-68,William OBrien,United States of America,"3,750",0.9583
-68,Joaquin Courreges,Argentina,"3,700",0.9586
-68,Juan Pablo Brea,Argentina,"3,700",0.9585
-68,Josh Tucci,United States of America,"3,700",0.9583
-68,Helen Dupree,United States of America,"3,650",0.959
-68,Jesi Lipp,United States of America,"3,615",0.9583
-68,Renier Wessels,South Africa,"3,605",0.9584
-68,Martijn Adriaanse,Netherlands,"3,600",0.9596
-68,Søren Nielsen,Denmark,"3,600",0.959
-68,Alexander Freedman,United States of America,"3,600",0.9583
-68,Dan Seiders,United States of America,"3,600",0.9583
-68,Brittany Deaton,United States of America,"3,550",0.9583
-68,Diana Constantinescu,Canada,"3,530",0.9583
-68,Brian Wright,United States of America,"3,525",0.9625
-68,Jonathan Huang,United States of America,"3,500",0.9612
-68,Lianna Gerrish,United States of America,"3,480",0.9584
-68,Toby Julyan,United Kingdom,"3,475",0.9602
-68,Tom Vincent,United Kingdom,"3,460",0.9583
-68,Samir Asadov,Ukraine,"3,350",0.9588
-68,#412366,United States of America,"3,350",0.9587
-68,Emilie Williams,Canada,"3,345",0.9598
-68,Hadyn Wiseman,United Kingdom,"3,300",0.9583
-68,Etienne Corget,France,"3,300",0.9583
-68,Amtej Bhullar,Canada,"3,275",0.9591
-68,William Freestone,United Kingdom,"3,255",0.9598
-68,Fanny Caillot,Germany,"3,150",0.9605
-68,Arnold Miron,United Kingdom,"3,150",0.9587
-68,Erick Escalante,Peru,"3,125",0.9623
-68,#291119,Mexico,"3,125",0.9588
-68,Francois Neethling,United Kingdom,"3,120",0.9583
-68,Jasmine Qin,Canada,"3,110",0.9638
-68,Jaden Noronha,Canada,"3,100",0.9643
-68,#319279,Canada,"3,075",0.9585
-68,Martin Morissette,Canada,"3,075",0.9584
-68,Jeff Borek,United States of America,"3,070",0.9584
-68,Nicholas Fox,United States of America,"3,050",0.9599
-68,Gregory Thompson,United States of America,"3,050",0.9583
-68,Dominic Walsh,United Kingdom,"3,050",0.9583
-68,Jacob Andrews,United States of America,"3,050",0.9583
-68,Jörg Profanter,Austria,"3,050",0.9583
-68,Martin Stafford,United Kingdom,"3,045",0.9586
-68,#787807,United States of America,"3,025",0.9593
-68,Harry Watson,United Kingdom,"3,025",0.959
-68,#342018,South Africa,"3,000",0.9592
-68,#549792,United States of America,"2,950",0.9613
-68,Dan Blake,United States of America,"2,950",0.9593
-68,#874978,United Kingdom,"2,950",0.9586
-68,Michael Hermann,Germany,"2,950",0.9586
-68,Vitor Martinho,Brazil,"2,950",0.9583
-68,#981751,France,"2,950",0.9583
-68,Curtis Landry,United States of America,"2,925",0.9592
-68,Romain Clement,France,"2,900",0.9623
-68,Kristain Lindemann,United States of America,"2,900",0.9584
-68,#768734,United Kingdom,"2,900",0.9583
-68,Valy Greavu,Romania,"2,825",0.9596
-68,Kelly Jones,South Africa,"2,825",0.9583
-68,#649857,France,"2,810",0.9583
-68,Harry Seiders,United States of America,"2,800",0.9612
-68,Wynne Chyou,United States of America,"2,740",0.9589
-68,Jakub Hluzow,Poland,"2,725",0.9583
-68,Tim Froelich,United States of America,"2,700",0.9629
-68,James Humpish,United Kingdom,"2,700",0.9625
-68,Julian Poeltl,Germany,"2,700",0.9603
-68,#549140,Finland,"2,675",0.9591
-68,Will Demere,United States of America,"2,675",0.9586
-68,Klinsmann Langhanz,Brazil,"2,670",0.9589
-68,#271425,Germany,"2,665",0.9611
-68,Juliano Neves,Brazil,"2,625",0.9609
-68,Gabriel Sotero,Brazil,"2,600",0.9644
-68,Anaïs Gardet,France,"2,600",0.9623
-68,Fritz Burkhardt,United States of America,"2,600",0.9623
-68,Eric Chan,Canada,"2,600",0.961
-68,Ian Naden,United Kingdom,"2,600",0.9594
-68,Ashleigh Roberts,United States of America,"2,600",0.9591
-68,Lyanne van Dijk,Netherlands,"2,600",0.959
-68,Eduardo Nering,Brazil,"2,600",0.9588
-68,Maria Malham,United Kingdom,"2,600",0.9585
-68,Stephanie Annerose,United States of America,"2,600",0.9583
-68,Lara Holding-Jones,United Kingdom,"2,600",0.9583
-68,Roland Hartz,France,"2,600",0.9583
-68,#753792,Canada,"2,600",0.9583
-68,Benjamin Retter,United Kingdom,"2,600",0.9583
-68,Anders Richter Lindén,Denmark,"2,595",0.9583
-68,Jaq Kennedy,United Kingdom,"2,575",0.961
-68,#204930,United States of America,"2,550",0.9613
-68,Thomas M Dickinson,United States of America,"2,550",0.9613
-68,Ricardo Domínguez,Mexico,"2,550",0.9589
-68,Ryan Olstad,United States of America,"2,550",0.9586
-68,#610919,United Kingdom,"2,550",0.9584
-68,Filip Krerowicz,Poland,"2,540",0.9595
-68,#168919,United States of America,"2,525",0.9583
-68,Andrew Hall,United States of America,"2,475",0.961
-68,#486170,United States of America,"2,460",0.9589
-68,#526738,Canada,"2,460",0.9583
-68,Wojciech Rybak,Poland,"2,430",0.9597
-68,Thomas Beard,United Kingdom,"2,425",0.9584
-68,Theanette Brits,South Africa,"2,400",0.9597
-68,Jacob De La Cruz,United States of America,"2,400",0.9596
-68,Ben Li,United States of America,"2,390",0.9583
-68,Alwyn Birkholtz,South Africa,"2,370",0.9583
-68,#322447,United States of America,"2,350",0.9614
-68,#901627,Albania,"2,320",0.9589
-68,Ana Pineda,Spain,"2,300",0.9583
-68,#772580,France,"2,275",0.9583
-68,Tanguy Prodault,France,"2,270",0.9587
-68,Adam Carter,Canada,"2,255",0.9583
-68,Luca Franceschini,Germany,"2,250",0.9662
-68,Cecelia Rieb,United States of America,"2,250",0.96
-68,Henriette Hamer,Netherlands,"2,250",0.9595
-68,Nick Lowman,United States of America,"2,250",0.9593
-68,Marc Castro,Spain,"2,250",0.9589
-68,#618147,Ecuador,"2,250",0.9589
-68,#519703,Denmark,"2,250",0.9583
-68,Franz Brunner,Germany,"2,200",0.9698
-68,Bernardo Herrera,Colombia,"2,200",0.9653
-68,Matt Bleazard,United States of America,"2,200",0.9614
-68,Graydon Moore,Canada,"2,200",0.9606
-68,Franco Bosman,South Africa,"2,200",0.9606
-68,Shea Nangle,United States of America,"2,200",0.9605
-68,Thomas Marcelo,Brazil,"2,200",0.9602
-68,Felipe Rocha Carvalho,Brazil,"2,200",0.9596
-68,Nikolay Georgiev,Bulgaria,"2,200",0.9595
-68,#301598,United States of America,"2,200",0.9591
-68,#783355,France,"2,200",0.9587
-68,Georgi Matev,United States of America,"2,200",0.9583
-68,Mike Kern,United States of America,"2,180",0.9583
-68,#897572,Poland,"2,150",0.9622
-68,#543094,United States of America,"2,150",0.9587
-68,Jouni Kari,Finland,"2,140",0.9586
-68,Blake Ekelund,United States of America,"2,130",0.9585
-68,#642553,United States of America,"2,110",0.96
-68,Josep Amela Milian,Spain,"2,075",0.965
-68,Adam Steiner,Austria,"2,075",0.9591
-68,Eric Barr,United States of America,"2,075",0.9587
-68,John House,United Kingdom,"2,075",0.9585
-68,Matt Phelan,United States of America,"2,025",0.9608
-68,Leandro Machado,Brazil,"1,975",0.9583
-68,Bryan Hughes,United States of America,"1,970",0.9583
-68,Kyle Sutton,United States of America,"1,950",0.9636
-68,#143240,Canada,"1,950",0.9587
-68,Vanessa Schulz,Germany,"1,950",0.9585
-68,Igor Dobravc Mesarec,Slovenia,"1,925",0.9583
-68,Sander Vreeken,Netherlands,"1,920",0.9595
-68,Janis Upenieks,Latvia,"1,900",0.9801
-68,#315919,United States of America,"1,900",0.9649
-68,Jack Parsons,United Kingdom,"1,900",0.9615
-68,#660276,Italy,"1,900",0.9586
-68,Matthew Eaton,United States of America,"1,900",0.9583
-68,Torben Lindow,Germany,"1,900",0.9583
-68,Stig Hedström-Cornéer,Sweden,"1,900",0.9583
-68,Robin Westerberg,Finland,"1,875",0.9584
-68,Josh Vaughan,United States of America,"1,850",0.9613
-68,Luis Charca,Peru,"1,850",0.9587
-68,Tom Renker,Germany,"1,850",0.9583
-68,#652513,United Kingdom,"1,850",0.9583
-68,Zaur Dzhemaldinov,Russian Federation,"1,850",0.9583
-68,#850618,United States of America,"1,830",0.9602
-68,Terry Milyard,United States of America,"1,760",0.9583
-68,Aleksandrs Goba,Latvia,"1,755",0.9589
-68,Sergio Travieso,Spain,"1,700",0.9651
-68,Neil Foot,United Kingdom,"1,660",0.9609
-68,André Gonçalves,Brazil,"1,625",0.9588
-68,#906893,Ukraine,"1,620",0.9585
-68,Michael Freelove,United States of America,"1,600",0.9583
-68,Mark Clulow,South Africa,"1,600",0.9583
-68,Jack Dunning,United Kingdom,"1,575",1
-68,#385226,United States of America,"1,575",0.9589
-68,Jonna Sorsa,Finland,"1,550",0.9665
-68,Evan Haithcock,Canada,"1,550",0.9619
-68,Zachary Blonder,United States of America,"1,550",0.9597
-68,#461497,United States of America,"1,550",0.9596
-68,#526886,United States of America,"1,550",0.9595
-68,Nikola Grujicic,Serbia,"1,550",0.9592
-68,#866776,United Kingdom,"1,550",0.959
-68,Laszlo Csaba,Romania,"1,550",0.9588
-68,#885989,France,"1,550",0.9584
-68,Bruno Merola,Brazil,"1,550",0.9584
-68,Chris de Jong,Netherlands,"1,550",0.9584
-68,Jason Moore,United States of America,"1,550",0.9583
-68,#967592,United States of America,"1,550",0.9583
-68,Paulo Guerra,Portugal,"1,550",0.9583
-68,Domenic Amato,United States of America,"1,550",0.9583
-68,#155541,United Kingdom,"1,550",0.9583
-68,Charles Moon,United States of America,"1,500",0.9585
-68,Paul Richards,United States of America,"1,480",0.9605
-68,#641387,Switzerland,"1,430",0.9595
-68,#780299,Poland,"1,275",0.9585
-68,#734124,Germany,"1,250",0.9583
-68,#542759,United Kingdom,"1,200",0.9598
-68,#159475,United States of America,"1,200",0.9597
-68,#270791,United States of America,"1,200",0.9596
-68,Michael Baker,United States of America,"1,200",0.959
-68,#210935,Canada,"1,200",0.9587
-68,Diana Barragan,United States of America,"1,200",0.9586
-68,#554322,United States of America,"1,200",0.9584
-68,#503211,United States of America,"1,200",0.9583
-68,#279610,United States of America,"1,140",0.9647
-68,#397109,United Kingdom,"1,140",0.9583
-68,Rodolfo Mata,United States of America,"1,130",0.9593
-68,#861728,Serbia,"1,100",0.9585
-68,#989460,Slovenia,"1,070",0.9656
+68,Diarmuid Early,Ireland,6140,0.9583
+68,Jean Wolleh,Germany,5960,0.9591
+68,Lorenzo Foti,Italy,5800,0.9592
+68,Michael Holmes,Canada,5600,0.9598
+68,Adam Reichenbach,Hungary,5600,0.9583
+68,Ben Carr,United States of America,5585,0.9584
+68,Yiwei Cao,Luxembourg,5510,0.9584
+68,Zsolt Mogyorósi,Hungary,5500,0.9584
+68,Greg Hingsbergen,United States of America,5500,0.9584
+68,Jack Franken,United States of America,5500,0.9583
+68,Eric Ashton,United States of America,5430,0.9586
+68,Sergio Trifiletti,Italy,5360,0.9716
+68,Coby Dombrowsky,United States of America,5360,0.959
+68,Karim Awenat,United Kingdom,5290,0.9583
+68,Jakub Pomykalski,Poland,5275,0.9728
+68,Jeremy Freelove,United States of America,5150,0.9585
+68,Harry Gross,United Kingdom,5130,0.9586
+68,Colin Davidson,Canada,5060,0.9583
+68,Joshua Bruce,United States of America,4900,0.9596
+68,Jasper van Merle,Netherlands,4675,0.9583
+68,Marton Hunyady,Hungary,4605,0.9583
+68,Peter Scharl,United States of America,4480,0.9586
+68,Benjamin Weber,Austria,4455,0.9583
+68,Nicolas Micot,France,4450,0.9583
+68,Ben Pridmore,United Kingdom,4400,0.9632
+68,Riley Flischel,United States of America,4400,0.9583
+68,Steyn Wolmarans,South Africa,4380,0.9586
+68,Edwin Brown,United Kingdom,4380,0.9586
+68,Chris Wilson,United Kingdom,4350,0.9583
+68,Michael Jarman,United Kingdom,4300,0.9604
+68,Matt Stockton,United States of America,4235,0.9583
+68,Derek Kaplan,United States of America,4200,0.9616
+68,Patrick Chatain,Colombia,4200,0.9587
+68,Brian Hanley,United States of America,4170,0.961
+68,Washington Demicheli,Brazil,4170,0.9583
+68,Matt Ficarra,United States of America,4120,0.9588
+68,Daniel Hart,United States of America,4100,0.9598
+68,David Nordstrom,United States of America,4100,0.9597
+68,Christian Mbolanantenaina,Madagascar,4100,0.9583
+68,Elliott Paterson,United Kingdom,4100,0.9583
+68,Juan Cifuentes,Chile,4000,0.9597
+68,Parker Garrison,United States of America,4000,0.9585
+68,Colin Sheehe,United States of America,3960,0.9583
+68,Grigoriy Korkishko,Russian Federation,3950,0.9584
+68,Sean Dunbar,United States of America,3950,0.9583
+68,Norman Sheppard,United States of America,3950,0.9583
+68,Johnny Valeriote,Canada,3950,0.9583
+68,Thanasis Dogramatzidis,Greece,3950,0.9583
+68,Esther Vander Meulen,Canada,3935,0.9583
+68,Jeroen Adriaanse,Ireland,3930,0.9591
+68,Ben deLeon,United States of America,3850,0.9606
+68,Andrew Heybruch,United States of America,3850,0.9583
+68,Robert Valentine,United States of America,3825,0.96
+68,Siim Aksel Amer,Estonia,3800,0.9588
+68,Martin Schaaphok,Netherlands,3750,0.9602
+68,Chris Clarke,United Kingdom,3750,0.9588
+68,Jason Webber,South Africa,3750,0.9588
+68,Jennifer Williams,United States of America,3750,0.9585
+68,Keegan Morrissey,Canada,3750,0.9584
+68,William OBrien,United States of America,3750,0.9583
+68,Joaquin Courreges,Argentina,3700,0.9586
+68,Juan Pablo Brea,Argentina,3700,0.9585
+68,Josh Tucci,United States of America,3700,0.9583
+68,Helen Dupree,United States of America,3650,0.959
+68,Jesi Lipp,United States of America,3615,0.9583
+68,Renier Wessels,South Africa,3605,0.9584
+68,Martijn Adriaanse,Netherlands,3600,0.9596
+68,Søren Nielsen,Denmark,3600,0.959
+68,Alexander Freedman,United States of America,3600,0.9583
+68,Dan Seiders,United States of America,3600,0.9583
+68,Brittany Deaton,United States of America,3550,0.9583
+68,Diana Constantinescu,Canada,3530,0.9583
+68,Brian Wright,United States of America,3525,0.9625
+68,Jonathan Huang,United States of America,3500,0.9612
+68,Lianna Gerrish,United States of America,3480,0.9584
+68,Toby Julyan,United Kingdom,3475,0.9602
+68,Tom Vincent,United Kingdom,3460,0.9583
+68,Samir Asadov,Ukraine,3350,0.9588
+68,#412366,United States of America,3350,0.9587
+68,Emilie Williams,Canada,3345,0.9598
+68,Hadyn Wiseman,United Kingdom,3300,0.9583
+68,Etienne Corget,France,3300,0.9583
+68,Amtej Bhullar,Canada,3275,0.9591
+68,William Freestone,United Kingdom,3255,0.9598
+68,Fanny Caillot,Germany,3150,0.9605
+68,Arnold Miron,United Kingdom,3150,0.9587
+68,Erick Escalante,Peru,3125,0.9623
+68,#291119,Mexico,3125,0.9588
+68,Francois Neethling,United Kingdom,3120,0.9583
+68,Jasmine Qin,Canada,3110,0.9638
+68,Jaden Noronha,Canada,3100,0.9643
+68,#319279,Canada,3075,0.9585
+68,Martin Morissette,Canada,3075,0.9584
+68,Jeff Borek,United States of America,3070,0.9584
+68,Nicholas Fox,United States of America,3050,0.9599
+68,Gregory Thompson,United States of America,3050,0.9583
+68,Dominic Walsh,United Kingdom,3050,0.9583
+68,Jacob Andrews,United States of America,3050,0.9583
+68,Jörg Profanter,Austria,3050,0.9583
+68,Martin Stafford,United Kingdom,3045,0.9586
+68,#787807,United States of America,3025,0.9593
+68,Harry Watson,United Kingdom,3025,0.959
+68,#342018,South Africa,3000,0.9592
+68,#549792,United States of America,2950,0.9613
+68,Dan Blake,United States of America,2950,0.9593
+68,#874978,United Kingdom,2950,0.9586
+68,Michael Hermann,Germany,2950,0.9586
+68,Vitor Martinho,Brazil,2950,0.9583
+68,#981751,France,2950,0.9583
+68,Curtis Landry,United States of America,2925,0.9592
+68,Romain Clement,France,2900,0.9623
+68,Kristain Lindemann,United States of America,2900,0.9584
+68,#768734,United Kingdom,2900,0.9583
+68,Valy Greavu,Romania,2825,0.9596
+68,Kelly Jones,South Africa,2825,0.9583
+68,#649857,France,2810,0.9583
+68,Harry Seiders,United States of America,2800,0.9612
+68,Wynne Chyou,United States of America,2740,0.9589
+68,Jakub Hluzow,Poland,2725,0.9583
+68,Tim Froelich,United States of America,2700,0.9629
+68,James Humpish,United Kingdom,2700,0.9625
+68,Julian Poeltl,Germany,2700,0.9603
+68,#549140,Finland,2675,0.9591
+68,Will Demere,United States of America,2675,0.9586
+68,Klinsmann Langhanz,Brazil,2670,0.9589
+68,#271425,Germany,2665,0.9611
+68,Juliano Neves,Brazil,2625,0.9609
+68,Gabriel Sotero,Brazil,2600,0.9644
+68,Anaïs Gardet,France,2600,0.9623
+68,Fritz Burkhardt,United States of America,2600,0.9623
+68,Eric Chan,Canada,2600,0.961
+68,Ian Naden,United Kingdom,2600,0.9594
+68,Ashleigh Roberts,United States of America,2600,0.9591
+68,Lyanne van Dijk,Netherlands,2600,0.959
+68,Eduardo Nering,Brazil,2600,0.9588
+68,Maria Malham,United Kingdom,2600,0.9585
+68,Stephanie Annerose,United States of America,2600,0.9583
+68,Lara Holding-Jones,United Kingdom,2600,0.9583
+68,Roland Hartz,France,2600,0.9583
+68,#753792,Canada,2600,0.9583
+68,Benjamin Retter,United Kingdom,2600,0.9583
+68,Anders Richter Lindén,Denmark,2595,0.9583
+68,Jaq Kennedy,United Kingdom,2575,0.961
+68,#204930,United States of America,2550,0.9613
+68,Thomas M Dickinson,United States of America,2550,0.9613
+68,Ricardo Domínguez,Mexico,2550,0.9589
+68,Ryan Olstad,United States of America,2550,0.9586
+68,#610919,United Kingdom,2550,0.9584
+68,Filip Krerowicz,Poland,2540,0.9595
+68,#168919,United States of America,2525,0.9583
+68,Andrew Hall,United States of America,2475,0.961
+68,#486170,United States of America,2460,0.9589
+68,#526738,Canada,2460,0.9583
+68,Wojciech Rybak,Poland,2430,0.9597
+68,Thomas Beard,United Kingdom,2425,0.9584
+68,Theanette Brits,South Africa,2400,0.9597
+68,Jacob De La Cruz,United States of America,2400,0.9596
+68,Ben Li,United States of America,2390,0.9583
+68,Alwyn Birkholtz,South Africa,2370,0.9583
+68,#322447,United States of America,2350,0.9614
+68,#901627,Albania,2320,0.9589
+68,Ana Pineda,Spain,2300,0.9583
+68,#772580,France,2275,0.9583
+68,Tanguy Prodault,France,2270,0.9587
+68,Adam Carter,Canada,2255,0.9583
+68,Luca Franceschini,Germany,2250,0.9662
+68,Cecelia Rieb,United States of America,2250,0.96
+68,Henriette Hamer,Netherlands,2250,0.9595
+68,Nick Lowman,United States of America,2250,0.9593
+68,Marc Castro,Spain,2250,0.9589
+68,#618147,Ecuador,2250,0.9589
+68,#519703,Denmark,2250,0.9583
+68,Franz Brunner,Germany,2200,0.9698
+68,Bernardo Herrera,Colombia,2200,0.9653
+68,Matt Bleazard,United States of America,2200,0.9614
+68,Graydon Moore,Canada,2200,0.9606
+68,Franco Bosman,South Africa,2200,0.9606
+68,Shea Nangle,United States of America,2200,0.9605
+68,Thomas Marcelo,Brazil,2200,0.9602
+68,Felipe Rocha Carvalho,Brazil,2200,0.9596
+68,Nikolay Georgiev,Bulgaria,2200,0.9595
+68,#301598,United States of America,2200,0.9591
+68,#783355,France,2200,0.9587
+68,Georgi Matev,United States of America,2200,0.9583
+68,Mike Kern,United States of America,2180,0.9583
+68,#897572,Poland,2150,0.9622
+68,#543094,United States of America,2150,0.9587
+68,Jouni Kari,Finland,2140,0.9586
+68,Blake Ekelund,United States of America,2130,0.9585
+68,#642553,United States of America,2110,0.96
+68,Josep Amela Milian,Spain,2075,0.965
+68,Adam Steiner,Austria,2075,0.9591
+68,Eric Barr,United States of America,2075,0.9587
+68,John House,United Kingdom,2075,0.9585
+68,Matt Phelan,United States of America,2025,0.9608
+68,Leandro Machado,Brazil,1975,0.9583
+68,Bryan Hughes,United States of America,1970,0.9583
+68,Kyle Sutton,United States of America,1950,0.9636
+68,#143240,Canada,1950,0.9587
+68,Vanessa Schulz,Germany,1950,0.9585
+68,Igor Dobravc Mesarec,Slovenia,1925,0.9583
+68,Sander Vreeken,Netherlands,1920,0.9595
+68,Janis Upenieks,Latvia,1900,0.9801
+68,#315919,United States of America,1900,0.9649
+68,Jack Parsons,United Kingdom,1900,0.9615
+68,#660276,Italy,1900,0.9586
+68,Matthew Eaton,United States of America,1900,0.9583
+68,Torben Lindow,Germany,1900,0.9583
+68,Stig Hedström-Cornéer,Sweden,1900,0.9583
+68,Robin Westerberg,Finland,1875,0.9584
+68,Josh Vaughan,United States of America,1850,0.9613
+68,Luis Charca,Peru,1850,0.9587
+68,Tom Renker,Germany,1850,0.9583
+68,#652513,United Kingdom,1850,0.9583
+68,Zaur Dzhemaldinov,Russian Federation,1850,0.9583
+68,#850618,United States of America,1830,0.9602
+68,Terry Milyard,United States of America,1760,0.9583
+68,Aleksandrs Goba,Latvia,1755,0.9589
+68,Sergio Travieso,Spain,1700,0.9651
+68,Neil Foot,United Kingdom,1660,0.9609
+68,André Gonçalves,Brazil,1625,0.9588
+68,#906893,Ukraine,1620,0.9585
+68,Michael Freelove,United States of America,1600,0.9583
+68,Mark Clulow,South Africa,1600,0.9583
+68,Jack Dunning,United Kingdom,1575,1
+68,#385226,United States of America,1575,0.9589
+68,Jonna Sorsa,Finland,1550,0.9665
+68,Evan Haithcock,Canada,1550,0.9619
+68,Zachary Blonder,United States of America,1550,0.9597
+68,#461497,United States of America,1550,0.9596
+68,#526886,United States of America,1550,0.9595
+68,Nikola Grujicic,Serbia,1550,0.9592
+68,#866776,United Kingdom,1550,0.959
+68,Laszlo Csaba,Romania,1550,0.9588
+68,#885989,France,1550,0.9584
+68,Bruno Merola,Brazil,1550,0.9584
+68,Chris de Jong,Netherlands,1550,0.9584
+68,Jason Moore,United States of America,1550,0.9583
+68,#967592,United States of America,1550,0.9583
+68,Paulo Guerra,Portugal,1550,0.9583
+68,Domenic Amato,United States of America,1550,0.9583
+68,#155541,United Kingdom,1550,0.9583
+68,Charles Moon,United States of America,1500,0.9585
+68,Paul Richards,United States of America,1480,0.9605
+68,#641387,Switzerland,1430,0.9595
+68,#780299,Poland,1275,0.9585
+68,#734124,Germany,1250,0.9583
+68,#542759,United Kingdom,1200,0.9598
+68,#159475,United States of America,1200,0.9597
+68,#270791,United States of America,1200,0.9596
+68,Michael Baker,United States of America,1200,0.959
+68,#210935,Canada,1200,0.9587
+68,Diana Barragan,United States of America,1200,0.9586
+68,#554322,United States of America,1200,0.9584
+68,#503211,United States of America,1200,0.9583
+68,#279610,United States of America,1140,0.9647
+68,#397109,United Kingdom,1140,0.9583
+68,Rodolfo Mata,United States of America,1130,0.9593
+68,#861728,Serbia,1100,0.9585
+68,#989460,Slovenia,1070,0.9656
 68,Julian Buhagiar,United Kingdom,910,0.9584
 68,Alyssa Infante,United States of America,840,0.9585
 68,#190580,United States of America,700,0.9587
@@ -5273,7 +5230,7 @@
 68,#351013,United States of America,300,0.9594
 68,#952417,Romania,300,0.9583
 68,Michelle Holmberg,United States of America,240,0.9672
-69,Andrew Ngai,Australia,"1,250",0.9792
+69,Andrew Ngai,Australia,1250,0.9792
 69,Francois Neethling,United Kingdom,980,0.9792
 69,Steve Schulz,Australia,864,0.9792
 69,Tze Sheng Yeo,Australia,900,0.9792
@@ -5282,46 +5239,46 @@
 69,Edwin Brown,United Kingdom,580,0.9792
 69,Jeroen Adriaanse,Netherlands,572,0.9792
 69,Marton Hunyady,Hungary,926,0.9792
-69,Zhang Yunyi,China,"1,090",0.9792
-69,Jean Wolleh,Germany,"1,250",0.9792
-69,Bo Rydobon,Thailand,"1,026",0.9792
-69,Anup Agarwal,India,"1,130",0.9792
+69,Zhang Yunyi,China,1090,0.9792
+69,Jean Wolleh,Germany,1250,0.9792
+69,Bo Rydobon,Thailand,1026,0.9792
+69,Anup Agarwal,India,1130,0.9792
 69,Samir Asadov,Ukraine,922,0.9792
-69,Nick Lowman,United States of America,"1,250",0.9792
+69,Nick Lowman,United States of America,1250,0.9792
 69,Nick Boberg,New Zealand,680,0.9792
 69,Martijn Adriaanse,Netherlands,520,0.9792
 69,Nicolas Micot,France,874,0.9792
 69,Stevenson Yu,Philippines,490,0.9792
 69,Calvin Lim,Indonesia,650,0.9792
 69,Arnold Miron,United Kingdom,813,0.9792
-69,Jasper van Merle,Netherlands,"1,205",0.9792
-69,Ben Gutscher,China,"1,010",0.9792
+69,Jasper van Merle,Netherlands,1205,0.9792
+69,Ben Gutscher,China,1010,0.9792
 69,Toby Funston,Australia,470,0.9792
 69,Vikram Hattangady,India,746,0.9792
 69,Julien Lacaze,Réunion,819,0.9792
 69,Christian Mbolanantenaina,Madagascar,780,0.9792
 69,Pichaya Pan-anukooln,Thailand,428,0.9792
-69,Sergio Trifiletti,Italy,"1,180",0.9792
-69,Danny Whittaker,Singapore,"1,070",0.9792
+69,Sergio Trifiletti,Italy,1180,0.9792
+69,Danny Whittaker,Singapore,1070,0.9792
 69,Steyn Wolmarans,South Africa,780,0.9792
-69,Matthew Fried,Australia,"1,250",0.9792
+69,Matthew Fried,Australia,1250,0.9792
 69,Michael Clarke,New Zealand,676,0.9792
 69,Robert Buemmer,Australia,460,0.9792
 69,Cheong Ng,New Zealand,846,0.9792
 69,Pakkapong Sricharoen,Thailand,960,0.9792
-69,Min Chen,Australia,"1,250",0.9792
-69,Timothy Shue,New Zealand,"1,048",0.9792
+69,Min Chen,Australia,1250,0.9792
+69,Timothy Shue,New Zealand,1048,0.9792
 69,Toby Julyan,United Kingdom,498,0.9792
 69,Grayson Huynh,Australia,920,0.9792
 69,Princess Camille Ong,Philippines,850,0.9792
 69,Jakub Pomykalski,Poland,880,0.9792
-69,Prithviraj Mavani,India,"1,110",0.9792
+69,Prithviraj Mavani,India,1110,0.9792
 69,Logan Clarke,New Zealand,816,0.9792
 69,Adam Reichenbach,Hungary,975,0.9792
 69,Cameron Fraser,New Zealand,780,0.9792
 69,Grigoriy Korkishko,Russian Federation,580,0.9792
 70,Helen Dupree,United States of America,570,0.9792
-70,Peter Scharl,United States of America,"1,098",0.9792
+70,Peter Scharl,United States of America,1098,0.9792
 70,Lorenzo Foti,Italy,824,0.9792
 70,Sean Dunbar,United States of America,552,0.9792
 70,Josh Tucci,United States of America,512,0.9792
@@ -5335,7 +5292,7 @@
 70,Etienne Corget,France,416,0.9792
 70,Eduardo Gonzalez Arias,Spain,566,0.9792
 70,Robert Valentine,United States of America,574,0.9792
-70,Jack Franken,United States of America,"1,042",0.9792
+70,Jack Franken,United States of America,1042,0.9792
 70,Tim Roberts,United Kingdom,626,0.9792
 70,David Brown,United States of America,688,0.9792
 70,Patrick Chatain,Colombia,638,0.9792
@@ -5357,7 +5314,7 @@
 70,Ben Pridmore,United Kingdom,722,0.9792
 70,Jesi Lipp,United States of America,448,0.9792
 70,Jeremy Freelove,United States of America,612,0.9792
-70,Willem Gerritsen,Netherlands,"1,042",0.9792
+70,Willem Gerritsen,Netherlands,1042,0.9792
 70,Harry Gross,United Kingdom,904,0.9792
 70,Jason Webber,South Africa,702,0.9792
 70,Martin Schaaphok,Netherlands,650,0.9792
@@ -5368,7 +5325,7 @@
 70,Tom Vincent,United Kingdom,592,0.9792
 70,Renier Wessels,South Africa,652,0.9792
 70,Joseph Michael Palisoc,United States of America,748,0.9792
-70,Michael Jarman,United Kingdom,"1,048",0.9792
+70,Michael Jarman,United Kingdom,1048,0.9792
 70,Jonathan Huang,United States of America,422,0.9792
 70,Alexander Freedman,United States of America,754,0.9792
 70,Brian Hanley,United States of America,670,0.9792
@@ -5379,12 +5336,12 @@
 70,Benjamin Weber,Austria,692,0.9792
 70,Norman Sheppard,United States of America,478,0.9792
 70,Siim Aksel Amer,Estonia,512,0.9792
-70,Adam Carter,Canada,"1,040",0.9792
+70,Adam Carter,Canada,1040,0.9792
 70,Joaquin Courreges,Argentina,838,0.9792
 70,Fanny Caillot,Germany,536,0.9792
 70,Thanasis Dogramatzidis,Greece,672,0.9792
 70,David Nordstrom,United States of America,680,0.9792
-70,Lianna Gerrish,United States of America,"1,114",0.9792
+70,Lianna Gerrish,United States of America,1114,0.9792
 70,Harry Watson,United Kingdom,710,0.9792
 70,Dan Seiders,United States of America,854,0.9792
 70,Elliott Paterson,United Kingdom,800,0.9792
@@ -5399,71 +5356,70 @@
 70,Michael Holmes,Canada,740,0.9792
 70,Colin Davidson,United States of America,608,0.9792
 70,Taylor Robinson,United States of America,404,0.9792
-70,Diarmuid Early,Ireland,"1,140",0.9792
+70,Diarmuid Early,Ireland,1140,0.9792
 71,Andrew Ngai,Australia,940,0.9792
 71,Tze Sheng Yeo,Australia,920,0.9792
 71,Kai Wei Lim,Singapore,920,0.9792
 71,Edwin Brown,United Kingdom,895,0.9792
 71,Zhang Yunyi,China,972,0.9792
-71,Jean Wolleh,Germany,"1,190",0.9792
+71,Jean Wolleh,Germany,1190,0.9792
 71,Anup Agarwal,India,951,0.9792
-71,Nick Lowman,United States of America,"1,130",0.9792
-71,Nicolas Micot,France,0,0.9792
+71,Nick Lowman,United States of America,1130,0.9792
 71,Calvin Lim,Indonesia,960,0.9792
-71,Jasper van Merle,Netherlands,"1,160",0.9792
-71,Ben Gutscher,China,"1,190",0.9792
+71,Jasper van Merle,Netherlands,1160,0.9792
+71,Ben Gutscher,China,1190,0.9792
 71,Julien Lacaze,Réunion,998,0.9792
-71,Christian Mbolanantenaina,Madagascar,"1,029",0.9792
-71,Sergio Trifiletti,Italy,"1,180",0.9792
-71,Matthew Fried,Australia,"1,028",0.9792
-71,Michael Clarke,New Zealand,"1,250",0.9792
-71,Pakkapong Sricharoen,Thailand,"1,142",0.9792
-71,Min Chen,Australia,"1,055",0.9792
-71,Grayson Huynh,Australia,"1,220",0.9792
-71,Jakub Pomykalski,Poland,"1,064",0.9792
-71,Prithviraj Mavani,India,"1,146",0.9792
-71,Adam Reichenbach,Hungary,"1,220",0.9792
-72,Peter Scharl,United States of America,"1,234",0.9792
-72,Lorenzo Foti,Italy,"1,220",0.9792
+71,Christian Mbolanantenaina,Madagascar,1029,0.9792
+71,Sergio Trifiletti,Italy,1180,0.9792
+71,Matthew Fried,Australia,1028,0.9792
+71,Michael Clarke,New Zealand,1250,0.9792
+71,Pakkapong Sricharoen,Thailand,1142,0.9792
+71,Min Chen,Australia,1055,0.9792
+71,Grayson Huynh,Australia,1220,0.9792
+71,Jakub Pomykalski,Poland,1064,0.9792
+71,Prithviraj Mavani,India,1146,0.9792
+71,Adam Reichenbach,Hungary,1220,0.9792
+72,Peter Scharl,United States of America,1234,0.9792
+72,Lorenzo Foti,Italy,1220,0.9792
 72,Josh Tucci,United States of America,510,0.9792
 72,Hadyn Wiseman,United Kingdom,952,0.9792
 72,Washington Demicheli,Brazil,634,0.9792
 72,Ben deLeon,United States of America,680,0.9792
 72,Eduardo Gonzalez Arias,Spain,714,0.9792
-72,Jack Franken,United States of America,"1,050",0.9792
+72,Jack Franken,United States of America,1050,0.9792
 72,David Brown,United States of America,513,0.9792
-72,Chris Clarke,United Kingdom,"1,154",0.9792
+72,Chris Clarke,United Kingdom,1154,0.9792
 72,Johnny Valeriote,United States of America,474,0.9792
-72,Juan Cifuentes,Chile,"1,250",0.9792
+72,Juan Cifuentes,Chile,1250,0.9792
 72,Anders Richter Lindén,Denmark,850,0.9792
 72,Riley Flischel,United States of America,660,0.9792
 72,Sameer Jagetia,United States of America,696,0.9792
 72,Greg Hingsbergen,United States of America,461,0.9792
-72,Brittany Deaton,United States of America,"1,110",0.9792
+72,Brittany Deaton,United States of America,1110,0.9792
 72,Ben Pridmore,United Kingdom,613,0.9792
-72,Willem Gerritsen,Netherlands,"1,026",0.9792
+72,Willem Gerritsen,Netherlands,1026,0.9792
 72,Harry Gross,United Kingdom,884,0.9792
 72,William Freestone,United Kingdom,774,0.9792
-72,Coby Dombrowsky,United States of America,"1,040",0.9792
+72,Coby Dombrowsky,United States of America,1040,0.9792
 72,Tom Vincent,United Kingdom,440,0.9792
-72,Joseph Michael Palisoc,United States of America,"1,000",0.9792
-72,Michael Jarman,United Kingdom,"1,050",0.9792
+72,Joseph Michael Palisoc,United States of America,1000,0.9792
+72,Michael Jarman,United Kingdom,1050,0.9792
 72,Alexander Freedman,United States of America,764,0.9792
 72,Zsolt Mogyorósi,Hungary,704,0.9792
 72,Matt Ficarra,United States of America,656,0.9792
-72,Benjamin Weber,Austria,"1,180",0.9792
-72,Adam Carter,Canada,"1,250",0.9792
-72,Joaquin Courreges,Argentina,"1,242",0.9792
+72,Benjamin Weber,Austria,1180,0.9792
+72,Adam Carter,Canada,1250,0.9792
+72,Joaquin Courreges,Argentina,1242,0.9792
 72,David Nordstrom,United States of America,461,0.9792
-72,Lianna Gerrish,United States of America,"1,114",0.9792
+72,Lianna Gerrish,United States of America,1114,0.9792
 72,Dan Seiders,United States of America,854,0.9792
 72,Chris Wilson,United Kingdom,620,0.9792
 72,Andrew Heybruch,United States of America,580,0.9792
-72,Joshua Bruce,United States of America,"1,050",0.9792
+72,Joshua Bruce,United States of America,1050,0.9792
 72,Keegan Morrissey,Canada,904,0.9792
 72,Michael Holmes,Canada,710,0.9792
-72,Diarmuid Early,Ireland,"1,250",0.9792
-73,Andrew Ngai,Australia,"1,074",0.9792
+72,Diarmuid Early,Ireland,1250,0.9792
+73,Andrew Ngai,Australia,1074,0.9792
 73,Kai Wei Lim,Singapore,560,0.9792
 73,Jean Wolleh,Germany,762,0.9792
 73,Nick Lowman,United States of America,642,0.9792
@@ -5485,45 +5441,45 @@
 74,Brittany Deaton,United States of America,955,0.9792
 74,Willem Gerritsen,Netherlands,955,0.9792
 74,Coby Dombrowsky,United States of America,490,0.9792
-74,Joseph Michael Palisoc,United States of America,"1,250",0.9792
+74,Joseph Michael Palisoc,United States of America,1250,0.9792
 74,Zsolt Mogyorósi,Hungary,520,0.9792
 74,Adam Carter,Canada,681,0.9792
 74,Joaquin Courreges,Argentina,935,0.9792
 74,Lianna Gerrish,United States of America,510,0.9792
 74,Chris Wilson,United Kingdom,438,0.9792
 74,Joshua Bruce,United States of America,582,0.9792
-74,Diarmuid Early,Ireland,"1,001",0.9792
-75,Andrew Ngai,Australia,"1,095",0.9792
+74,Diarmuid Early,Ireland,1001,0.9792
+75,Andrew Ngai,Australia,1095,0.9792
 75,Jean Wolleh,Germany,247,0.9792
 75,Ben Gutscher,China,490,0.9792
 75,Sergio Trifiletti,Italy,422,0.9792
 75,Grayson Huynh,Australia,615,0.9792
 75,Prithviraj Mavani,India,597,0.9792
-76,Peter Scharl,United States of America,"1,110",0.9792
-76,Jack Franken,United States of America,"1,250",0.9792
-76,Chris Clarke,United Kingdom,"1,033",0.9792
+76,Peter Scharl,United States of America,1110,0.9792
+76,Jack Franken,United States of America,1250,0.9792
+76,Chris Clarke,United Kingdom,1033,0.9792
 76,Sameer Jagetia,United States of America,890,0.9792
-76,Brittany Deaton,United States of America,"1,173",0.9792
-76,Joseph Michael Palisoc,United States of America,"1,050",0.9792
+76,Brittany Deaton,United States of America,1173,0.9792
+76,Joseph Michael Palisoc,United States of America,1050,0.9792
 76,Zsolt Mogyorósi,Hungary,573,0.9792
-76,Joaquin Courreges,Argentina,"1,220",0.9792
-76,Lianna Gerrish,United States of America,"1,070",0.9792
-76,Diarmuid Early,Ireland,"1,060",0.9792
-77,Matthew Fried,Australia,"1,250",0.9826
-77,Juan Cifuentes,Chile,"1,250",0.982
-77,Harry Watson,United Kingdom,"1,250",0.9818
-77,Daniel Hart,United States of America,"1,250",0.9816
-77,Benjamin Weber,Austria,"1,250",0.9814
-77,Lianna Gerrish,United States of America,"1,195",0.98
-77,Andrew Ngai,Australia,"1,180",0.9878
-77,Brittany Deaton,United States of America,"1,180",0.9841
-77,Helen Dupree,United States of America,"1,170",0.9792
-77,Martin Morissette,Canada,"1,140",0.9792
-77,Patrick Chatain,Colombia,"1,090",0.9794
-77,Jeremy Freelove,United States of America,"1,060",0.9792
-77,David Brown,United States of America,"1,057",0.9792
-77,Ben Gutscher,China,"1,030",0.9792
-77,Eric Ashton,United States of America,"1,007",0.9793
+76,Joaquin Courreges,Argentina,1220,0.9792
+76,Lianna Gerrish,United States of America,1070,0.9792
+76,Diarmuid Early,Ireland,1060,0.9792
+77,Matthew Fried,Australia,1250,0.9826
+77,Juan Cifuentes,Chile,1250,0.982
+77,Harry Watson,United Kingdom,1250,0.9818
+77,Daniel Hart,United States of America,1250,0.9816
+77,Benjamin Weber,Austria,1250,0.9814
+77,Lianna Gerrish,United States of America,1195,0.98
+77,Andrew Ngai,Australia,1180,0.9878
+77,Brittany Deaton,United States of America,1180,0.9841
+77,Helen Dupree,United States of America,1170,0.9792
+77,Martin Morissette,Canada,1140,0.9792
+77,Patrick Chatain,Colombia,1090,0.9794
+77,Jeremy Freelove,United States of America,1060,0.9792
+77,David Brown,United States of America,1057,0.9792
+77,Ben Gutscher,China,1030,0.9792
+77,Eric Ashton,United States of America,1007,0.9793
 77,Jakub Pomykalski,Poland,960,0.9792
 77,Anders Richter Lindén,Denmark,960,0.9792
 77,Phillip Harvey,Unknown,950,0.9792
@@ -5798,7 +5754,7 @@
 79,Ashleigh Roberts,United States of America,208,0.9792
 79,Ray Medina,United States of America,80,0.9792
 79,James McQueen,Unknown,118,0.9792
-80,Andrew Ngai,Australia,"1,030",0.9792
+80,Andrew Ngai,Australia,1030,0.9792
 80,Jakub Pomykalski,Poland,810,0.9792
 80,Joshua Bruce,United States of America,740,0.9792
 80,Eric Ashton,United States of America,500,0.9792
@@ -5816,7 +5772,7 @@
 82,Andrew Ngai,Australia,845,0.9722
 82,Diarmuid Early,Ireland,845,0.9722
 82,Juan Cifuentes,Chile,736,0.9722
-83,Diarmuid Early,Ireland,"1,181",0.9795
+83,Diarmuid Early,Ireland,1181,0.9795
 83,Jack Franken,United States of America,963,0.9792
 83,Peter Scharl,United States of America,899,0.9792
 83,Andrew Ngai,Australia,890,0.9792
@@ -6107,8 +6063,6 @@
 83,#562622,Sweden,40,0.9792
 83,#905170,United Kingdom,30,0.9792
 83,#301988,United States of America,30,0.9792
-84,Bruno Leonardo Santos Cerqueira,BA,0,0
-84,Jean Marcos da Silva Soares,SP,0,0
 84,David William Albino de Souza Moraes,SP,58,77
 84,André Luiz Baldo,SC,120,0
 84,Sérgio Guilherme Roma Santoro,SP,120,0
@@ -6195,7 +6149,7 @@
 85,Chris Wilson,United Kingdom,807,0
 85,Julian Poeltl,United Kingdom,813,0
 85,Fredson Alves,United Kingdom,787,0
-85,Juan José Cifuentes,United Kingdom,855,0
+85,Juan Cifuentes,United Kingdom,855,0
 85,Neil Foot,United Kingdom,847,0
 85,Jonathan Razanamparany,United Kingdom,872,0
 85,UK25020,United Kingdom,787,0
@@ -6232,23 +6186,23 @@
 85,Canna,United Kingdom,410,0
 85,Gheorghe Marius Ignisca,United Kingdom,477,0
 85,UK25099,United Kingdom,354,0
-86,Diarmuid Early,Ireland,"1,200",0.9827
-86,Sergio Trifiletti,Italy,"1,186",0.9792
-86,Benjamin Weber,Austria,"1,064",0.9822
-86,Jack Franken,United States of America,"1,064",0.9796
-86,Chris Clarke,United Kingdom,"1,056",0.9807
-86,Anders Richter Lindén,Denmark,"1,048",0.9814
-86,Stevenson Yu,Philippines,"1,048",0.9799
-86,Pakkapong Sricharoen,Thailand,"1,048",0.9792
-86,Julien Lacaze,Réunion,"1,040",0.982
-86,Michael Holmes,Canada,"1,040",0.9804
-86,Jean Wolleh,Germany,"1,040",0.9798
-86,Harry Gross,United Kingdom,"1,040",0.9795
-86,Brittany Deaton,United States of America,"1,040",0.9795
-86,Danny Whittaker,Singapore,"1,040",0.9792
-86,Dhara Shah,India,"1,040",0.9792
-86,Karim Awenat,United Kingdom,"1,040",0.9792
-86,Lorenzo Foti,Italy,"1,032",0.9792
+86,Diarmuid Early,Ireland,1200,0.9827
+86,Sergio Trifiletti,Italy,1186,0.9792
+86,Benjamin Weber,Austria,1064,0.9822
+86,Jack Franken,United States of America,1064,0.9796
+86,Chris Clarke,United Kingdom,1056,0.9807
+86,Anders Richter Lindén,Denmark,1048,0.9814
+86,Stevenson Yu,Philippines,1048,0.9799
+86,Pakkapong Sricharoen,Thailand,1048,0.9792
+86,Julien Lacaze,Réunion,1040,0.982
+86,Michael Holmes,Canada,1040,0.9804
+86,Jean Wolleh,Germany,1040,0.9798
+86,Harry Gross,United Kingdom,1040,0.9795
+86,Brittany Deaton,United States of America,1040,0.9795
+86,Danny Whittaker,Singapore,1040,0.9792
+86,Dhara Shah,India,1040,0.9792
+86,Karim Awenat,United Kingdom,1040,0.9792
+86,Lorenzo Foti,Italy,1032,0.9792
 86,Michael Jarman,United Kingdom,998,0.9802
 86,Hadyn Wiseman,United Kingdom,998,0.9792
 86,Joshua Bruce,United States of America,998,0.9792
@@ -6519,8 +6473,6 @@
 86,Timo Schietinger,Germany,126,0.9802
 86,#815827,United States of America,100,0.9792
 86,Silvio Toffetti,Spain,50,0.9792
-87,Anônimo 132,SP,0,869
-87,Fernando Carvalho,SP,0,1525
 87,Ana Cristina Mazzali,MT,112,701
 87,Rafael Amadeos Rodrigues Ireijo,SP,126,1
 87,Eneas Uriel Schreiber Gesing,RS,162,434
@@ -6619,7 +6571,7 @@
 88,Erik Oehm,United Kingdom,480,0
 88,Maria Malham,United Kingdom,224,0
 88,Mark Clulow,United Kingdom,224,0
-88,Chris Clarke ,United Kingdom,865,0
+88,Chris Clarke,United Kingdom,865,0
 88,Timothy Shue,United Kingdom,807,0
 88,Luis Charca,United Kingdom,480,0
 88,Zhang Yunyi,United Kingdom,666,0
@@ -6636,7 +6588,7 @@
 88,Eric Ashton,United Kingdom,822,0
 88,Hadyn Wiseman,United Kingdom,868,0
 88,Anders Richter Lindén,United Kingdom,680,0
-89,Andrew Ngai,Australia,"1,090",0.9792
+89,Andrew Ngai,Australia,1090,0.9792
 89,Coby Dombrowsky,United States of America,844,0.9792
 89,Diarmuid Early,Ireland,825,0.9792
 89,Timothy Shue,New Zealand,811,0.9792
@@ -6860,7 +6812,7 @@
 90,Thomas Marcelo e Silva,GO,842,0
 90,Washington Augusto Demicheli Junior,MG,820,22
 90,Lianna Gerrish,EX,786,80
-90,Juan José Cifuentes,EX,762,0
+90,Juan Cifuentes,EX,762,0
 90,Jardiel Euflázio Felismino,PB,746,0
 90,Felipe Rocha Carvalho,SP,740,115
 90,Juan Rodrigo Harbar Penas,PR,722,14
@@ -6901,7 +6853,6 @@
 90,Débora Barbosa Mota,SP,75,0
 90,Ana Cristina Mazzali,MT,70,49
 90,Laura Carneiro lopes,PR,40,218
-90,Anônimo 132,SP,0,217
 91,Ha Dang,United Kingdom,734,0
 91,Karim Awenat,United Kingdom,671,0
 91,Ben Pridmore,United Kingdom,941,0
@@ -6929,7 +6880,7 @@
 91,Chris Wilson,United Kingdom,399,0
 91,Julian Poeltl,United Kingdom,870,0
 91,Fredson Alves,United Kingdom,276,0
-91,Juan José Cifuentes,United Kingdom,825,0
+91,Juan Cifuentes,United Kingdom,825,0
 91,Neil Foot,United Kingdom,362,0
 91,Jonathan Razanamparany,United Kingdom,793,0
 91,UK25020,United Kingdom,868,0
@@ -6964,21 +6915,16 @@
 91,Alexander Freedman,United Kingdom,233,0
 91,UK25075,United Kingdom,122,0
 92,#140621,Bulgaria,354,0.981608796
-92,#157033,United States of America,0,0.979166667
 92,#161571,United States of America,266,0.979166667
 92,#168375,United States of America,235,0.979166667
 92,#174204,Switzerland,328,0.979189815
-92,#187844,United States of America,0,0.979513889
-92,#204930,United States of America,0,0.979351852
 92,#212120,United Kingdom,206,0.979166667
 92,#218675,Sweden,200,0.979166667
-92,#228908,United States of America,0,0.979166667
 92,#262306,United States of America,250,0.983483796
 92,#270791,United States of America,230,0.97931713
 92,#272576,Canada,730,0.979166667
 92,#282668,United States of America,318,0.979224537
 92,#315774,United Arab Emirates,470,0.979178241
-92,#342459,United States of America,0,0.981168981
 92,#383593,United States of America,278,0.985798611
 92,#389672,South Africa,730,0.979166667
 92,#397078,United States of America,576,0.979189815
@@ -6988,7 +6934,6 @@
 92,#528172,United States of America,527,0.979363426
 92,#545060,United Kingdom,580,0.980694444
 92,#549792,United States of America,480,0.979236111
-92,#555697,Czech Republic,0,0.979247685
 92,#594055,South Africa,370,0.9796875
 92,#640420,United States of America,580,0.979328704
 92,#651989,Australia,614,0.979166667
@@ -7009,17 +6954,14 @@
 92,#857483,United States of America,250,0.979236111
 92,#865278,Canada,227,0.980706019
 92,#869597,Australia,250,0.98
-92,#877679,Germany,0,0.979166667
 92,#906134,United States of America,170,0.979166667
 92,#907640,United Kingdom,200,0.979166667
 92,#908043,Canada,250,0.979166667
-92,#917729,Spain,0,0.979166667
 92,#929398,United States of America,158,0.979178241
 92,#977159,Germany,250,0.983888889
 92,#979979,Canada,250,0.979166667
 92,#981751,France,730,0.982025463
 92,#985004,Indonesia,360,0.979178241
-92,#991373,United States of America,0,0.979166667
 92,Adam Carter,Canada,982,0.986539352
 92,Adam Jacobson,South Africa,740,0.979166667
 92,Adam Reichenbach,Hungary,935,0.979930556
@@ -7049,7 +6991,6 @@
 92,Benjamin Weber,Austria,954,0.979166667
 92,Blake Ekelund,United States of America,320,0.979166667
 92,Bo Rydobon,Thailand,145,0.979166667
-92,Brady Baloun,United States of America,0,0.980150463
 92,Brandon Aldred,United States of America,150,0.9803125
 92,Brian Gillispie,United States of America,190,0.979166667
 92,Brian Rowley,United States of America,358,0.979212963
@@ -7065,7 +7006,6 @@
 92,Coby Dombrowsky,United States of America,646,0.979166667
 92,Cokro Fidian,Indonesia,200,0.979305556
 92,Curtis Landry,United States of America,630,0.979166667
-92,Dan Seiders,United States of America,0,0.979305556
 92,Daniel Chadwick,United States of America,268,0.980428241
 92,Daniele Montorsi,Italy,190,0.9803125
 92,Danny Whittaker,Singapore,370,0.979236111
@@ -7093,7 +7033,6 @@
 92,Fraser Buchanan,Canada,370,0.979166667
 92,Fredson Alves,Brazil,200,0.979166667
 92,Fritz Burkhardt,United States of America,1070,0.980717593
-92,Gediminas Meskauskas,Norway,0,0.979363426
 92,Giles Male,United Kingdom,480,0.979166667
 92,Gordon Pohnke,Germany,190,0.979166667
 92,Grant Pitarys,United States of America,718,0.979166667
@@ -7129,7 +7068,6 @@
 92,Jennifer Williams,United States of America,680,0.979166667
 92,Jeremy Freelove,United States of America,740,0.98712963
 92,Jessica Huang,United States of America,100,0.979166667
-92,John Docherty,United Kingdom,0,0.979918981
 92,John Price,United States of America,482,0.979444444
 92,Johnny Valeriote,Canada,874,0.979965278
 92,Jon Wittwer,United States of America,645,0.979166667
@@ -7137,7 +7075,6 @@
 92,Jonathan Razanamparany,Madagascar,730,0.979803241
 92,Jonathan Ye,United States of America,328,0.980046296
 92,Jörg Profanter,Austria,482,0.979166667
-92,Jorge Ivan Ayala Rojas,Colombia,0,0.979166667
 92,José Jacome,Ecuador,168,0.979594907
 92,Joseph Gray,United States of America,358,0.979166667
 92,Joseph Michael Palisoc,United States of America,953,0.9796875
@@ -7162,7 +7099,6 @@
 92,Kuzivakwashe Mavunganidze,Zimbabwe,200,0.994513889
 92,Lara Holding-Jones,United Kingdom,274,0.979953704
 92,Laszlo Csaba,Romania,370,0.979166667
-92,Lawson Cox,United States of America,0,0.985405093
 92,Lianna Gerrish,United States of America,648,0.97943287
 92,Lisa Huang,Australia,262,0.979178241
 92,Logan Clarke,New Zealand,263,0.979166667
@@ -7205,7 +7141,6 @@
 92,Paul Ivory,Australia,200,0.979270833
 92,Paulo Guerra,Portugal,250,0.980069444
 92,Peter Gorvitz,United States of America,125,0.980231481
-92,Peter Scharl,United States of America,0,0.979166667
 92,Prasann Shah,India,320,0.979166667
 92,Prithviraj Mavani,India,761,0.979490741
 92,Reece Adams,South Africa,680,0.979166667
@@ -7225,7 +7160,6 @@
 92,Steve Wolfsohn,United States of America,480,0.979166667
 92,Stevenson Yu,Philippines,747,0.990277778
 92,Steyn Wolmarans,South Africa,730,0.979479167
-92,Stig Hedström-Cornéer,Sweden,0,0.979166667
 92,Swayam Maharaj,South Africa,285,0.985104167
 92,Tanguy Prodault,France,778,0.979560185
 92,Terry Milyard,United States of America,754,0.979270833
@@ -7285,18 +7219,12 @@
 93,André Luiz Baldo,SC,122,0
 93,Augusto Thomas,RS,120,0
 93,Mauro Francisco Furlan,SP,108,0
-93,Juan José Cifuentes,EX,100,0
+93,Juan Cifuentes,EX,100,0
 93,André da Silva Gonçalves,SP,90,0
 93,Emanuel Augusto Coutinho da Silva,PR,54,27
 93,Cris Melo,MG,48,0
 93,Fredson Alves Pinho,GO,24,1345
 93,Jean Marcos da Silva Soares,SP,24,0
-93,Diego Cezar Ruvieri,SP,0,0
-93,Armando Godina Carrasco,EX,0,0
-93,Luciana Maria da Silva,MG,0,170
-93,Priscilla Laks,SP,0,0
-93,Plinio Ferreira Pires,GO,0,18
-93,Thomas Marcelo e Silva,GO,0,0
 94,Diarmuid Early,Ireland,1240,0.9745
 94,Andrew Ngai,Australia,1180,0.977683333
 94,Michael Jarman,United Kingdom,1180,0.975783333
@@ -7577,7 +7505,7 @@
 94,Nick Bohn,United States of America,5,0.97
 95,Bo Rydobon,EX,1134,0
 95,Bruno Merola Correa,RJ,811,3
-95,Juan José Cifuentes,EX,803,17
+95,Juan Cifuentes,EX,803,17
 95,Fábio de Carvalho Gatti,SP,780,0
 95,Lorenzo Foti,EX,685,0
 95,Jean Wolleh,EX,668,0
@@ -7625,7 +7553,7 @@
 96,Ben Gutscher,United Kingdom,920,0
 96,Ha Dang,United Kingdom,880,0
 96,Anders Richter Lindén,United Kingdom,858,0
-96,Chris Clarke ,United Kingdom,837,0
+96,Chris Clarke,United Kingdom,837,0
 96,Coby Dombrowsky,United Kingdom,773,0
 96,Timothy Shue,United Kingdom,713,0
 96,Andy Heybruch,United Kingdom,700,0
@@ -7668,7 +7596,7 @@
 97,Anders Richter Lindén,United Kingdom,855,0
 97,Ha Dang,United Kingdom,839,0
 97,Coby Dombrowsky,United Kingdom,825,0
-97,Chris Clarke ,United Kingdom,805,0
+97,Chris Clarke,United Kingdom,805,0
 97,Timothy Shue,United Kingdom,744,0
 97,Ben Gutscher,United Kingdom,714,0
 97,Lorenzo Foti,United Kingdom,709,0
@@ -7725,7 +7653,7 @@
 98,Emilie Williams,United Kingdom,639,0
 98,Ben Pridmore,United Kingdom,610,0
 98,Martin Stafford,United Kingdom,606,0
-98,Chris Clarke ,United Kingdom,603,0
+98,Chris Clarke,United Kingdom,603,0
 98,Samir Asadov,United Kingdom,511,0
 98,David Rosel,United Kingdom,482,0
 98,Luis Charca,United Kingdom,477,0
@@ -8758,10 +8686,6 @@
 103,André De Lange,Australia,2280,0.958333333
 103,Murray Trim,New Zealand,2200,0.958333333
 103,Farman Memon,India,2130,0.958333333
-103,#830518,Singapore,0,0.970914352
-103,#192558,United Arab Emirates,0,0.961458333
-103,Liliana Bulfone,Australia,0,0.958333333
-103,Eldar Lachinov,Azerbaijan,0,0.958333333
 104,Sirajuddin Mohammed,United Kingdom,1300,0.958425926
 104,Brady Baloun,United States of America,800,0.960428241
 104,Vincent Yee,United States of America,1170,0.960289352
@@ -9075,5 +8999,489 @@
 104,#255823,Canada,2600,0.958333333
 104,#521055,United States of America,1830,0.961053241
 104,Vasile Chiriac,Romania,1830,0.958333333
-104,#982693,Ireland,0,0.999212963
-104,William Freestone,United Kingdom,0,0.958333333
+105,Zhang Yunyi,China,875,1
+105,Harry Watson,United Kingdom,657,1
+105,Søren Nielsen,Denmark,280,1
+105,Will Nord,Australia,330,1
+105,Ben Taylor,Australia,870,1
+105,James McQueen,Australia,330,1
+105,Yiwei Cao,Luxembourg,724,1
+105,Pieter Pienaar,South Africa,630,1
+105,Tom Vincent,United Kingdom,630,1
+105,Tim Roberts,United Kingdom,670,1
+105,Andrew Robinson,United Kingdom,473,1
+105,Katrin Dziergwa,Germany,348,1
+105,Christian Mbolanantenaina,Madagascar,413,1
+105,Danendra Lohanata,Indonesia,860,1
+105,Pakkapong Sricharoen,Thailand,675,1
+105,Eljon Orillosa,Philippines,730,1
+105,Frederik Feddersen,Denmark,470,1
+105,Tze Sheng Yeo,Malaysia,688,1
+105,Paul Dent,United Kingdom,960,1
+105,Sandip Agarwal,India,240,1
+105,Filip Krerowicz,Poland,498,1
+105,Tanguy Prodault,France,682,1
+105,Martin Schaaphok,Netherlands,427,1
+105,Daisuke Yamada,Japan,998,1
+105,Kai Wei Lim,Singapore,606,1
+105,Olli Hamalainen,Australia,110,1
+105,Samir Asadov,Ukraine,379,1
+105,Anup Agarwal,India,747,1
+105,Tom Renker,Germany,330,1
+105,Zsolt Mogyorósi,Hungary,535,1
+105,Grayson Huynh,Australia,675,1
+105,Nick Boberg,New Zealand,931,1
+105,Tobias White,Australia,300,1
+105,Gediminas Meskauskas,Norway,470,1
+105,Giles Male,United Kingdom,478,1
+105,Adam Jacobson,South Africa,715,1
+105,Edwin Brown,United Kingdom,503,1
+105,Bo Rydobon,Thailand,721,1
+105,Cameron Fraser,New Zealand,630,1
+105,Adithya Adithya,Indonesia,470,1
+105,Sheng Le Wu,Hong Kong,330,1
+105,Peter Rebecchi,United Kingdom,418,1
+105,Cheong Ng,New Zealand,310,1
+105,Elvin Rustamov,Azerbaijan,810,1
+105,Stephen Hilkmann,Australia,518,1
+105,Ana Pineda,Spain,478,1
+105,Danny Whittaker,Singapore,630,1
+105,Ben Gutscher,China,803,1
+105,Logan Clarke,New Zealand,465,1
+105,Gareth Watson,South Africa,840,1
+105,Benedikt Krissel,Germany,212,1
+105,Aina Rasolofoson,Madagascar,338,1
+105,Vivian Dang,Australia,384,1
+105,John Fowler,United Kingdom,684,1
+105,Michael Lodge,Australia,657,1
+105,Franco Bosman,South Africa,680,1
+105,Jonathan Razanamparany,Madagascar,630,1
+105,Elliott Paterson,United Kingdom,751,1
+105,Adam Barrow,Australia,794,1
+105,Prithviraj Mavani,India,500,1
+105,Tuan Minh Nguyen,Australia,330,1
+105,Grigoriy Korkishko,Russia,497,1
+105,Anders Richter Lindén,Denmark,870,1
+105,Timothy Shue,New Zealand,870,1
+105,Valy Greavu,Romania,670,1
+105,Ho Kan Lee,Hong Kong,758,1
+105,Steve Schulz,Australia,679,1
+105,Aleksandra Witulska,Poland,358,1
+105,Princess Camille Ong,Philippines,810,1
+105,Thomas Lateulere,France,622,1
+105,Vikram Hattangady,India,485,1
+105,Ella Boberg,New Zealand,630,1
+105,Stevenson Yu,Philippines,656,1
+105,Jan Hoffman,South Africa,370,1
+105,Steyn Wolmarans,South Africa,574,1
+105,Peter Li,Australia,474,1
+105,Ee Chen,New Zealand,379,1
+105,Emilie Williams,Canada,910,1
+105,Peter Scharl,United States,817,1
+105,Vu Ha Dang,United Kingdom,870,1
+105,Toby Julyan,United Kingdom,443,1
+105,Martin Masdupuy,Luxembourg,530,1
+105,Martin Stafford,United Kingdom,430,1
+105,Julie Bowden,United Kingdom,670,1
+105,Cheyne Buckley,Australia,870,1
+105,William Freestone,United Kingdom,613,1
+105,Max Hamblett,United Kingdom,330,1
+105,Mikoja Rakotoalisoa,Madagascar,810,1
+105,Min Chen,Australia,814,1
+105,Calvin Lim,Indonesia,621,1
+105,Jason Webber,South Africa,670,1
+105,Faniry Randrianalison,Madagascar,346,1
+105,Colette Ménard,France,330,1
+105,Vanessa Schulz,Germany,702,1
+105,Andrew Ngai,Australia,920,1
+106,Diarmuid Early,Republic of Ireland,1250,1
+106,Kevin Taylor,United States,653,1
+106,Martin Morissette,Canada,471,1
+106,Zachary Blonder,United States,591,1
+106,Lianna Gerrish,United States,612,1
+106,Harry Gross,United Kingdom,1098,1
+106,Jason Sindler,United States,556,1
+106,Ian Naden,United Kingdom,500,1
+106,Juan Vicente Olave Rodríguez,Colombia,660,1
+106,Eduardo Gonzalez Arias,Spain,438,1
+106,Marc Castro,Spain,320,1
+106,Chris Wilson,United Kingdom,640,1
+106,Thomas Marcelo,Brazil,571,1
+106,Steve Wolfsohn,United States,500,1
+106,Patrick Chatain,Colombia,640,1
+106,Lorenzo Foti,Italy,1085,1
+106,Joseph Reed,United States,343,1
+106,Chris McNeil,United States,200,1
+106,Ashleigh Roberts,United States,337,1
+106,Hunter Wylie,United States,420,1
+106,Paulo Guerra,Portugal,190,1
+106,Ben Pridmore,United Kingdom,681,1
+106,Michael Berman,United States,180,1
+106,Washington Demicheli,Brazil,652,1
+106,Jackson Newton,United Kingdom,341,1
+106,Jon Wittwer,United States,724,1
+106,Diana Constantinescu,Canada,640,1
+106,Nikolay Georgiev,Bulgaria,672,1
+106,Dominic Walsh,United Kingdom,593,1
+106,Benjamin Weber,Austria,497,1
+106,Jack Franken,United States,1232,1
+106,Bryan Wilhaucks,United States,261,1
+106,Noëlline Nicol,France,640,1
+106,Diana Barragan,United States,240,1
+106,Sean Dunbar,United States,500,1
+106,Adam Reichenbach,Hungary,497,1
+106,Amber Johnson,United States,199,1
+106,Andrew Heybruch,United States,450,1
+106,Sean Mooney,United Kingdom,190,1
+106,Karim Awenat,United Kingdom,570,1
+106,Gregory Thompson,United States,393,1
+106,Jakub Pomykalski,Poland,991,1
+106,Branden Lewis,Canada,506,1
+106,Bruno Merola,Brazil,640,1
+106,Igor Dobravc Mesarec,Slovenia,462,1
+106,Julien Lacaze,Réunion,685,1
+106,Hadyn Wiseman,United Kingdom,600,1
+106,Benjamin Retter,United Kingdom,545,1
+106,Vasile Chiriac,Romania,432,1
+106,Guy Diamant,United Kingdom,380,1
+106,Martijn Adriaanse,Netherlands,624,1
+106,Brian Rowley,United States,140,1
+106,Aristovoulos Glykos,Greece,237,1
+106,Robert Valentine,United States,692,1
+106,Dan Seiders,United States,482,1
+106,Matthew Eaton,United States,442,1
+106,Jacob Clark,United States,415,1
+106,Jacob De La Cruz,United States,680,1
+106,Fredson Alves,Brazil,486,1
+106,James Thai,Canada,600,1
+106,Eric Chan,Canada,341,1
+106,Chris Clarke,United Kingdom,600,1
+106,Coby Dombrowsky,United States,845,1
+106,Alan Belmore,United States,680,1
+106,Fritz Burkhardt,United States,352,1
+106,Ben Carr,United States,520,1
+106,Adam Steiner,Austria,434,1
+106,Jonathan Leung,Canada,240,1
+106,James Chu,United States,1120,1
+106,Denis Bertazzo Watashi,Brazil,420,1
+106,Marton Hunyady,Hungary,688,1
+106,Alexey Sviridov,United Kingdom,500,1
+106,Harry Seiders,United States,345,1
+106,Kristopher Wiart,Denmark,554,1
+106,Brittany Deaton,United States,940,1
+106,Stephanie Annerose,United States,568,1
+106,Luis Charca,Peru,570,1
+106,Willem Gerritsen,Netherlands,725,1
+106,Alexander Freedman,United States,880,1
+106,Ricardo Domínguez,Mexico,657,1
+106,Jacob Andrews,United States,681,1
+106,Tsiory Razafitseheno,Madagascar,364,1
+106,Michael Holmes,Canada,599,1
+106,Kenny Worrell,United States,680,1
+106,Blake Ekelund,United States,297,1
+106,Joel Garland,United States,662,1
+106,Derek Kaplan,United States,215,1
+106,Erik Oehm,United States,317,1
+106,Joseph Michael Palisoc,United States,680,1
+106,Joshua Bruce,United States,610,1
+106,André Luiz Baldo,Brazil,380,1
+106,Matt Melsen,United States,500,1
+106,Michael Jarman,United Kingdom,747,1
+106,Sergio Trifiletti,Italy,772,1
+106,James Humpish,United Kingdom,508,1
+106,Katelyn Stienen,United States,481,1
+106,Esther Vander Meulen,Canada,660,1
+106,Jaq Kennedy,United Kingdom,680,1
+106,Jonathan Huang,United States,673,1
+106,Jesi Lipp,United States,420,1
+106,Katie May,United States,662,1
+106,Curtis Landry,United States,640,1
+106,Ben Li,United States,140,1
+106,Leandro Machado,Brazil,320,1
+106,Ben deLeon,United States,570,1
+106,Johnny Valeriote,Canada,671,1
+106,Jennifer Williams,United States,420,1
+106,Eric Ashton,United States,692,1
+106,Jeremy Freelove,United States,612,1
+106,Norman Sheppard,United States,320,1
+106,Jasper van Merle,Netherlands,880,1
+106,Marcus Hedbring,Sweden,473,1
+106,Vitor Martinho,Brazil,578,1
+106,Ryan Olstad,United States,487,1
+106,Colin Sheehe,United States,460,1
+106,Keegan Morrissey,Canada,563,1
+106,Greg Hingsbergen,United States,460,1
+106,JC Ma,Canada,393,1
+106,Gabriel Sotero,Brazil,677,1
+106,Thomas M Dickinson,United States,341,1
+106,Nicole Mathis,Canada,570,1
+106,Mark Jouret,United States,497,1
+106,Juan Cifuentes,Chile,655,1
+106,Jean Wolleh,Germany,1130,1
+106,Shawn Howell,United States,448,1
+106,Jack Parker,United Kingdom,420,1
+106,Ben Northern,United States,787,1
+106,Mitchell Pace,United States,388,1
+106,Roland Hartz,France,345,1
+106,André Gonçalves,Brazil,554,1
+106,Clare Stumpf,United States,495,1
+106,Will Harmeyer,United States,385,1
+106,Thomas Sawyer,United States,585,1
+106,Vincent Morin,Canada,705,1
+106,Thomas Beard,United Kingdom,538,1
+106,John House,United Kingdom,420,1
+106,Jeff Borek,United States,483,1
+106,Nicolas Micot,France,900,1
+106,Sameer Jagetia,United States,700,1
+106,Adam Carter,Canada,590,1
+106,Timothy Bralick,United States,411,1
+106,Jörg Profanter,Austria,521,1
+106,Maggie Collins,United States,500,1
+106,Helen Dupree,United States,514,1
+106,Julian Poeltl,Germany,665,1
+106,Klinsmann Langhanz,Brazil,488,1
+106,Kristain Lindemann,United States,471,1
+106,Erdit Qendro,Albania,303,1
+106,Brandon Moyer,United States,509,1
+106,Nick Lowman,United States,590,1
+106,Ben Van Horn,United States,320,1
+106,Daniel Prosek,Czech Republic,245,1
+106,David Nordstrom,United States,613,1
+106,Tim Froelich,United States,922,1
+107,Zhang Yunyi,China,606,1
+107,Will Nord,Australia,314,1
+107,Ben Taylor,Australia,460,1
+107,Yiwei Cao,Luxembourg,350,1
+107,Tom Vincent,United Kingdom,180,1
+107,Tim Roberts,United Kingdom,308,1
+107,Christian Mbolanantenaina,Madagascar,350,1
+107,Danendra Lohanata,Indonesia,540,1
+107,Eljon Orillosa,Philippines,490,1
+107,Paul Dent,United Kingdom,460,1
+107,Filip Krerowicz,Poland,350,1
+107,Tanguy Prodault,France,190,1
+107,Daisuke Yamada,Japan,353,1
+107,Samir Asadov,Ukraine,350,1
+107,Anup Agarwal,India,780,1
+107,Grayson Huynh,Australia,340,1
+107,Nick Boberg,New Zealand,720,1
+107,Giles Male,United Kingdom,300,1
+107,Adam Jacobson,South Africa,529,1
+107,Bo Rydobon,Thailand,780,1
+107,Adithya Adithya,Indonesia,348,1
+107,Peter Rebecchi,United Kingdom,300,1
+107,Elvin Rustamov,Azerbaijan,300,1
+107,Danny Whittaker,Singapore,385,1
+107,Ben Gutscher,China,429,1
+107,Gareth Watson,South Africa,405,1
+107,Vivian Dang,Australia,428,1
+107,John Fowler,United Kingdom,230,1
+107,Franco Bosman,South Africa,505,1
+107,Adam Barrow,Australia,355,1
+107,Prithviraj Mavani,India,544,1
+107,Anders Richter Lindén,Denmark,655,1
+107,Timothy Shue,New Zealand,630,1
+107,Ho Kan Lee,Hong Kong,520,1
+107,Princess Camille Ong,Philippines,700,1
+107,Thomas Lateulere,France,32,1
+107,Stevenson Yu,Philippines,455,1
+107,Steyn Wolmarans,South Africa,330,1
+107,Peter Li,Australia,413,1
+107,Emilie Williams,Canada,490,1
+107,Vu Ha Dang,United Kingdom,720,1
+107,Martin Masdupuy,Luxembourg,230,1
+107,Cheyne Buckley,Australia,376,1
+107,William Freestone,United Kingdom,575,1
+107,Min Chen,Australia,652,1
+107,Jason Webber,South Africa,230,1
+107,Faniry Randrianalison,Madagascar,20,1
+107,Andrew Ngai,Australia,840,1
+108,Diarmuid Early,Republic of Ireland,1169,1
+108,Zachary Blonder,United States,384,1
+108,Harry Gross,United Kingdom,688,1
+108,Jason Sindler,United States,408,1
+108,Juan Vicente Olave Rodríguez,Colombia,217,1
+108,Chris Wilson,United Kingdom,626,1
+108,Patrick Chatain,Colombia,807,1
+108,Lorenzo Foti,Italy,814,1
+108,Chris McNeil,United States,301,1
+108,Hunter Wylie,United States,582,1
+108,Ben Pridmore,United Kingdom,750,1
+108,Washington Demicheli,Brazil,720,1
+108,Jon Wittwer,United States,327,1
+108,Nikolay Georgiev,Bulgaria,633,1
+108,Dominic Walsh,United Kingdom,523,1
+108,Jack Franken,United States,681,1
+108,Noëlline Nicol,France,552,1
+108,Sean Dunbar,United States,856,1
+108,Andrew Heybruch,United States,775,1
+108,Karim Awenat,United Kingdom,712,1
+108,Jakub Pomykalski,Poland,589,1
+108,Bruno Merola,Brazil,740,1
+108,Julien Lacaze,Réunion,782,1
+108,Hadyn Wiseman,United Kingdom,884,1
+108,Vasile Chiriac,Romania,454,1
+108,Martijn Adriaanse,Netherlands,772,1
+108,Robert Valentine,United States,913,1
+108,Dan Seiders,United States,733,1
+108,Jacob De La Cruz,United States,886,1
+108,James Thai,Canada,726,1
+108,Chris Clarke,United Kingdom,1030,1
+108,Coby Dombrowsky,United States,904,1
+108,Ben Carr,United States,822,1
+108,Adam Steiner,Austria,666,1
+108,James Chu,United States,1000,1
+108,Marton Hunyady,Hungary,676,1
+108,Kristopher Wiart,Denmark,657,1
+108,Brittany Deaton,United States,760,1
+108,Willem Gerritsen,Netherlands,993,1
+108,Alexander Freedman,United States,747,1
+108,Jacob Andrews,United States,708,1
+108,Kenny Worrell,United States,672,1
+108,Joel Garland,United States,629,1
+108,Erik Oehm,United States,494,1
+108,Joseph Michael Palisoc,United States,801,1
+108,Matt Melsen,United States,330,1
+108,Michael Jarman,United Kingdom,1042,1
+108,Sergio Trifiletti,Italy,910,1
+108,Esther Vander Meulen,Canada,681,1
+108,Jaq Kennedy,United Kingdom,730,1
+108,Jonathan Huang,United States,358,1
+108,Katie May,United States,592,1
+108,Leandro Machado,Brazil,384,1
+108,Johnny Valeriote,Canada,330,1
+108,Eric Ashton,United States,925,1
+108,Jeremy Freelove,United States,854,1
+108,Jasper van Merle,Netherlands,895,1
+108,Vitor Martinho,Brazil,413,1
+108,Colin Sheehe,United States,816,1
+108,Keegan Morrissey,Canada,680,1
+108,Gabriel Sotero,Brazil,951,1
+108,Nicole Mathis,Canada,442,1
+108,Juan Cifuentes,Chile,775,1
+108,Jean Wolleh,Germany,726,1
+108,Ben Northern,United States,762,1
+108,Mitchell Pace,United States,339,1
+108,André Gonçalves,Brazil,546,1
+108,Thomas Sawyer,United States,947,1
+108,Vincent Morin,Canada,1056,1
+108,Jeff Borek,United States,532,1
+108,Nicolas Micot,France,975,1
+108,Adam Carter,Canada,850,1
+108,Jörg Profanter,Austria,772,1
+108,Julian Poeltl,Germany,694,1
+108,Klinsmann Langhanz,Brazil,709,1
+108,Brandon Moyer,United States,647,1
+108,Nick Lowman,United States,805,1
+108,Ben Van Horn,United States,325,1
+108,Tim Froelich,United States,884,1
+109,Zhang Yunyi,China,1000,1
+109,Ben Taylor,Australia,747,1
+109,Tim Roberts,United Kingdom,659,1
+109,Danendra Lohanata,Indonesia,860,1
+109,Eljon Orillosa,Philippines,856,1
+109,Filip Krerowicz,Poland,722,1
+109,Daisuke Yamada,Japan,1041,1
+109,Anup Agarwal,India,774,1
+109,Nick Boberg,New Zealand,1000,1
+109,Bo Rydobon,Thailand,837,1
+109,Adithya Adithya,Indonesia,600,1
+109,Danny Whittaker,Singapore,600,1
+109,Ben Gutscher,China,1000,1
+109,Vivian Dang,Australia,895,1
+109,Franco Bosman,South Africa,561,1
+109,Anders Richter Lindén,Denmark,900,1
+109,Timothy Shue,New Zealand,907,1
+109,Princess Camille Ong,Philippines,648,1
+109,Stevenson Yu,Philippines,1000,1
+109,Emilie Williams,Canada,723,1
+109,Vu Ha Dang,United Kingdom,1000,1
+109,William Freestone,United Kingdom,1000,1
+109,Min Chen,Australia,900,1
+109,Andrew Ngai,Australia,1000,1
+110,Diarmuid Early,Republic of Ireland,925,1
+110,Harry Gross,United Kingdom,458,1
+110,Juan Vicente Olave Rodríguez,Colombia,362,1
+110,Patrick Chatain,Colombia,428,1
+110,Lorenzo Foti,Italy,509,1
+110,Ben Pridmore,United Kingdom,357,1
+110,Washington Demicheli,Brazil,456,1
+110,Nikolay Georgiev,Bulgaria,599,1
+110,Jack Franken,United States,960,1
+110,Sean Dunbar,United States,398,1
+110,Karim Awenat,United Kingdom,505,1
+110,Julien Lacaze,Réunion,473,1
+110,Hadyn Wiseman,United Kingdom,366,1
+110,Robert Valentine,United States,368,1
+110,Jacob De La Cruz,United States,300,1
+110,Chris Clarke,United Kingdom,785,1
+110,Coby Dombrowsky,United States,640,1
+110,James Chu,United States,537,1
+110,Marton Hunyady,Hungary,745,1
+110,Willem Gerritsen,Netherlands,571,1
+110,Alexander Freedman,United States,780,1
+110,Kenny Worrell,United States,609,1
+110,Joseph Michael Palisoc,United States,584,1
+110,Michael Jarman,United Kingdom,1025,1
+110,Sergio Trifiletti,Italy,745,1
+110,Jaq Kennedy,United Kingdom,390,1
+110,Katie May,United States,300,1
+110,Eric Ashton,United States,775,1
+110,Jasper van Merle,Netherlands,645,1
+110,Colin Sheehe,United States,544,1
+110,Juan Cifuentes,Chile,590,1
+110,Ben Northern,United States,620,1
+110,André Gonçalves,Brazil,176,1
+110,Vincent Morin,Canada,780,1
+110,Nicolas Micot,France,526,1
+110,Adam Carter,Canada,571,1
+110,Klinsmann Langhanz,Brazil,334,1
+110,Nick Lowman,United States,437,1
+110,Tim Froelich,United States,777,1
+111,Zhang Yunyi,China,774,1
+111,Danendra Lohanata,Indonesia,502,1
+111,Eljon Orillosa,Philippines,499,1
+111,Daisuke Yamada,Japan,684,1
+111,Nick Boberg,New Zealand,568,1
+111,Adithya Adithya,Indonesia,355,1
+111,Ben Gutscher,China,680,1
+111,Anders Richter Lindén,Denmark,600,1
+111,Timothy Shue,New Zealand,770,1
+111,Stevenson Yu,Philippines,548,1
+111,Vu Ha Dang,United Kingdom,600,1
+111,Andrew Ngai,Australia,680,1
+112,Diarmuid Early,Republic of Ireland,720,1
+112,Patrick Chatain,Colombia,276,1
+112,Lorenzo Foti,Italy,811,1
+112,Nikolay Georgiev,Bulgaria,268,1
+112,Jack Franken,United States,679,1
+112,Karim Awenat,United Kingdom,473,1
+112,Robert Valentine,United States,180,1
+112,Chris Clarke,United Kingdom,625,1
+112,Coby Dombrowsky,United States,670,1
+112,Alexander Freedman,United States,569,1
+112,Michael Jarman,United Kingdom,601,1
+112,Sergio Trifiletti,Italy,731,1
+112,Eric Ashton,United States,625,1
+112,Jasper van Merle,Netherlands,720,1
+112,Juan Cifuentes,Chile,609,1
+112,Ben Northern,United States,250,1
+112,Vincent Morin,Canada,370,1
+112,Adam Carter,Canada,530,1
+112,Tim Froelich,United States,490,1
+113,Zhang Yunyi,China,908,1
+113,Daisuke Yamada,Japan,777,1
+113,Nick Boberg,New Zealand,799,1
+113,Ben Gutscher,China,576,1
+113,Timothy Shue,New Zealand,1095,1
+113,Andrew Ngai,Australia,1177,1
+114,Diarmuid Early,Republic of Ireland,720,1
+114,Lorenzo Foti,Italy,992,1
+114,Jack Franken,United States,1070,1
+114,Chris Clarke,United Kingdom,1081,1
+114,Coby Dombrowsky,United States,640,1
+114,Michael Jarman,United Kingdom,1047,1
+114,Sergio Trifiletti,Italy,1243,1
+114,Jasper van Merle,Netherlands,737,1
+114,Vincent Morin,Canada,720,1
+114,Adam Carter,Canada,695,1
